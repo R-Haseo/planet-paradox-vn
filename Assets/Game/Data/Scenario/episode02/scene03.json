@@ -468,6 +468,25 @@
       "Text": "今夜のテーマは、なんと！ ネコミミメイド！！"
     },
     {
+      "Type": "character",
+      "Action": "hide",
+      "Position": "right"
+    },
+    {
+      "Type": "character",
+      "Action": "hide",
+      "Position": "center"
+    },
+    {
+      "Type": "character",
+      "Action": "hide",
+      "Position": "left"
+    },
+    {
+      "Type": "background",
+      "AssetId": "episode02/scene03/idol_cosplay"
+    },
+    {
       "Type": "description",
       "Text": "画面いっぱいに、ネコミミメイド姿のアイドルが笑顔でポーズを決める姿が映し出された。"
     },

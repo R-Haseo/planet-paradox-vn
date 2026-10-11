@@ -280,6 +280,11 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 17c96e99f2677674eae423d957a083d3
+    m_Address: background/episode02/scene03/idol_cosplay
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 18038acf92546ce4794149935cb4d938
     m_Address: voice/episode01/s02_003
     m_ReadOnly: 0
