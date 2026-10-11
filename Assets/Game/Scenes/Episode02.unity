@@ -527,6 +527,10 @@ PrefabInstance:
       propertyPath: episodeDefinition
       value: 
       objectReference: {fileID: 11400000, guid: 5ee1aaed79b500a4087d49aedf85f6d3, type: 2}
+    - target: {fileID: 6396337371420977824, guid: 10dfa2289d19c9344b8068106a6631d3, type: 3}
+      propertyPath: m_Volume
+      value: 0.5
+      objectReference: {fileID: 0}
     - target: {fileID: 6866812985241692817, guid: 10dfa2289d19c9344b8068106a6631d3, type: 3}
       propertyPath: m_AnchorMax.x
       value: 0
