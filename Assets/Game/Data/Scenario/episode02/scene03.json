@@ -246,6 +246,10 @@
       "Text": "承知いたしました"
     },
     {
+      "Type": "se",
+      "AssetId": "system_notification"
+    },
+    {
       "Type": "description",
       "Text": "端末が短い電子音を鳴らした。"
     },

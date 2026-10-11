@@ -2350,6 +2350,11 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: bf8c4d91984d4c64aaefd9ac2d8b1e3e
+    m_Address: se/system_notification
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: bf93f2a81d5f12141b70306d4e5690f0
     m_Address: voice/episode01/s03_017
     m_ReadOnly: 0
