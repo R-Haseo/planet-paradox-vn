@@ -295,6 +295,11 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 189cf8ae99fff2d4d99f869a7b70a6d5
+    m_Address: background/episode02/scene03/tv_fee_collection
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 197e1b67723194546998ff46138eb63c
     m_Address: voice/episode01/s05_037
     m_ReadOnly: 0
