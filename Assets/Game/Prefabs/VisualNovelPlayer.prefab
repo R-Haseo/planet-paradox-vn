@@ -786,6 +786,7 @@ Transform:
   - {fileID: 6202302054735508479}
   - {fileID: 3586943786551256209}
   - {fileID: 1636256154994409083}
+  - {fileID: 2312700150105105745}
   - {fileID: 6169051303895568635}
   - {fileID: 4620004552988577739}
   - {fileID: 8251452179117352548}
@@ -1853,6 +1854,50 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::UIButtonSePlayer
   audioSource: {fileID: 5395463166460407154}
   buttonClickSe: {fileID: 8300000, guid: 62da49638ddc98c49baa7c4651f4022e, type: 3}
+--- !u!1 &5618787114459689984
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2312700150105105745}
+  - component: {fileID: 7023421568525050108}
+  m_Layer: 0
+  m_Name: ScreenshotController
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2312700150105105745
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5618787114459689984}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -119.81195, y: 251.0643, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 4649518376006661836}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7023421568525050108
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5618787114459689984}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 90b2dcfd9a59f3b49ac457acbf1f739d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ScreenshotController
 --- !u!1 &5718367703272795559
 GameObject:
   m_ObjectHideFlags: 0
