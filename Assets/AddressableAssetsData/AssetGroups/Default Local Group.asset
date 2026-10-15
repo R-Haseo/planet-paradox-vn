@@ -600,6 +600,11 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 30bde717a4207274d98d0f1c329d9d35
+    m_Address: background/episode02/scene03/tv_city_news
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 30fbdcdd19b79724ea400cb3fa8597de
     m_Address: voice/episode01/s06_028
     m_ReadOnly: 0
