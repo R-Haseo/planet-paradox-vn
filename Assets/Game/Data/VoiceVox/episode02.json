@@ -39,6 +39,18 @@
     {
       "ScenarioSpeaker": "アイドル",
       "VoiceVoxCharacter": "四国めたん（セクシー）"
+    },
+    {
+      "ScenarioSpeaker": "警察官",
+      "VoiceVoxCharacter": "四国めたん（ツンツン）"
+    },
+    {
+      "ScenarioSpeaker": "連行される男性",
+      "VoiceVoxCharacter": "玄野武宏（ツンギレ）"
+    },
+    {
+      "ScenarioSpeaker": "ニュースキャスター",
+      "VoiceVoxCharacter": "麒ヶ島宗麟"
     }
   ]
 }
