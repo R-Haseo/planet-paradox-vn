@@ -1,0 +1,487 @@
+{
+  "Commands": [
+    {
+      "Type": "bgm",
+      "Action": "play",
+      "AssetId": "scene02_city"
+    },
+    {
+      "Type": "background",
+      "AssetId": "episode02/scene03/tv_city_street2"
+    },
+    {
+      "Type": "character",
+      "AssetId": "roman/roman_normal",
+      "Action": "show",
+      "Position": "center",
+      "Width": 620,
+      "Height": 930
+    },
+    {
+      "Type": "character",
+      "AssetId": "mia/mia_three_quarter",
+      "Action": "show",
+      "Position": "right",
+      "Width": 775,
+      "Height": 1085,
+      "OffsetY": -50
+    },
+    {
+      "Type": "character",
+      "AssetId": "ai/ai_normal",
+      "Action": "show",
+      "Position": "left",
+      "Width": 320,
+      "Height": 320,
+      "OffsetY": 120,
+      "FlipX": true
+    },
+    {
+      "Type": "fade",
+      "Action": "in",
+      "Duration": 0.8
+    },
+    {
+      "Type": "description",
+      "Text": "ろまんたちが通りを歩いていると、前方から激しい声が聞こえてくる。"
+    },
+    {
+      "Type": "character",
+      "Action": "hide",
+      "Position": "right"
+    },
+    {
+      "Type": "character",
+      "Action": "hide",
+      "Position": "center"
+    },
+    {
+      "Type": "character",
+      "Action": "hide",
+      "Position": "left"
+    },
+    {
+      "Type": "dialogue",
+      "Id": "s04_001",
+      "Speaker": "連行される男性",
+      "Text": "だから！ 俺は自分で撮影した動画を投稿しただけだ！"
+    },
+    {
+      "Type": "dialogue",
+      "Id": "s04_002",
+      "Speaker": "警察官",
+      "Text": "その映像は、テレビで確認されていない情報です。未承認情報のデマ拡散防止法に抵触するため、署に連行いたします。"
+    },
+    {
+      "Type": "dialogue",
+      "Id": "s04_003",
+      "Speaker": "連行される男性",
+      "Text": "確認されていないって……目の前で起こったことだぞ！？俺がこの目で見たんだぞ！？"
+    },
+    {
+      "Type": "dialogue",
+      "Id": "s04_004",
+      "Speaker": "警察官",
+      "Text": "目撃したかどうかは関係ありません。事実として認められているかどうかが問題です。"
+    },
+    {
+      "Type": "dialogue",
+      "Id": "s04_005",
+      "Speaker": "警察官",
+      "Text": "未報道の事実をSNSに投稿できるのは、テレビ局の公式アカウントだけです。一般市民に許可されているのは、テレビ局が報道済みの情報の投稿に限られます。"
+    },
+    {
+      "Type": "description",
+      "Text": "警察官が住民を連行していく。"
+    },
+    {
+      "Type": "character",
+      "AssetId": "roman/roman_normal",
+      "Action": "show",
+      "Position": "center",
+      "Width": 620,
+      "Height": 930
+    },
+    {
+      "Type": "character",
+      "AssetId": "mia/mia_three_quarter",
+      "Action": "show",
+      "Position": "right",
+      "Width": 775,
+      "Height": 1085,
+      "OffsetY": -50
+    },
+    {
+      "Type": "character",
+      "AssetId": "ai/ai_normal",
+      "Action": "show",
+      "Position": "left",
+      "Width": 320,
+      "Height": 320,
+      "OffsetY": 120,
+      "FlipX": true
+    },
+    {
+      "Type": "dialogue",
+      "Id": "s04_006",
+      "Speaker": "ろまん",
+      "Text": "……今の人、何をしたの？"
+    },
+    {
+      "Type": "dialogue",
+      "Id": "s04_007",
+      "Speaker": "ミア",
+      "Text": "SNSにデマを投稿したんだと思うよ"
+    },
+    {
+      "Type": "dialogue",
+      "Id": "s04_008",
+      "Speaker": "ろまん",
+      "Text": "デマ？ 自分で撮影したって言ってたけど……"
+    },
+    {
+      "Type": "dialogue",
+      "Id": "s04_009",
+      "Speaker": "ミア",
+      "Text": "うん。でも、テレビで報道されていない出来事をSNSに投稿するのは禁止されてるんだ"
+    },
+    {
+      "Type": "dialogue",
+      "Id": "s04_010",
+      "Speaker": "ろまん",
+      "Text": "えっ！？ どうして？"
+    },
+    {
+      "Type": "dialogue",
+      "Id": "s04_011",
+      "Speaker": "ミア",
+      "Text": "この星では、未認定情報の拡散が厳しく規制されてるの。デマが広まったら大変でしょ？"
+    },
+    {
+      "Type": "dialogue",
+      "Id": "s04_012",
+      "Speaker": "ろまん",
+      "Text": "でも、自分で見たことなら、デマとは限らないんじゃ……"
+    },
+    {
+      "Type": "dialogue",
+      "Id": "s04_013",
+      "Speaker": "ミア",
+      "Text": "え？ でも、テレビでやってないんだよ？"
+    },
+    {
+      "Type": "dialogue",
+      "Id": "s04_014",
+      "Speaker": "ろまん",
+      "Text": "…………"
+    },
+    {
+      "Type": "dialogue",
+      "Id": "s04_015",
+      "Speaker": "ハウエル",
+      "Text": "興味深い制度ですね。先ほどの住民が投稿した映像を解析してみましょう"
+    },
+    {
+      "Type": "description",
+      "Text": "ハウエルが映像データを解析する。"
+    },
+    {
+      "Type": "dialogue",
+      "Id": "s04_016",
+      "Speaker": "ハウエル",
+      "Text": "映像の改変を示す痕跡は検出されませんでした。撮影された出来事も、周辺の記録と整合しています"
+    },
+    {
+      "Type": "dialogue",
+      "Id": "s04_017",
+      "Speaker": "ろまん",
+      "Text": "じゃあ、本当に起きたことなんだよね？"
+    },
+    {
+      "Type": "dialogue",
+      "Id": "s04_018",
+      "Speaker": "ハウエル",
+      "Text": "少なくとも、映像が捏造されたと判断する根拠はありません"
+    },
+    {
+      "Type": "dialogue",
+      "Id": "s04_019",
+      "Speaker": "ろまん",
+      "Text": "だったら、あの人は何も悪くないんじゃない？"
+    },
+    {
+      "Type": "dialogue",
+      "Id": "s04_020",
+      "Speaker": "ミア",
+      "Text": "でも、テレビでやってないことを勝手に広めたら、みんなが混乱しちゃうよ？"
+    },
+    {
+      "Type": "dialogue",
+      "Id": "s04_021",
+      "Speaker": "ろまん",
+      "Text": "……テレビでやってないだけで？"
+    },
+    {
+      "Type": "dialogue",
+      "Id": "s04_022",
+      "Speaker": "ミア",
+      "Text": "うん。正しい情報かどうかは、テレビがちゃんと確認してくれるから"
+    },
+    {
+      "Type": "dialogue",
+      "Id": "s04_023",
+      "Speaker": "ハウエル",
+      "Text": "つまり、この星では『実際に起きた出来事』と『事実として認定された出来事』が区別されているわけですね"
+    },
+    {
+      "Type": "dialogue",
+      "Id": "s04_024",
+      "Speaker": "ろまん",
+      "Text": "……どういうこと？"
+    },
+    {
+      "Type": "dialogue",
+      "Id": "s04_025",
+      "Speaker": "ハウエル",
+      "Text": "実際に何が起きたかではなく、テレビが何を報道したかによって、事実が決まるということです"
+    },
+    {
+      "Type": "dialogue",
+      "Id": "s04_026",
+      "Speaker": "ミア",
+      "Text": "そうだよ！ だから、この星にはデマがないんだよ！"
+    },
+    {
+      "Type": "dialogue",
+      "Id": "s04_027",
+      "Speaker": "ろまん",
+      "Text": "……それって、本当にデマがないって言えるのかな"
+    },
+    {
+      "Type": "description",
+      "Text": "そのとき、街頭テレビからニュース番組の音楽が流れてくる。"
+    },
+    {
+      "Type": "character",
+      "Action": "hide",
+      "Position": "right"
+    },
+    {
+      "Type": "character",
+      "Action": "hide",
+      "Position": "center"
+    },
+    {
+      "Type": "character",
+      "Action": "hide",
+      "Position": "left"
+    },
+    {
+      "Type": "dialogue",
+      "Id": "s04_028",
+      "Speaker": "ニュースキャスター",
+      "Text": "続いてのニュースです。政府が実施した最新の世論調査で、国民の99.9％が現在の情報管理制度に満足していることが明らかになりました"
+    },
+    {
+      "Type": "dialogue",
+      "Id": "s04_029",
+      "Speaker": "ニュースキャスター",
+      "Text": "専門家は、厳格なSNS規制によって国民の幸福度が大幅に向上したと分析しています"
+    },
+    {
+      "Type": "character",
+      "AssetId": "roman/roman_normal",
+      "Action": "show",
+      "Position": "center",
+      "Width": 620,
+      "Height": 930
+    },
+    {
+      "Type": "character",
+      "AssetId": "mia/mia_three_quarter",
+      "Action": "show",
+      "Position": "right",
+      "Width": 775,
+      "Height": 1085,
+      "OffsetY": -50
+    },
+    {
+      "Type": "character",
+      "AssetId": "ai/ai_normal",
+      "Action": "show",
+      "Position": "left",
+      "Width": 320,
+      "Height": 320,
+      "OffsetY": 120,
+      "FlipX": true
+    },
+    {
+      "Type": "dialogue",
+      "Id": "s04_030",
+      "Speaker": "ミア",
+      "Text": "すごいね！ みんな満足してるんだ！"
+    },
+    {
+      "Type": "dialogue",
+      "Id": "s04_031",
+      "Speaker": "ろまん",
+      "Text": "……99.9％って、そんなに？"
+    },
+    {
+      "Type": "dialogue",
+      "Id": "s04_032",
+      "Speaker": "ハウエル",
+      "Text": "調査対象者、調査方法、回答数などは公開されていませんね"
+    },
+    {
+      "Type": "character",
+      "Action": "hide",
+      "Position": "right"
+    },
+    {
+      "Type": "character",
+      "Action": "hide",
+      "Position": "center"
+    },
+    {
+      "Type": "character",
+      "Action": "hide",
+      "Position": "left"
+    },
+    {
+      "Type": "dialogue",
+      "Id": "s04_033",
+      "Speaker": "ニュースキャスター",
+      "Text": "また、警察が公開しているリアルタイム統計によると、本日のデマ拡散防止法違反件数は、現在までに0件です"
+    },
+    {
+      "Type": "character",
+      "AssetId": "roman/roman_normal",
+      "Action": "show",
+      "Position": "center",
+      "Width": 620,
+      "Height": 930
+    },
+    {
+      "Type": "character",
+      "AssetId": "mia/mia_three_quarter",
+      "Action": "show",
+      "Position": "right",
+      "Width": 775,
+      "Height": 1085,
+      "OffsetY": -50
+    },
+    {
+      "Type": "character",
+      "AssetId": "ai/ai_normal",
+      "Action": "show",
+      "Position": "left",
+      "Width": 320,
+      "Height": 320,
+      "OffsetY": 120,
+      "FlipX": true
+    },
+    {
+      "Type": "dialogue",
+      "Id": "s04_034",
+      "Speaker": "ろまん",
+      "Text": "……あれ？ さっきの人、違反したって連れていかれたよね？"
+    },
+    {
+      "Type": "dialogue",
+      "Id": "s04_035",
+      "Speaker": "ハウエル",
+      "Text": "はい。警察官は、デマ拡散防止法に抵触すると明言していました"
+    },
+    {
+      "Type": "dialogue",
+      "Id": "s04_036",
+      "Speaker": "ろまん",
+      "Text": "じゃあ、少なくとも1件はあるんじゃないの？"
+    },
+    {
+      "Type": "dialogue",
+      "Id": "s04_037",
+      "Speaker": "ミア",
+      "Text": "でも、テレビでは0件って言ってるよ？"
+    },
+    {
+      "Type": "dialogue",
+      "Id": "s04_038",
+      "Speaker": "ろまん",
+      "Text": "…………"
+    },
+    {
+      "Type": "character",
+      "Action": "hide",
+      "Position": "right"
+    },
+    {
+      "Type": "character",
+      "Action": "hide",
+      "Position": "center"
+    },
+    {
+      "Type": "character",
+      "Action": "hide",
+      "Position": "left"
+    },
+    {
+      "Type": "dialogue",
+      "Id": "s04_039",
+      "Speaker": "ニュースキャスター",
+      "Text": "政府は、こうした成果を受け、SNS規制のさらなる強化を検討しています"
+    },
+    {
+      "Type": "character",
+      "AssetId": "roman/roman_normal",
+      "Action": "show",
+      "Position": "center",
+      "Width": 620,
+      "Height": 930
+    },
+    {
+      "Type": "character",
+      "AssetId": "mia/mia_three_quarter",
+      "Action": "show",
+      "Position": "right",
+      "Width": 775,
+      "Height": 1085,
+      "OffsetY": -50
+    },
+    {
+      "Type": "character",
+      "AssetId": "ai/ai_normal",
+      "Action": "show",
+      "Position": "left",
+      "Width": 320,
+      "Height": 320,
+      "OffsetY": 120,
+      "FlipX": true
+    },
+    {
+      "Type": "dialogue",
+      "Id": "s04_040",
+      "Speaker": "ろまん",
+      "Text": "……違反がないのに、もっと規制するの？"
+    },
+    {
+      "Type": "dialogue",
+      "Id": "s04_041",
+      "Speaker": "ハウエル",
+      "Text": "この星では、事実の認定と、その成果の評価を同じ組織が管理しているようですね"
+    },
+    {
+      "Type": "description",
+      "Text": "テレビから明るい音楽が流れる。"
+    },
+    {
+      "Type": "fade",
+      "Action": "out",
+      "Duration": 0.8
+    },
+    {
+      "Type": "end"
+    }
+  ]
+}
