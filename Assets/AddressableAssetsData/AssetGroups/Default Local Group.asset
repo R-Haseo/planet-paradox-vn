@@ -601,7 +601,7 @@ MonoBehaviour:
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 30bde717a4207274d98d0f1c329d9d35
-    m_Address: background/episode02/scene03/tv_city_news
+    m_Address: background/episode02/scene04/tv_city_news
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
@@ -2987,6 +2987,11 @@ MonoBehaviour:
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: e6d2d16e04e1a2945be4f250387f143c
     m_Address: background/episode01/scene05/office
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e73034c57cb911f4495daf02d6b144a2
+    m_Address: background/episode02/scene04/tv_news_anchor
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0

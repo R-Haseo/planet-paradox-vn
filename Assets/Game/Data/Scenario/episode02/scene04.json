@@ -7,7 +7,7 @@
     },
     {
       "Type": "background",
-      "AssetId": "episode02/scene03/tv_city_news"
+      "AssetId": "episode02/scene04/tv_city_news"
     },
     {
       "Type": "character",
@@ -277,6 +277,10 @@
       "Position": "left"
     },
     {
+      "Type": "background",
+      "AssetId": "episode02/scene04/tv_news_anchor"
+    },
+    {
       "Type": "dialogue",
       "Id": "s04_028",
       "Speaker": "ニュースキャスター",
@@ -287,6 +291,10 @@
       "Id": "s04_029",
       "Speaker": "ニュースキャスター",
       "Text": "専門家は、厳格なSNS規制によって国民の幸福度が大幅に向上したと分析しています"
+    },
+    {
+      "Type": "background",
+      "AssetId": "episode02/scene04/tv_city_news"
     },
     {
       "Type": "character",
@@ -349,10 +357,18 @@
       "Position": "left"
     },
     {
+      "Type": "background",
+      "AssetId": "episode02/scene04/tv_news_anchor"
+    },
+    {
       "Type": "dialogue",
       "Id": "s04_033",
       "Speaker": "ニュースキャスター",
       "Text": "また、警察が公開しているリアルタイム統計によると、本日のデマ拡散防止法違反件数は、現在までに0件です"
+    },
+    {
+      "Type": "background",
+      "AssetId": "episode02/scene04/tv_city_news"
     },
     {
       "Type": "character",
@@ -412,6 +428,10 @@
       "Text": "…………"
     },
     {
+      "Type": "background",
+      "AssetId": "episode02/scene04/tv_news_anchor"
+    },
+    {
       "Type": "character",
       "Action": "hide",
       "Position": "right"
@@ -431,6 +451,10 @@
       "Id": "s04_039",
       "Speaker": "ニュースキャスター",
       "Text": "政府は、こうした成果を受け、SNS規制のさらなる強化を検討しています"
+    },
+    {
+      "Type": "background",
+      "AssetId": "episode02/scene04/tv_city_news"
     },
     {
       "Type": "character",
