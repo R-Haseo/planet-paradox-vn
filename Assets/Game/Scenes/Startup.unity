@@ -343,6 +343,7 @@ GameObject:
   - component: {fileID: 205910562}
   - component: {fileID: 205910561}
   - component: {fileID: 205910560}
+  - component: {fileID: 205910563}
   m_Layer: 5
   m_Name: Episode02Button
   m_TagString: Untagged
@@ -452,6 +453,21 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 205910558}
   m_CullTransparentMesh: 1
+--- !u!114 &205910563
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 205910558}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e19747de3f5aca642ab2be37e372fb86, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Outline
+  m_EffectColor: {r: 1, g: 1, b: 1, a: 0.5}
+  m_EffectDistance: {x: 1, y: -1}
+  m_UseGraphicAlpha: 1
 --- !u!1 &310440675
 GameObject:
   m_ObjectHideFlags: 0
@@ -813,6 +829,7 @@ GameObject:
   - component: {fileID: 813178649}
   - component: {fileID: 813178648}
   - component: {fileID: 813178647}
+  - component: {fileID: 813178650}
   m_Layer: 5
   m_Name: Episode01Button
   m_TagString: Untagged
@@ -922,6 +939,21 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 813178645}
   m_CullTransparentMesh: 1
+--- !u!114 &813178650
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 813178645}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e19747de3f5aca642ab2be37e372fb86, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Outline
+  m_EffectColor: {r: 1, g: 1, b: 1, a: 0.5}
+  m_EffectDistance: {x: 1, y: -1}
+  m_UseGraphicAlpha: 1
 --- !u!1 &840663970
 GameObject:
   m_ObjectHideFlags: 0
