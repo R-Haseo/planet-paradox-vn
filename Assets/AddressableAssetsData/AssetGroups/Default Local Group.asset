@@ -265,6 +265,11 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 150866cb58b577d4bbf1f8461bb4efa4
+    m_Address: bgm/quirky_upbeat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 1590cacf871ca5648ac9f14a0eaceaf7
     m_Address: voice/episode02/s01_011
     m_ReadOnly: 0
