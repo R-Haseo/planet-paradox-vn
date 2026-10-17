@@ -61,6 +61,10 @@
       "Position": "left"
     },
     {
+      "Type": "background",
+      "AssetId": "episode02/scene04/police_arrest"
+    },
+    {
       "Type": "dialogue",
       "Id": "s04_001",
       "Speaker": "連行される男性",
@@ -93,6 +97,10 @@
     {
       "Type": "description",
       "Text": "警察官が住民を連行していく。"
+    },
+    {
+      "Type": "background",
+      "AssetId": "episode02/scene04/tv_city_news"
     },
     {
       "Type": "character",

@@ -1390,6 +1390,11 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 68b2f1ee8710db34c94a781c716adeb8
+    m_Address: background/episode02/scene04/police_arrest
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 68deb084b92076f4493c80dc7ff3c80e
     m_Address: voice/episode01/s03_020
     m_ReadOnly: 0
