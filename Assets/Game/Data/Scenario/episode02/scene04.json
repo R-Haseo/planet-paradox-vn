@@ -42,8 +42,12 @@
       "Duration": 0.8
     },
     {
+      "Type": "se",
+      "AssetId": "police_siren"
+    },
+    {
       "Type": "description",
-      "Text": "ろまんたちが通りを歩いていると、前方から激しい声が聞こえてくる。"
+      "Text": "ろまんたちが通りを歩いていると、前方から激しい声とパトカーのサイレンが聞こえてくる。"
     },
     {
       "Type": "character",
