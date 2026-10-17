@@ -920,6 +920,11 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 455c810f9b426e545aea1de8a161d1e6
+    m_Address: se/news_intro
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 45ce7d99b07e0ac4aa667783d475fbdf
     m_Address: voice/episode02/s03_011
     m_ReadOnly: 0

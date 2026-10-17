@@ -190,6 +190,10 @@
       "Text": "興味深い制度ですね。先ほどの住民が投稿した映像を解析してみましょう"
     },
     {
+      "Type": "se",
+      "AssetId": "analysis"
+    },
+    {
       "Type": "description",
       "Text": "ハウエルが映像データを解析する。"
     },
@@ -287,6 +291,14 @@
     {
       "Type": "background",
       "AssetId": "episode02/scene04/tv_news_anchor"
+    },
+    {
+      "Type": "se",
+      "AssetId": "news_intro"
+    },
+    {
+      "Type": "description",
+      "Text": "テレビに映る男性ニュースキャスターは、明るい声でニュースを読み上げていく。"
     },
     {
       "Type": "dialogue",
