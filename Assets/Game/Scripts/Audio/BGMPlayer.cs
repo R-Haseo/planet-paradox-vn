@@ -7,6 +7,8 @@ public class BGMPlayer : MonoBehaviour
     [SerializeField] private AudioSource audioSource;
 
     private float defaultVolume;
+    private float userVolume = 1.0f;
+    private float currentVolumeScale = 1.0f;
     private string currentAssetId;
     private AsyncOperationHandle<AudioClip>? currentHandle;
     private int requestVersion;
@@ -18,9 +20,11 @@ public class BGMPlayer : MonoBehaviour
 
     public void Play(string assetId, float? volume = null)
     {
+        currentVolumeScale = volume ?? 1.0f;
+
         if (currentAssetId == assetId && audioSource.isPlaying)
         {
-            audioSource.volume = Mathf.Clamp01(volume ?? defaultVolume);
+            ApplyVolume();
             return;
         }
 
@@ -50,7 +54,7 @@ public class BGMPlayer : MonoBehaviour
 
             audioSource.clip = completedHandle.Result;
             audioSource.loop = true;
-            audioSource.volume = Mathf.Clamp01(defaultVolume * (volume ?? 1.0f));
+            ApplyVolume();
             audioSource.Play();
         };
     }
@@ -85,6 +89,17 @@ public class BGMPlayer : MonoBehaviour
         }
 
         currentHandle = null;
+    }
+
+    public void SetUserVolume(float volume)
+    {
+        userVolume = Mathf.Clamp(volume, 0f, 2f);
+        ApplyVolume();
+    }
+
+    private void ApplyVolume()
+    {
+        audioSource.volume = Mathf.Clamp01(defaultVolume * currentVolumeScale * userVolume);
     }
 
     private void OnDestroy()

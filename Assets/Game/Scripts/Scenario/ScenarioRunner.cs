@@ -11,6 +11,7 @@ public class ScenarioRunner : MonoBehaviour
     [SerializeField] private DialogueView dialogueView;
     [SerializeField] private BackgroundPlayer backgroundPlayer;
     [SerializeField] private DialogueLogView dialogueLogView;
+    [SerializeField] private SettingsView settingsView;
     [SerializeField] private ScenarioControlView scenarioControlView;
     [SerializeField] private RectTransform scenarioControlRoot;
     [SerializeField] private VoicePlayer voicePlayer;
@@ -48,6 +49,12 @@ public class ScenarioRunner : MonoBehaviour
         }
 
         this.scenarioJsons = scenarioJsons;
+
+        settingsView.Initialize(
+            bgmPlayer.SetUserVolume,
+            sePlayer.SetUserVolume,
+            voicePlayer.SetUserVolume
+        );
     }
 
     private void Start()
@@ -58,6 +65,7 @@ public class ScenarioRunner : MonoBehaviour
             ToggleLog,
             ToggleAuto,
             ToggleSkip,
+            ToggleSettings,
             ReturnToTitle);
 
 #if UNITY_EDITOR
@@ -92,7 +100,7 @@ public class ScenarioRunner : MonoBehaviour
             return;
         }
 
-        if (dialogueLogView.IsOpen)
+        if (dialogueLogView.IsOpen || settingsView.IsOpen)
         {
             return;
         }
@@ -430,6 +438,12 @@ public class ScenarioRunner : MonoBehaviour
         skipTimer = 0f;
 
         Debug.Log($"Skip mode: {(skipMode ? "ON" : "OFF")}");
+        ClearButtonSelection();
+    }
+
+    public void ToggleSettings()
+    {
+        settingsView.Toggle();
         ClearButtonSelection();
     }
 
