@@ -1,6 +1,7 @@
 using System;
 using UnityEngine;
 using UnityEngine.UI;
+using TMPro;
 
 public class SettingsView : MonoBehaviour
 {
@@ -9,12 +10,14 @@ public class SettingsView : MonoBehaviour
     [SerializeField] private Slider bgmSlider;
     [SerializeField] private Slider seSlider;
     [SerializeField] private Slider voiceSlider;
+    [SerializeField] private TMP_Text versionText;
 
     public bool IsOpen => settingsPanel.activeSelf;
 
     private void Awake()
     {
         backButton.onClick.AddListener(Close);
+        versionText.text = $"Version {Application.version}";
         settingsPanel.SetActive(false);
     }
 
