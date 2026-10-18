@@ -3,7 +3,8 @@
     {
       "Type": "bgm",
       "Action": "play",
-      "AssetId": "quirky_upbeat"
+      "AssetId": "quirky_upbeat",
+      "Volume": 0.5
     },
     {
       "Type": "background",
@@ -47,7 +48,8 @@
     },
     {
       "Type": "se",
-      "AssetId": "police_siren"
+      "AssetId": "police_siren",
+      "Volume": 0.3
     },
     {
       "Type": "description",
@@ -203,7 +205,8 @@
     },
     {
       "Type": "se",
-      "AssetId": "analysis"
+      "AssetId": "analysis",
+      "Volume": 0.5
     },
     {
       "Type": "description",
@@ -306,7 +309,8 @@
     },
     {
       "Type": "se",
-      "AssetId": "news_intro"
+      "AssetId": "news_intro",
+      "Volume": 0.5
     },
     {
       "Type": "description",

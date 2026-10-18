@@ -4,17 +4,23 @@ using UnityEngine.ResourceManagement.AsyncOperations;
 
 public class BGMPlayer : MonoBehaviour
 {
-    [SerializeField]
-    private AudioSource audioSource;
+    [SerializeField] private AudioSource audioSource;
 
+    private float defaultVolume;
     private string currentAssetId;
     private AsyncOperationHandle<AudioClip>? currentHandle;
     private int requestVersion;
 
-    public void Play(string assetId)
+    private void Awake()
+    {
+        defaultVolume = audioSource.volume;
+    }
+
+    public void Play(string assetId, float? volume = null)
     {
         if (currentAssetId == assetId && audioSource.isPlaying)
         {
+            audioSource.volume = Mathf.Clamp01(volume ?? defaultVolume);
             return;
         }
 
@@ -44,6 +50,7 @@ public class BGMPlayer : MonoBehaviour
 
             audioSource.clip = completedHandle.Result;
             audioSource.loop = true;
+            audioSource.volume = Mathf.Clamp01(defaultVolume * (volume ?? 1.0f));
             audioSource.Play();
         };
     }

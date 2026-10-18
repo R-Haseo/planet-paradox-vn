@@ -12,6 +12,12 @@ public class VoicePlayer : MonoBehaviour
     private int requestVersion;
     private bool isPlaying;
     public bool IsPlaying => isPlaying;
+    private float defaultVolume;
+
+    private void Awake()
+    {
+        defaultVolume = audioSource.volume;
+    }
 
     public event Action PlaybackCompleted;
 
@@ -20,7 +26,7 @@ public class VoicePlayer : MonoBehaviour
         this.episodeId = episodeId;
     }
 
-    public void Play(string id)
+    public void Play(string id, float? volume = null)
     {
         Stop();
 
@@ -46,6 +52,7 @@ public class VoicePlayer : MonoBehaviour
             }
 
             audioSource.clip = completedHandle.Result;
+            audioSource.volume = Mathf.Clamp01(defaultVolume * (volume ?? 1.0f));
             audioSource.Play();
             isPlaying = true;
         };

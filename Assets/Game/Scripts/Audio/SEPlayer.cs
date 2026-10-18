@@ -7,12 +7,12 @@ public class SEPlayer : MonoBehaviour
 {
     [SerializeField] private AudioSource audioSource;
 
-    public void Play(string assetId)
+    public void Play(string assetId, float? volume = null)
     {
-        StartCoroutine(PlayCoroutine(assetId));
+        StartCoroutine(PlayCoroutine(assetId, volume));
     }
 
-    private IEnumerator PlayCoroutine(string assetId)
+    private IEnumerator PlayCoroutine(string assetId, float? volume)
     {
         var address = $"se/{assetId}";
         var handle = Addressables.LoadAssetAsync<AudioClip>(address);
@@ -28,7 +28,7 @@ public class SEPlayer : MonoBehaviour
 
         var clip = handle.Result;
 
-        audioSource.PlayOneShot(clip);
+        audioSource.PlayOneShot(clip, Mathf.Clamp01(volume ?? 1.0f));
 
         yield return new WaitForSecondsRealtime(clip.length);
 

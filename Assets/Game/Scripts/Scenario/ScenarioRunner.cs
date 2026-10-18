@@ -325,7 +325,7 @@ public class ScenarioRunner : MonoBehaviour
     {
         dialogueView.Show(scenarioCommand.Speaker, scenarioCommand.Text);
         dialogueLogView.AddDialogue(scenarioCommand.Speaker, scenarioCommand.Text);
-        voicePlayer.Play(scenarioCommand.Id);
+        voicePlayer.Play(scenarioCommand.Id, scenarioCommand.Volume);
     }
 
     private void ShowBackground(string assetId)
@@ -354,7 +354,7 @@ public class ScenarioRunner : MonoBehaviour
         switch (command.Action)
         {
             case "play":
-                bgmPlayer.Play(command.AssetId);
+                bgmPlayer.Play(command.AssetId, command.Volume);
                 break;
 
             case "stop":
@@ -371,7 +371,7 @@ public class ScenarioRunner : MonoBehaviour
 
     private void ProcessSeCommand(ScenarioCommandDto command)
     {
-        sePlayer.Play(command.AssetId);
+        sePlayer.Play(command.AssetId, command.Volume ?? 1.0f);
         MoveToNextCommand();
     }
 

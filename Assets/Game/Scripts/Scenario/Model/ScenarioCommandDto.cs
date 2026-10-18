@@ -8,6 +8,7 @@ public class ScenarioCommandDto
     public string Speaker;
     public string Text;
     public string AssetId;
+    public float? Volume;
     public string Action;
     public string Position;
     public float Width;
