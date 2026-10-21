@@ -7,6 +7,10 @@
       "Volume": 0.5
     },
     {
+      "Type": "background",
+      "AssetId": "episode02/scene05/city_news_broadcast"
+    },
+    {
       "Type": "character",
       "AssetId": "roman/roman_normal",
       "Action": "show",
@@ -39,8 +43,32 @@
       "Duration": 0.8
     },
     {
+      "Type": "se",
+      "AssetId": "news_intro",
+      "Volume": 0.5
+    },
+    {
       "Type": "description",
       "Text": "街頭テレビから、ニュースキャスターの声が響いている。通りを行き交う人々も、足を止めて画面を見つめていた。"
+    },
+    {
+      "Type": "character",
+      "Action": "hide",
+      "Position": "right"
+    },
+    {
+      "Type": "character",
+      "Action": "hide",
+      "Position": "center"
+    },
+    {
+      "Type": "character",
+      "Action": "hide",
+      "Position": "left"
+    },
+    {
+      "Type": "background",
+      "AssetId": "episode02/scene05/news_studio"
     },
     {
       "Type": "dialogue",
@@ -59,6 +87,37 @@
       "Id": "s05_003",
       "Speaker": "ニュースキャスター",
       "Text": "関係者によりますと、知事は以前から職員に対し、威圧的な態度を取っていた可能性があるということです"
+    },
+    {
+      "Type": "background",
+      "AssetId": "episode02/scene05/city_news_broadcast"
+    },
+    {
+      "Type": "character",
+      "AssetId": "roman/roman_normal",
+      "Action": "show",
+      "Position": "center",
+      "Width": 620,
+      "Height": 930
+    },
+    {
+      "Type": "character",
+      "AssetId": "mia/mia_three_quarter",
+      "Action": "show",
+      "Position": "right",
+      "Width": 775,
+      "Height": 1085,
+      "OffsetY": -50
+    },
+    {
+      "Type": "character",
+      "AssetId": "ai/ai_normal",
+      "Action": "show",
+      "Position": "left",
+      "Width": 320,
+      "Height": 320,
+      "OffsetY": 120,
+      "FlipX": true
     },
     {
       "Type": "dialogue",
@@ -115,6 +174,25 @@
       "Text": "……証拠はないんだ"
     },
     {
+      "Type": "character",
+      "Action": "hide",
+      "Position": "right"
+    },
+    {
+      "Type": "character",
+      "Action": "hide",
+      "Position": "center"
+    },
+    {
+      "Type": "character",
+      "Action": "hide",
+      "Position": "left"
+    },
+    {
+      "Type": "background",
+      "AssetId": "episode02/scene05/news_studio"
+    },
+    {
       "Type": "description",
       "Text": "画面が切り替わり、スタジオに並んだコメンテーターたちが、険しい表情で議論を始めた。"
     },
@@ -155,6 +233,10 @@
       "Text": "宇宙船の着地位置が３メートルずれただけで激怒するなんて、なんて品性のない人なんでしょう。知事としての資質を疑いますね"
     },
     {
+      "Type": "background",
+      "AssetId": "episode02/scene05/news_studio_laughing"
+    },
+    {
       "Type": "description",
       "Text": "スタジオからどっと笑いが起こった。テレビの中の人たちは、社会的地位の高い知事が、まるでしょうもないことに怒ったという疑惑を楽しんでいるようであった。"
     },
@@ -187,6 +269,10 @@
       "Id": "s05_023",
       "Speaker": "ろまん",
       "Text": "……そうなのかな"
+    },
+    {
+      "Type": "background",
+      "AssetId": "episode02/scene05/news_studio"
     },
     {
       "Type": "description",
@@ -247,12 +333,20 @@
       "Text": "それにしても、伊勢エビをねだるなんて、なんてみっともないことをするんでしょう。知事としての品位を疑いますね"
     },
     {
+      "Type": "background",
+      "AssetId": "episode02/scene05/news_studio_laughing"
+    },
+    {
       "Type": "description",
       "Text": "またスタジオから笑いが起こった。テレビの中の人たちは、本当だったら大問題であるこのニュースを、まるでバラエティ番組のように楽しんでいるかのようだった。"
     },
     {
       "Type": "description",
       "Text": "一方、ろまんは首をかしげた。知事が何をしたのか、まだはっきりしていない。それなのに、テレビの中では、まるで悪いことをしたと決まっているかのように話が進んでいた。"
+    },
+    {
+      "Type": "background",
+      "AssetId": "episode02/scene05/news_studio"
     },
     {
       "Type": "dialogue",
@@ -441,6 +535,37 @@
       "Id": "s05_060",
       "Speaker": "ニュースキャスター",
       "Text": "千条委員会では、前知事によるハラスメントや伊勢エビのおねだり疑惑について、徹底的な調査により実態解明を行う見通しです"
+    },
+    {
+      "Type": "background",
+      "AssetId": "episode02/scene05/city_news_broadcast"
+    },
+    {
+      "Type": "character",
+      "AssetId": "roman/roman_normal",
+      "Action": "show",
+      "Position": "center",
+      "Width": 620,
+      "Height": 930
+    },
+    {
+      "Type": "character",
+      "AssetId": "mia/mia_three_quarter",
+      "Action": "show",
+      "Position": "right",
+      "Width": 775,
+      "Height": 1085,
+      "OffsetY": -50
+    },
+    {
+      "Type": "character",
+      "AssetId": "ai/ai_normal",
+      "Action": "show",
+      "Position": "left",
+      "Width": 320,
+      "Height": 320,
+      "OffsetY": 120,
+      "FlipX": true
     },
     {
       "Type": "dialogue",

@@ -2015,6 +2015,11 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 85e4a9c654786a44bb57bf6549965e57
+    m_Address: background/episode02/scene05/news_studio_laughing
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 874e48f4f6c132a4b9c3c34673e6626c
     m_Address: voice/episode02/s02_018
     m_ReadOnly: 0
@@ -2790,6 +2795,11 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c14989d0cd375e443b8377ff04fa8d25
+    m_Address: background/episode02/scene05/news_studio
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: c15c0e3acfb389e4f8b20557d022c491
     m_Address: voice/episode01/s08_039
     m_ReadOnly: 0
@@ -3357,6 +3367,11 @@ MonoBehaviour:
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: eadc972a7cadab742bed0e91247b6de5
     m_Address: voice/episode01/s02_001
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ec4eb16a3c258294bbb2e1a4e8f4d337
+    m_Address: background/episode02/scene05/city_news_broadcast
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
