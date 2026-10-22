@@ -373,6 +373,10 @@
       "Text": "こうした厳しい世論を受け、知事は本日、辞職する意向を表明しました"
     },
     {
+      "Type": "background",
+      "AssetId": "episode02/scene05/governor_press_conference"
+    },
+    {
       "Type": "description",
       "Text": "テレビには、無数のカメラに囲まれ、疲れ切った表情で記者会見に臨む知事の姿が映し出された。"
     },
@@ -395,6 +399,10 @@
       "Text": "これ以上の混乱を避けるため、知事の職を辞する決断をいたしました"
     },
     {
+      "Type": "background",
+      "AssetId": "episode02/scene05/news_studio"
+    },
+    {
       "Type": "dialogue",
       "Id": "s05_040",
       "Speaker": "ニュースキャスター",
@@ -411,6 +419,37 @@
       "Id": "s05_042",
       "Speaker": "コメンテーター",
       "Text": "疑惑を持たれた時点で、政治家としての信頼は失われていたんです"
+    },
+    {
+      "Type": "background",
+      "AssetId": "episode02/scene05/city_news_broadcast"
+    },
+    {
+      "Type": "character",
+      "AssetId": "roman/roman_normal",
+      "Action": "show",
+      "Position": "center",
+      "Width": 620,
+      "Height": 930
+    },
+    {
+      "Type": "character",
+      "AssetId": "mia/mia_three_quarter",
+      "Action": "show",
+      "Position": "right",
+      "Width": 775,
+      "Height": 1085,
+      "OffsetY": -50
+    },
+    {
+      "Type": "character",
+      "AssetId": "ai/ai_normal",
+      "Action": "show",
+      "Position": "left",
+      "Width": 320,
+      "Height": 320,
+      "OffsetY": 120,
+      "FlipX": true
     },
     {
       "Type": "dialogue",
@@ -515,6 +554,25 @@
       "Id": "s05_058",
       "Speaker": "ろまん",
       "Text": "……なんだか、おかしくない？"
+    },
+    {
+      "Type": "character",
+      "Action": "hide",
+      "Position": "right"
+    },
+    {
+      "Type": "character",
+      "Action": "hide",
+      "Position": "center"
+    },
+    {
+      "Type": "character",
+      "Action": "hide",
+      "Position": "left"
+    },
+    {
+      "Type": "background",
+      "AssetId": "episode02/scene05/news_studio"
     },
     {
       "Type": "description",

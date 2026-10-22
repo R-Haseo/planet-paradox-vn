@@ -475,6 +475,11 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 20bf9c581bd4dd946a1fc464de8896ec
+    m_Address: background/episode02/scene05/governor_press_conference
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 218d82fe427dc504289e85178deb715c
     m_Address: voice/episode01/s06_001
     m_ReadOnly: 0
