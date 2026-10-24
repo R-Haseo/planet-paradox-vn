@@ -129,7 +129,8 @@ public class ScenarioCommandValidationTests
             commandIndex,
             "Id",
             "Speaker",
-            "Text");
+            "Text",
+            "Volume");
 
         RequireNonEmptyString(
             command,
@@ -146,6 +147,12 @@ public class ScenarioCommandValidationTests
         RequireString(
             command,
             "Text",
+            scenarioFile,
+            commandIndex);
+
+        ValidateOptionalNumber(
+            command,
+            "Volume",
             scenarioFile,
             commandIndex);
     }
@@ -313,11 +320,18 @@ public class ScenarioCommandValidationTests
                     scenarioFile,
                     commandIndex,
                     "Action",
-                    "AssetId");
+                    "AssetId",
+                    "Volume");
 
                 RequireNonEmptyString(
                     command,
                     "AssetId",
+                    scenarioFile,
+                    commandIndex);
+
+                ValidateOptionalNumber(
+                    command,
+                    "Volume",
                     scenarioFile,
                     commandIndex);
                 break;
@@ -341,11 +355,18 @@ public class ScenarioCommandValidationTests
             command,
             scenarioFile,
             commandIndex,
-            "AssetId");
+            "AssetId",
+            "Volume");
 
         RequireNonEmptyString(
             command,
             "AssetId",
+            scenarioFile,
+            commandIndex);
+
+        ValidateOptionalNumber(
+            command,
+            "Volume",
             scenarioFile,
             commandIndex);
     }
