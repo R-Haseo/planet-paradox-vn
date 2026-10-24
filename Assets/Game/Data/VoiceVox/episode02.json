@@ -59,6 +59,22 @@
     {
       "ScenarioSpeaker": "知事",
       "VoiceVoxCharacter": "玄野武宏（悲しみ）"
+    },
+    {
+      "ScenarioSpeaker": "男性キャスター",
+      "VoiceVoxCharacter": "麒ヶ島宗麟"
+    },
+    {
+      "ScenarioSpeaker": "女性キャスター",
+      "VoiceVoxCharacter": "四国めたん"
+    },
+    {
+      "ScenarioSpeaker": "マダム・ゴージャス",
+      "VoiceVoxCharacter": "波音リツ（クイーン）"
+    },
+    {
+      "ScenarioSpeaker": "記者",
+      "VoiceVoxCharacter": "中部つるぎ（怒り）"
     }
   ]
 }
