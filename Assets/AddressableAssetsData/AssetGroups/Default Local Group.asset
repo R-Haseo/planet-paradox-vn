@@ -1925,6 +1925,11 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7ee3411c59f582347856b6af3529957d
+    m_Address: se/news_studio_laughter
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 7f3cdaf65f6bf9646bdef5dd3aec102d
     m_Address: voice/episode01/s05_032
     m_ReadOnly: 0

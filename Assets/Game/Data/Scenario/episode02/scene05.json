@@ -45,7 +45,7 @@
     {
       "Type": "se",
       "AssetId": "news_intro",
-      "Volume": 0.5
+      "Volume": 0.2
     },
     {
       "Type": "description",
@@ -259,6 +259,11 @@
       "AssetId": "episode02/scene05/news_studio_laughing"
     },
     {
+      "Type": "se",
+      "AssetId": "news_studio_laughter",
+      "Volume": 0.5
+    },
+    {
       "Type": "description",
       "Text": "スタジオからどっと笑いが起こった。テレビの中の人たちは、社会的地位の高い知事が、まるでしょうもないことに怒ったという疑惑を楽しんでいるようであった。"
     },
@@ -361,6 +366,11 @@
     {
       "Type": "background",
       "AssetId": "episode02/scene05/news_studio_laughing"
+    },
+    {
+      "Type": "se",
+      "AssetId": "news_studio_laughter",
+      "Volume": 0.5
     },
     {
       "Type": "description",
