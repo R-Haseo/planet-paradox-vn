@@ -1535,6 +1535,11 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 65396a4211cab4e4b94662f84b0ceb86
+    m_Address: character/mia/mia_confused
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 65475d43e464d4a40861b6dcf357b8e3
     m_Address: voice/episode02/s01_022
     m_ReadOnly: 0
@@ -3080,6 +3085,11 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d467b06de4aa2424195d25a6c24e0460
+    m_Address: character/roman/roman_thinking
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: d47bc2a07a5eb404e926d418d8b1f309
     m_Address: background/episode02/scene01/communication_console
     m_ReadOnly: 0
@@ -3335,6 +3345,11 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e7dee201f935e65489085dc630daf675
+    m_Address: character/ai/hauer_thinking
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: e80f2f6f3263b6242a84ed41b4896c01
     m_Address: voice/episode02/s05_048
     m_ReadOnly: 0
@@ -3482,6 +3497,11 @@ MonoBehaviour:
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: f240e017799f22349a343c6c0be1a959
     m_Address: voice/episode01/s02_025
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f25f5151da415d14f88910fc90fcf525
+    m_Address: character/roman/roman_arms_crossed
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0

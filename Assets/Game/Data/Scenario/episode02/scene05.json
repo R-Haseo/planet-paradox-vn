@@ -150,10 +150,28 @@
       "Text": "ある証言によりますと、知事は公務で利用した宇宙船の着陸位置が予定より3メートルずれていたことに激怒し、職員の操縦士を厳しく叱責したということです"
     },
     {
+      "Type": "character",
+      "AssetId": "roman/roman_arms_crossed",
+      "Action": "show",
+      "Position": "center",
+      "Width": 620,
+      "Height": 930,
+      "FlipX": true
+    },
+    {
       "Type": "dialogue",
       "Id": "s05_009",
       "Speaker": "ろまん",
       "Text": "……3メートル？"
+    },
+    {
+      "Type": "character",
+      "AssetId": "mia/mia_confused",
+      "Action": "show",
+      "Position": "right",
+      "Width": 775,
+      "Height": 1085,
+      "OffsetY": -50
     },
     {
       "Type": "dialogue",
@@ -417,6 +435,10 @@
       "Text": "ついに知事が辞職を表明しました。今回の問題について、どうお考えですか？"
     },
     {
+      "Type": "background",
+      "AssetId": "episode02/scene05/news_commentator"
+    },
+    {
       "Type": "dialogue",
       "Id": "s05_041",
       "Speaker": "コメンテーター",
@@ -438,7 +460,8 @@
       "Action": "show",
       "Position": "center",
       "Width": 620,
-      "Height": 930
+      "Height": 930,
+      "FlipX": true
     },
     {
       "Type": "character",
@@ -464,6 +487,24 @@
       "Id": "s05_043",
       "Speaker": "ろまん",
       "Text": "……あれ？"
+    },
+    {
+      "Type": "character",
+      "AssetId": "roman/roman_thinking",
+      "Action": "show",
+      "Position": "center",
+      "Width": 620,
+      "Height": 930,
+      "FlipX": true
+    },
+    {
+      "Type": "character",
+      "AssetId": "mia/mia_confused",
+      "Action": "show",
+      "Position": "right",
+      "Width": 775,
+      "Height": 1085,
+      "OffsetY": -50
     },
     {
       "Type": "dialogue",
@@ -510,10 +551,33 @@
       "Text": "それなのにテレビの中では、知事が辞めれば、あとはどうでもいいような雰囲気が漂っていた。"
     },
     {
+      "Type": "character",
+      "AssetId": "roman/roman_arms_crossed",
+      "Action": "show",
+      "Position": "center",
+      "Width": 620,
+      "Height": 930
+    },
+    {
       "Type": "dialogue",
       "Id": "s05_050",
       "Speaker": "ろまん",
       "Text": "ハウエル。知事のハラスメントについて、何か分かった？"
+    },
+    {
+      "Type": "character",
+      "Action": "hide",
+      "Position": "left"
+    },
+    {
+      "Type": "character",
+      "AssetId": "ai/hauer_thinking",
+      "Action": "show",
+      "Position": "left",
+      "Width": 320,
+      "Height": 320,
+      "OffsetY": 120,
+      "FlipX": true
     },
     {
       "Type": "dialogue",
@@ -608,11 +672,12 @@
     },
     {
       "Type": "character",
-      "AssetId": "roman/roman_normal",
+      "AssetId": "roman/roman_thinking",
       "Action": "show",
       "Position": "center",
       "Width": 620,
-      "Height": 930
+      "Height": 930,
+      "FlipX": true
     },
     {
       "Type": "character",
@@ -640,6 +705,16 @@
       "Text": "……実態解明って。まだ何をしたのかも分かっていないのに"
     },
     {
+      "Type": "character",
+      "AssetId": "ai/hauer_thinking",
+      "Action": "show",
+      "Position": "left",
+      "Width": 320,
+      "Height": 320,
+      "OffsetY": 120,
+      "FlipX": true
+    },
+    {
       "Type": "dialogue",
       "Id": "s05_062",
       "Speaker": "ハウエル",
@@ -650,6 +725,15 @@
       "Id": "s05_063",
       "Speaker": "ハウエル",
       "Text": "一方、テレビで繰り返し報道された疑惑は、証拠の有無にかかわらず、社会的な事実として扱われる傾向があります"
+    },
+    {
+      "Type": "character",
+      "AssetId": "mia/mia_confused",
+      "Action": "show",
+      "Position": "right",
+      "Width": 775,
+      "Height": 1085,
+      "OffsetY": -50
     },
     {
       "Type": "dialogue",
