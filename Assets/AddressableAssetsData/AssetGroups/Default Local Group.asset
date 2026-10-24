@@ -2085,6 +2085,11 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8a3c7e4429134d646b52709cbe29d770
+    m_Address: background/episode02/scene05/news_commentator
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 8b356be83f06a4340bb3b302e44e05c8
     m_Address: voice/episode01/s05_036
     m_ReadOnly: 0

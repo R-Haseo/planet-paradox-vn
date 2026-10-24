@@ -203,6 +203,10 @@
       "Text": "それでは、今回の知事のハラスメント疑惑について、専門家の皆さんに伺います"
     },
     {
+      "Type": "background",
+      "AssetId": "episode02/scene05/news_commentator"
+    },
+    {
       "Type": "dialogue",
       "Id": "s05_014",
       "Speaker": "コメンテーター",
@@ -319,6 +323,10 @@
       "Id": "s05_030",
       "Speaker": "ろまん",
       "Text": "……それって、本当におねだりなの？"
+    },
+    {
+      "Type": "background",
+      "AssetId": "episode02/scene05/news_commentator"
     },
     {
       "Type": "dialogue",
