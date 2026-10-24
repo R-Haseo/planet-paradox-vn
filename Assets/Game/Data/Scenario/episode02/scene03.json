@@ -366,7 +366,8 @@
     },
     {
       "Type": "se",
-      "AssetId": "system_notification"
+      "AssetId": "system_notification",
+      "Volume": 0.2
     },
     {
       "Type": "description",

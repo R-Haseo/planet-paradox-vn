@@ -11,6 +11,7 @@ public class ScenarioRunner : MonoBehaviour
     [SerializeField] private DialogueView dialogueView;
     [SerializeField] private BackgroundPlayer backgroundPlayer;
     [SerializeField] private DialogueLogView dialogueLogView;
+    [SerializeField] private SettingsView settingsView;
     [SerializeField] private ScenarioControlView scenarioControlView;
     [SerializeField] private RectTransform scenarioControlRoot;
     [SerializeField] private VoicePlayer voicePlayer;
@@ -48,6 +49,12 @@ public class ScenarioRunner : MonoBehaviour
         }
 
         this.scenarioJsons = scenarioJsons;
+
+        settingsView.Initialize(
+            bgmPlayer.SetUserVolume,
+            sePlayer.SetUserVolume,
+            voicePlayer.SetUserVolume
+        );
     }
 
     private void Start()
@@ -58,6 +65,7 @@ public class ScenarioRunner : MonoBehaviour
             ToggleLog,
             ToggleAuto,
             ToggleSkip,
+            ToggleSettings,
             ReturnToTitle);
 
 #if UNITY_EDITOR
@@ -92,7 +100,7 @@ public class ScenarioRunner : MonoBehaviour
             return;
         }
 
-        if (dialogueLogView.IsOpen)
+        if (dialogueLogView.IsOpen || settingsView.IsOpen)
         {
             return;
         }
@@ -325,7 +333,7 @@ public class ScenarioRunner : MonoBehaviour
     {
         dialogueView.Show(scenarioCommand.Speaker, scenarioCommand.Text);
         dialogueLogView.AddDialogue(scenarioCommand.Speaker, scenarioCommand.Text);
-        voicePlayer.Play(scenarioCommand.Id);
+        voicePlayer.Play(scenarioCommand.Id, scenarioCommand.Volume);
     }
 
     private void ShowBackground(string assetId)
@@ -354,7 +362,7 @@ public class ScenarioRunner : MonoBehaviour
         switch (command.Action)
         {
             case "play":
-                bgmPlayer.Play(command.AssetId);
+                bgmPlayer.Play(command.AssetId, command.Volume);
                 break;
 
             case "stop":
@@ -371,7 +379,7 @@ public class ScenarioRunner : MonoBehaviour
 
     private void ProcessSeCommand(ScenarioCommandDto command)
     {
-        sePlayer.Play(command.AssetId);
+        sePlayer.Play(command.AssetId, command.Volume ?? 1.0f);
         MoveToNextCommand();
     }
 
@@ -430,6 +438,12 @@ public class ScenarioRunner : MonoBehaviour
         skipTimer = 0f;
 
         Debug.Log($"Skip mode: {(skipMode ? "ON" : "OFF")}");
+        ClearButtonSelection();
+    }
+
+    public void ToggleSettings()
+    {
+        settingsView.Toggle();
         ClearButtonSelection();
     }
 

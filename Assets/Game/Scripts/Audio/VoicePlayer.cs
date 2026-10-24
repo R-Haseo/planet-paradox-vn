@@ -12,6 +12,14 @@ public class VoicePlayer : MonoBehaviour
     private int requestVersion;
     private bool isPlaying;
     public bool IsPlaying => isPlaying;
+    private float defaultVolume;
+    private float currentVolumeScale = 1.0f;
+    private float userVolume = 1.0f;
+
+    private void Awake()
+    {
+        defaultVolume = audioSource.volume;
+    }
 
     public event Action PlaybackCompleted;
 
@@ -20,8 +28,10 @@ public class VoicePlayer : MonoBehaviour
         this.episodeId = episodeId;
     }
 
-    public void Play(string id)
+    public void Play(string id, float? volume = null)
     {
+        currentVolumeScale = volume ?? 1.0f;
+
         Stop();
 
         var address = $"voice/{episodeId}/{id}";
@@ -46,6 +56,7 @@ public class VoicePlayer : MonoBehaviour
             }
 
             audioSource.clip = completedHandle.Result;
+            ApplyVolume();
             audioSource.Play();
             isPlaying = true;
         };
@@ -88,6 +99,17 @@ public class VoicePlayer : MonoBehaviour
         }
 
         currentHandle = null;
+    }
+
+    public void SetUserVolume(float volume)
+    {
+        userVolume = Mathf.Clamp(volume, 0f, 2f);
+        ApplyVolume();
+    }
+
+    private void ApplyVolume()
+    {
+        audioSource.volume = Mathf.Clamp01(defaultVolume * currentVolumeScale * userVolume);
     }
 
     private void OnDestroy()

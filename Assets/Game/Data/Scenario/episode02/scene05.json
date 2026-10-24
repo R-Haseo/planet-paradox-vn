@@ -1,0 +1,871 @@
+{
+  "Commands": [
+    {
+      "Type": "bgm",
+      "Action": "play",
+      "AssetId": "quirky_upbeat",
+      "Volume": 0.5
+    },
+    {
+      "Type": "background",
+      "AssetId": "episode02/scene05/city_news_broadcast"
+    },
+    {
+      "Type": "character",
+      "AssetId": "roman/roman_normal",
+      "Action": "show",
+      "Position": "center",
+      "Width": 620,
+      "Height": 930
+    },
+    {
+      "Type": "character",
+      "AssetId": "mia/mia_three_quarter",
+      "Action": "show",
+      "Position": "right",
+      "Width": 775,
+      "Height": 1085,
+      "OffsetY": -50
+    },
+    {
+      "Type": "character",
+      "AssetId": "ai/ai_normal",
+      "Action": "show",
+      "Position": "left",
+      "Width": 320,
+      "Height": 320,
+      "OffsetY": 120,
+      "FlipX": true
+    },
+    {
+      "Type": "fade",
+      "Action": "in",
+      "Duration": 0.8
+    },
+    {
+      "Type": "se",
+      "AssetId": "news_intro",
+      "Volume": 0.2
+    },
+    {
+      "Type": "description",
+      "Text": "街頭テレビから、ニュースキャスターの声が響いている。通りを行き交う人々も、足を止めて画面を見つめていた。"
+    },
+    {
+      "Type": "character",
+      "Action": "hide",
+      "Position": "right"
+    },
+    {
+      "Type": "character",
+      "Action": "hide",
+      "Position": "center"
+    },
+    {
+      "Type": "character",
+      "Action": "hide",
+      "Position": "left"
+    },
+    {
+      "Type": "background",
+      "AssetId": "episode02/scene05/news_studio"
+    },
+    {
+      "Type": "dialogue",
+      "Id": "s05_001",
+      "Speaker": "男性キャスター",
+      "Text": "こんばんは。騒動ステーションです。"
+    },
+    {
+      "Type": "dialogue",
+      "Id": "s05_002",
+      "Speaker": "男性キャスター",
+      "Text": "連日お伝えしている知事のハラスメント疑惑について、新たな情報が入りました"
+    },
+    {
+      "Type": "dialogue",
+      "Id": "s05_003",
+      "Speaker": "女性キャスター",
+      "Text": "関係者によりますと、知事は以前から職員に対し、威圧的な態度を取っていた可能性があるということです"
+    },
+    {
+      "Type": "background",
+      "AssetId": "episode02/scene05/city_news_broadcast"
+    },
+    {
+      "Type": "character",
+      "AssetId": "roman/roman_normal",
+      "Action": "show",
+      "Position": "center",
+      "Width": 620,
+      "Height": 930
+    },
+    {
+      "Type": "character",
+      "AssetId": "mia/mia_three_quarter",
+      "Action": "show",
+      "Position": "right",
+      "Width": 775,
+      "Height": 1085,
+      "OffsetY": -50
+    },
+    {
+      "Type": "character",
+      "AssetId": "ai/ai_normal",
+      "Action": "show",
+      "Position": "left",
+      "Width": 320,
+      "Height": 320,
+      "OffsetY": 120,
+      "FlipX": true
+    },
+    {
+      "Type": "dialogue",
+      "Id": "s05_004",
+      "Speaker": "ろまん",
+      "Text": "またハラスメントのニュース？"
+    },
+    {
+      "Type": "dialogue",
+      "Id": "s05_005",
+      "Speaker": "ミア",
+      "Text": "ええ。このところ、テレビではずっとこの話題ばかりよ"
+    },
+    {
+      "Type": "dialogue",
+      "Id": "s05_006",
+      "Speaker": "ろまん",
+      "Text": "そんなに大きな事件なの？"
+    },
+    {
+      "Type": "dialogue",
+      "Id": "s05_007",
+      "Speaker": "ミア",
+      "Text": "それだけ重大な疑惑ってことなんでしょうね"
+    },
+    {
+      "Type": "dialogue",
+      "Id": "s05_008",
+      "Speaker": "男性キャスター",
+      "Text": "ある証言によりますと、知事は公務で利用した宇宙船の着陸位置が予定より3メートルずれていたことに激怒し、職員の操縦士を厳しく叱責したということです"
+    },
+    {
+      "Type": "character",
+      "AssetId": "roman/roman_arms_crossed",
+      "Action": "show",
+      "Position": "center",
+      "Width": 620,
+      "Height": 930,
+      "FlipX": true
+    },
+    {
+      "Type": "dialogue",
+      "Id": "s05_009",
+      "Speaker": "ろまん",
+      "Text": "……3メートル？"
+    },
+    {
+      "Type": "character",
+      "AssetId": "mia/mia_confused",
+      "Action": "show",
+      "Position": "right",
+      "Width": 775,
+      "Height": 1085,
+      "OffsetY": -50
+    },
+    {
+      "Type": "dialogue",
+      "Id": "s05_010",
+      "Speaker": "ミア",
+      "Text": "操縦士さん、怖かったでしょうね……"
+    },
+    {
+      "Type": "dialogue",
+      "Id": "s05_011",
+      "Speaker": "男性キャスター",
+      "Text": "なお、現時点で疑惑を裏付ける決定的な証拠は確認されていませんが、多くの人が知事のハラスメントを疑っている状況です"
+    },
+    {
+      "Type": "dialogue",
+      "Id": "s05_012",
+      "Speaker": "ろまん",
+      "Text": "……証拠はないんだ"
+    },
+    {
+      "Type": "character",
+      "Action": "hide",
+      "Position": "right"
+    },
+    {
+      "Type": "character",
+      "Action": "hide",
+      "Position": "center"
+    },
+    {
+      "Type": "character",
+      "Action": "hide",
+      "Position": "left"
+    },
+    {
+      "Type": "background",
+      "AssetId": "episode02/scene05/news_studio"
+    },
+    {
+      "Type": "dialogue",
+      "Id": "s05_013",
+      "Speaker": "男性キャスター",
+      "Text": "それでは、今回の知事のハラスメント疑惑について、元ダンサーでタレントのマダム・ゴージャスさんにご意見を伺います"
+    },
+    {
+      "Type": "background",
+      "AssetId": "episode02/scene05/news_commentator"
+    },
+    {
+      "Type": "dialogue",
+      "Id": "s05_014",
+      "Speaker": "マダム・ゴージャス",
+      "Text": "まず、こうした疑惑が持ち上がること自体、知事としての資質が問われているのよ"
+    },
+    {
+      "Type": "dialogue",
+      "Id": "s05_015",
+      "Speaker": "マダム・ゴージャス",
+      "Text": "仮に事実でなかったとしても、疑われるような状況を作った責任はあるでしょ"
+    },
+    {
+      "Type": "dialogue",
+      "Id": "s05_016",
+      "Speaker": "男性キャスター",
+      "Text": "つまり、説明責任があるということですね"
+    },
+    {
+      "Type": "dialogue",
+      "Id": "s05_017",
+      "Speaker": "マダム・ゴージャス",
+      "Text": "もちろんよ。疑惑を晴らせないのであれば、辞職も選択肢に入れるべきじゃない？"
+    },
+    {
+      "Type": "dialogue",
+      "Id": "s05_018",
+      "Speaker": "マダム・ゴージャス",
+      "Text": "それにしても、宇宙船の着地位置が３メートルずれただけで激怒するなんて、本当にちっちゃい人よね"
+    },
+    {
+      "Type": "dialogue",
+      "Id": "s05_019",
+      "Speaker": "マダム・ゴージャス",
+      "Text": "知事としての資質を疑っちゃうわよね"
+    },
+    {
+      "Type": "background",
+      "AssetId": "episode02/scene05/news_studio_laughing"
+    },
+    {
+      "Type": "se",
+      "AssetId": "news_studio_laughter",
+      "Volume": 0.5
+    },
+    {
+      "Type": "description",
+      "Text": "スタジオからどっと笑いが起こった。"
+    },
+    {
+      "Type": "dialogue",
+      "Id": "s05_020",
+      "Speaker": "男性キャスター",
+      "Text": "本当に、いい大人がすることではないですよね"
+    },
+    {
+      "Type": "description",
+      "Text": "テレビの中の人たちは、社会的地位の高い知事が、まるでしょうもないことに怒ったという疑惑を楽しんでいるようであった。"
+    },
+    {
+      "Type": "dialogue",
+      "Id": "s05_021",
+      "Speaker": "ろまん",
+      "Text": "ちょっと待って。まだ本当かどうか分からないんだよね？"
+    },
+    {
+      "Type": "dialogue",
+      "Id": "s05_022",
+      "Speaker": "ミア",
+      "Text": "でも、あれだけテレビで取り上げられているんだから、何か問題があるんじゃない？"
+    },
+    {
+      "Type": "dialogue",
+      "Id": "s05_023",
+      "Speaker": "ろまん",
+      "Text": "えっ？"
+    },
+    {
+      "Type": "dialogue",
+      "Id": "s05_024",
+      "Speaker": "ミア",
+      "Text": "だって、何もなければ、こんなに大きなニュースにならないでしょう？"
+    },
+    {
+      "Type": "dialogue",
+      "Id": "s05_025",
+      "Speaker": "ろまん",
+      "Text": "……そうなのかな"
+    },
+    {
+      "Type": "background",
+      "AssetId": "episode02/scene05/news_studio"
+    },
+    {
+      "Type": "dialogue",
+      "Id": "s05_026",
+      "Speaker": "女性キャスター",
+      "Text": "続いて、知事に新たなおねだり疑惑が浮上しました。視察先の水産加工場で、地球原産の希少食材『伊勢エビ』を持ち帰ろうとした疑いがあるということです"
+    },
+    {
+      "Type": "dialogue",
+      "Id": "s05_027",
+      "Speaker": "ろまん",
+      "Text": "……伊勢エビ？"
+    },
+    {
+      "Type": "dialogue",
+      "Id": "s05_028",
+      "Speaker": "女性キャスター",
+      "Text": "関係者によりますと、知事は伊勢エビを見て『これは立派な伊勢エビですね』と発言したとされています"
+    },
+    {
+      "Type": "dialogue",
+      "Id": "s05_029",
+      "Speaker": "ろまん",
+      "Text": "それだけ？"
+    },
+    {
+      "Type": "dialogue",
+      "Id": "s05_030",
+      "Speaker": "ミア",
+      "Text": "でも、知事がおねだりしたってテレビで言ってるよ？"
+    },
+    {
+      "Type": "dialogue",
+      "Id": "s05_031",
+      "Speaker": "女性キャスター",
+      "Text": "知事側は『伊勢エビを褒めただけで、持ち帰りを要求した事実はない』と疑惑を否定しています"
+    },
+    {
+      "Type": "dialogue",
+      "Id": "s05_032",
+      "Speaker": "ろまん",
+      "Text": "……それって、本当におねだりなの？"
+    },
+    {
+      "Type": "background",
+      "AssetId": "episode02/scene05/news_commentator"
+    },
+    {
+      "Type": "dialogue",
+      "Id": "s05_033",
+      "Speaker": "マダム・ゴージャス",
+      "Text": "伊勢エビを褒めた時点で、もらうことを期待したのよ"
+    },
+    {
+      "Type": "dialogue",
+      "Id": "s05_034",
+      "Speaker": "マダム・ゴージャス",
+      "Text": "水産加工場の方も、知事にそのように言われたら、渡さざるを得ないでしょ"
+    },
+    {
+      "Type": "dialogue",
+      "Id": "s05_035",
+      "Speaker": "マダム・ゴージャス",
+      "Text": "本当に、知事の立場を利用して伊勢エビをねだるなんて、みっともない人よね"
+    },
+    {
+      "Type": "background",
+      "AssetId": "episode02/scene05/news_studio_laughing"
+    },
+    {
+      "Type": "se",
+      "AssetId": "news_studio_laughter",
+      "Volume": 0.5
+    },
+    {
+      "Type": "description",
+      "Text": "またスタジオから笑いが起こった。"
+    },
+    {
+      "Type": "dialogue",
+      "Id": "s05_036",
+      "Speaker": "女性キャスター",
+      "Text": "本当に、笑っちゃいますよね"
+    },
+    {
+      "Type": "description",
+      "Text": "テレビの中の人たちは、本当だったら大問題であるこのニュースを、まるでバラエティ番組のように消費しているのだった。"
+    },
+    {
+      "Type": "description",
+      "Text": "一方、ろまんは首をかしげた。知事が何をしたのか、まだはっきりしていない。"
+    },
+    {
+      "Type": "description",
+      "Text": "それなのに、テレビの中では、まるで知事が悪いことをしたと決まっているかのように話が進んでいた。"
+    },
+    {
+      "Type": "background",
+      "AssetId": "episode02/scene05/news_studio"
+    },
+    {
+      "Type": "dialogue",
+      "Id": "s05_037",
+      "Speaker": "男性キャスター",
+      "Text": "連日報道されている知事のハラスメント問題について、最新の世論調査の結果が発表されました"
+    },
+    {
+      "Type": "dialogue",
+      "Id": "s05_038",
+      "Speaker": "男性キャスター",
+      "Text": "知事は辞職すべきと答えた人が、市民全体の9割を超えています"
+    },
+    {
+      "Type": "dialogue",
+      "Id": "s05_039",
+      "Speaker": "ろまん",
+      "Text": "9割も……"
+    },
+    {
+      "Type": "dialogue",
+      "Id": "s05_040",
+      "Speaker": "男性キャスター",
+      "Text": "こうした厳しい世論を受け、知事は本日、辞職する意向を表明しました"
+    },
+    {
+      "Type": "background",
+      "AssetId": "episode02/scene05/governor_press_conference"
+    },
+    {
+      "Type": "description",
+      "Text": "テレビには、無数のカメラに囲まれ、疲れ切った表情で記者会見に臨む知事の姿が映し出された。"
+    },
+    {
+      "Type": "dialogue",
+      "Id": "s05_041",
+      "Speaker": "知事",
+      "Text": "私は、職員に対するハラスメントや伊勢エビのおねだりを行った事実はありません"
+    },
+    {
+      "Type": "dialogue",
+      "Id": "s05_042",
+      "Speaker": "知事",
+      "Text": "しかし、連日の報道によって行政が混乱し、職員や市民の皆様に多大なご迷惑をおかけしました"
+    },
+    {
+      "Type": "dialogue",
+      "Id": "s05_043",
+      "Speaker": "知事",
+      "Text": "これ以上の混乱を避けるため、知事の職を辞する決断をいたしました"
+    },
+    {
+      "Type": "se",
+      "AssetId": "camera_shutter",
+      "Volume": 0.2
+    },
+    {
+      "Type": "description",
+      "Text": "知事が頭を下げる姿に、カメラのシャッター音とフラッシュの光が、会見場を埋め尽くす。"
+    },
+    {
+      "Type": "description",
+      "Text": "会見場にいた記者たちは、まるで自分たちが社会悪を正すのだと言わんばかりに、次々と質問を浴びせた。"
+    },
+    {
+      "Type": "dialogue",
+      "Id": "s05_044",
+      "Speaker": "記者",
+      "Text": "ハラスメントも伊勢エビのおねだりも、事実ではないのに辞めるのですか？"
+    },
+    {
+      "Type": "dialogue",
+      "Id": "s05_045",
+      "Speaker": "記者",
+      "Text": "市民の9割以上が辞めろと言っているのが何よりの証拠でしょう"
+    },
+    {
+      "Type": "dialogue",
+      "Id": "s05_046",
+      "Speaker": "記者",
+      "Text": "知事、正直に疑惑を認めてくださいよ"
+    },
+    {
+      "Type": "description",
+      "Text": "会見場に、記者たちの怒号が響き渡る。一方的に知事を糾弾しているようだった。"
+    },
+    {
+      "Type": "description",
+      "Text": "そのような中、知事は、何も答えずに頭を下げ続けていた。"
+    },
+    {
+      "Type": "background",
+      "AssetId": "episode02/scene05/news_studio"
+    },
+    {
+      "Type": "dialogue",
+      "Id": "s05_047",
+      "Speaker": "男性キャスター",
+      "Text": "ついに知事が辞職を表明しました。今回の問題について、どうお考えですか？"
+    },
+    {
+      "Type": "background",
+      "AssetId": "episode02/scene05/news_commentator"
+    },
+    {
+      "Type": "dialogue",
+      "Id": "s05_048",
+      "Speaker": "マダム・ゴージャス",
+      "Text": "当然の結果でしょ。これだけ世間を騒がせた責任は重いわよ。"
+    },
+    {
+      "Type": "dialogue",
+      "Id": "s05_049",
+      "Speaker": "マダム・ゴージャス",
+      "Text": "それにしても決断が遅いわよね。"
+    },
+    {
+      "Type": "dialogue",
+      "Id": "s05_050",
+      "Speaker": "マダム・ゴージャス",
+      "Text": "疑惑を持たれた時点で、政治家としての信頼なんてとっくになくなっていたのよ"
+    },
+    {
+      "Type": "background",
+      "AssetId": "episode02/scene05/city_news_broadcast"
+    },
+    {
+      "Type": "character",
+      "AssetId": "roman/roman_normal",
+      "Action": "show",
+      "Position": "center",
+      "Width": 620,
+      "Height": 930,
+      "FlipX": true
+    },
+    {
+      "Type": "character",
+      "AssetId": "mia/mia_three_quarter",
+      "Action": "show",
+      "Position": "right",
+      "Width": 775,
+      "Height": 1085,
+      "OffsetY": -50
+    },
+    {
+      "Type": "character",
+      "AssetId": "ai/ai_normal",
+      "Action": "show",
+      "Position": "left",
+      "Width": 320,
+      "Height": 320,
+      "OffsetY": 120,
+      "FlipX": true
+    },
+    {
+      "Type": "dialogue",
+      "Id": "s05_051",
+      "Speaker": "ろまん",
+      "Text": "……あれ？"
+    },
+    {
+      "Type": "character",
+      "AssetId": "roman/roman_thinking",
+      "Action": "show",
+      "Position": "center",
+      "Width": 620,
+      "Height": 930,
+      "FlipX": true
+    },
+    {
+      "Type": "character",
+      "AssetId": "mia/mia_confused",
+      "Action": "show",
+      "Position": "right",
+      "Width": 775,
+      "Height": 1085,
+      "OffsetY": -50
+    },
+    {
+      "Type": "dialogue",
+      "Id": "s05_052",
+      "Speaker": "ミア",
+      "Text": "どうしたの？"
+    },
+    {
+      "Type": "dialogue",
+      "Id": "s05_053",
+      "Speaker": "ろまん",
+      "Text": "結局、ハラスメントやおねだりをした証拠って見つかったの？"
+    },
+    {
+      "Type": "dialogue",
+      "Id": "s05_054",
+      "Speaker": "ミア",
+      "Text": "さあ。でも知事は辞めたんだから、やっぱり何かあったんじゃない？"
+    },
+    {
+      "Type": "dialogue",
+      "Id": "s05_055",
+      "Speaker": "ろまん",
+      "Text": "でも、何をしたか、まだ分かってないんでしょ？"
+    },
+    {
+      "Type": "dialogue",
+      "Id": "s05_056",
+      "Speaker": "ミア",
+      "Text": "ろまん、あんまり疑わない方がいいわよ。テレビがあれだけ報道していたんだから"
+    },
+    {
+      "Type": "dialogue",
+      "Id": "s05_057",
+      "Speaker": "ろまん",
+      "Text": "…………"
+    },
+    {
+      "Type": "description",
+      "Text": "ろまんは釈然としなかった。疑惑が本当だったのかどうか、結局分からないままだ。"
+    },
+    {
+      "Type": "description",
+      "Text": "それなのにテレビの中では、知事が辞めれば、あとはどうでもいいような雰囲気が漂っていた。"
+    },
+    {
+      "Type": "character",
+      "AssetId": "roman/roman_arms_crossed",
+      "Action": "show",
+      "Position": "center",
+      "Width": 620,
+      "Height": 930
+    },
+    {
+      "Type": "dialogue",
+      "Id": "s05_058",
+      "Speaker": "ろまん",
+      "Text": "ハウエル。知事のハラスメントについて、何か分かった？"
+    },
+    {
+      "Type": "character",
+      "AssetId": "ai/hauer_thinking",
+      "Action": "show",
+      "Position": "left",
+      "Width": 320,
+      "Height": 320,
+      "OffsetY": 120,
+      "FlipX": true
+    },
+    {
+      "Type": "dialogue",
+      "Id": "s05_059",
+      "Speaker": "ハウエル",
+      "Text": "現在までに公開された情報を照合しました"
+    },
+    {
+      "Type": "dialogue",
+      "Id": "s05_060",
+      "Speaker": "ハウエル",
+      "Text": "なお、現時点でも疑惑を裏付ける客観的証拠は確認されていません"
+    },
+    {
+      "Type": "dialogue",
+      "Id": "s05_061",
+      "Speaker": "ろまん",
+      "Text": "じゃあ、どうして辞めちゃったの？"
+    },
+    {
+      "Type": "dialogue",
+      "Id": "s05_062",
+      "Speaker": "ハウエル",
+      "Text": "辞職の直接的な要因は、支持率の低下と行政運営への支障と考えられます"
+    },
+    {
+      "Type": "dialogue",
+      "Id": "s05_063",
+      "Speaker": "ろまん",
+      "Text": "でも、その支持率が下がったのは、テレビが何度も疑惑を報道したからじゃないの？"
+    },
+    {
+      "Type": "dialogue",
+      "Id": "s05_064",
+      "Speaker": "ハウエル",
+      "Text": "その可能性はあります"
+    },
+    {
+      "Type": "dialogue",
+      "Id": "s05_065",
+      "Speaker": "ハウエル",
+      "Text": "報道量の増加と、知事に対する否定的な世論の拡大には相関が認められます。ただし、因果関係の断定はできません"
+    },
+    {
+      "Type": "dialogue",
+      "Id": "s05_066",
+      "Speaker": "ろまん",
+      "Text": "……なんだか、おかしくない？"
+    },
+    {
+      "Type": "character",
+      "Action": "hide",
+      "Position": "right"
+    },
+    {
+      "Type": "character",
+      "Action": "hide",
+      "Position": "center"
+    },
+    {
+      "Type": "character",
+      "Action": "hide",
+      "Position": "left"
+    },
+    {
+      "Type": "background",
+      "AssetId": "episode02/scene05/news_studio"
+    },
+    {
+      "Type": "description",
+      "Text": "ろまんが街頭テレビを見上げると、画面では再び知事のニュースが始まっていた。"
+    },
+    {
+      "Type": "description",
+      "Text": "ニュースキャスター達は、知事に関する一連の騒動を、まるで他人事のように、楽しげに話しているようにも見える。"
+    },
+    {
+      "Type": "dialogue",
+      "Id": "s05_067",
+      "Speaker": "女性キャスター",
+      "Text": "続いてのニュースです。ハラスメント問題で辞職した前知事について、市民議会は真相究明のため、強力な調査権限を持つ『千条委員会』の設置を決定しました"
+    },
+    {
+      "Type": "dialogue",
+      "Id": "s05_068",
+      "Speaker": "女性キャスター",
+      "Text": "千条委員会では、前知事によるハラスメントや伊勢エビのおねだり疑惑について、徹底的な調査により実態解明を行う見通しです"
+    },
+    {
+      "Type": "background",
+      "AssetId": "episode02/scene05/news_commentator"
+    },
+    {
+      "Type": "dialogue",
+      "Id": "s05_069",
+      "Speaker": "マダム・ゴージャス",
+      "Text": "本当に、徹底的に調査してほしいわね"
+    },
+    {
+      "Type": "dialogue",
+      "Id": "s05_070",
+      "Speaker": "マダム・ゴージャス",
+      "Text": "疑惑が持たれた時点で、もうやったも同然のようなものなんだから"
+    },
+    {
+      "Type": "background",
+      "AssetId": "episode02/scene05/city_news_broadcast"
+    },
+    {
+      "Type": "character",
+      "AssetId": "roman/roman_thinking",
+      "Action": "show",
+      "Position": "center",
+      "Width": 620,
+      "Height": 930,
+      "FlipX": true
+    },
+    {
+      "Type": "character",
+      "AssetId": "mia/mia_three_quarter",
+      "Action": "show",
+      "Position": "right",
+      "Width": 775,
+      "Height": 1085,
+      "OffsetY": -50
+    },
+    {
+      "Type": "character",
+      "AssetId": "ai/ai_normal",
+      "Action": "show",
+      "Position": "left",
+      "Width": 320,
+      "Height": 320,
+      "OffsetY": 120,
+      "FlipX": true
+    },
+    {
+      "Type": "dialogue",
+      "Id": "s05_071",
+      "Speaker": "ろまん",
+      "Text": "……実態解明って。まだ何をしたのかも分かっていないのに"
+    },
+    {
+      "Type": "character",
+      "AssetId": "ai/hauer_thinking",
+      "Action": "show",
+      "Position": "left",
+      "Width": 320,
+      "Height": 320,
+      "OffsetY": 120,
+      "FlipX": true
+    },
+    {
+      "Type": "dialogue",
+      "Id": "s05_072",
+      "Speaker": "ハウエル",
+      "Text": "この星では、テレビで報道されない出来事は、社会的な事実として認定されません"
+    },
+    {
+      "Type": "dialogue",
+      "Id": "s05_073",
+      "Speaker": "ハウエル",
+      "Text": "一方、テレビで繰り返し報道された疑惑は、証拠の有無にかかわらず、社会的な事実として扱われる傾向があります"
+    },
+    {
+      "Type": "character",
+      "AssetId": "mia/mia_confused",
+      "Action": "show",
+      "Position": "right",
+      "Width": 775,
+      "Height": 1085,
+      "OffsetY": -50
+    },
+    {
+      "Type": "dialogue",
+      "Id": "s05_074",
+      "Speaker": "ミア",
+      "Text": "でも、みんながそう思っているなら、それが事実なんじゃない？"
+    },
+    {
+      "Type": "dialogue",
+      "Id": "s05_075",
+      "Speaker": "ろまん",
+      "Text": "…………"
+    },
+    {
+      "Type": "dialogue",
+      "Id": "s05_076",
+      "Speaker": "ろまん",
+      "Text": "テレビで報道されてることと、本当にあったことって、同じなのかな"
+    },
+    {
+      "Type": "description",
+      "Text": "ミアは少しも疑っていないようだった。テレビも、街の人々も、同じことを信じている。"
+    },
+    {
+      "Type": "description",
+      "Text": "でも、ろまんには、どうしてもこの状況が腑に落ちない。"
+    },
+    {
+      "Type": "description",
+      "Text": "街頭テレビは、何事もなかったかのように次のニュースを伝え始めた。"
+    },
+    {
+      "Type": "fade",
+      "Action": "out",
+      "Duration": 0.8
+    },
+    {
+      "Type": "end"
+    }
+  ]
+}

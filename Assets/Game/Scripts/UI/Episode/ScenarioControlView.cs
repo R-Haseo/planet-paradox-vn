@@ -8,6 +8,7 @@ public class ScenarioControlView : MonoBehaviour
     [SerializeField] private Button logButton;
     [SerializeField] private Button autoButton;
     [SerializeField] private Button skipButton;
+    [SerializeField] private Button settingsButton;
     [SerializeField] private Button titleButton;
     [SerializeField] private UIButtonSePlayer buttonSePlayer;
 
@@ -15,6 +16,7 @@ public class ScenarioControlView : MonoBehaviour
         Action onLogClicked,
         Action onAutoClicked,
         Action onSkipClicked,
+        Action onSettingsClicked,
         Action onTitleClicked)
     {
         logButton.onClick.AddListener(() =>
@@ -33,6 +35,12 @@ public class ScenarioControlView : MonoBehaviour
         {
             buttonSePlayer.Play();
             onSkipClicked?.Invoke();
+        });
+
+        settingsButton.onClick.AddListener(() =>
+        {
+            buttonSePlayer.Play();
+            onSettingsClicked?.Invoke();
         });
 
         titleButton.onClick.AddListener(() =>
