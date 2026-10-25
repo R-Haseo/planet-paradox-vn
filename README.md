@@ -1,2 +1,2 @@
-# planetary-journey-vn
+# planet-paradox-vn
 A short sci-fi visual novel about a girl traveling across strange planets.

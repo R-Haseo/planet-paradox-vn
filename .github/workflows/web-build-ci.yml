@@ -46,7 +46,7 @@ jobs:
         if: github.ref == 'refs/heads/develop'
         uses: actions/upload-artifact@v4
         with:
-          name: planetary-journey-web-develop
+          name: planet-paradox-web-develop
           path: Builds/Web/Development
           if-no-files-found: error
 
@@ -67,6 +67,6 @@ jobs:
         if: github.ref == 'refs/heads/main'
         uses: actions/upload-artifact@v4
         with:
-          name: planetary-journey-web-release
+          name: planet-paradox-web-release
           path: Builds/Web/Release
           if-no-files-found: error
