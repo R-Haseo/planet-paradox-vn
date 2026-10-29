@@ -1,11 +1,13 @@
 using System.Text;
 using TMPro;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class DialogueLogView : MonoBehaviour
 {
     [SerializeField] private GameObject logPanel;
     [SerializeField] private TMP_Text logText;
+    [SerializeField] private Button backButton;
 
     private readonly StringBuilder logBuilder = new();
 
@@ -14,6 +16,7 @@ public class DialogueLogView : MonoBehaviour
     private void Awake()
     {
         logPanel.SetActive(false);
+        backButton.onClick.AddListener(Close);
     }
 
     public void AddDialogue(string speaker, string text)
@@ -46,8 +49,18 @@ public class DialogueLogView : MonoBehaviour
         logPanel.SetActive(!logPanel.activeSelf);
     }
 
+    public void Close()
+    {
+        logPanel.SetActive(false);
+    }
+
     private void UpdateText()
     {
         logText.text = logBuilder.ToString();
+    }
+
+    private void OnDestroy()
+    {
+        backButton.onClick.RemoveListener(Close);
     }
 }
