@@ -75,6 +75,10 @@
     {
       "ScenarioSpeaker": "記者",
       "VoiceVoxCharacter": "中部つるぎ（怒り）"
+    },
+    {
+      "ScenarioSpeaker": "レオン・ヴァルケス",
+      "VoiceVoxCharacter": "中部つるぎ"
     }
   ]
 }
