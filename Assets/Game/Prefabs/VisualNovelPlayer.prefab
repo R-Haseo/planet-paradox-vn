@@ -1881,6 +1881,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1636256154994409083}
   - component: {fileID: 3212749228165476007}
+  - component: {fileID: 8457701497601796807}
   m_Layer: 0
   m_Name: ScenarioRewindController
   m_TagString: Untagged
@@ -1915,6 +1916,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2154dc29f6e63ac4cb5d2f8c5bf6a1e1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ScenarioRewindController
+  stateRestorer: {fileID: 8457701497601796807}
+--- !u!114 &8457701497601796807
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2519255514651795372}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 96740fe1f0821274a8294de3b99767fb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ScenarioStateRestorer
   characterPlayer: {fileID: 6785103595478416517}
   backgroundPlayer: {fileID: 2153090134003874378}
   bgmPlayer: {fileID: 3180782836691616912}
