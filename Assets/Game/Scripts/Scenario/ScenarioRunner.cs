@@ -20,6 +20,8 @@ public class ScenarioRunner : MonoBehaviour
     [SerializeField] private FadeView fadeView;
     [SerializeField] private EndView endView;
     [SerializeField] private ScenarioRewindController scenarioRewindController;
+    [SerializeField] private ScenarioSaveLoadController scenarioSaveLoadController;
+    [SerializeField] private ScenarioStateRestorer scenarioStateRestorer;
 
     private IReadOnlyList<TextAsset> scenarioJsons;
 
@@ -62,6 +64,8 @@ public class ScenarioRunner : MonoBehaviour
         voicePlayer.PlaybackCompleted += OnVoicePlaybackCompleted;
 
         scenarioControlView.Initialize(
+            SaveGame,
+            LoadGame,
             ToggleLog,
             ToggleAuto,
             ToggleSkip,
@@ -406,6 +410,77 @@ public class ScenarioRunner : MonoBehaviour
                 MoveToNextCommand();
                 break;
         }
+    }
+
+
+    public void SaveGame()
+    {
+        if (commands == null || currentIndex < 0 || currentIndex >= commands.Count)
+        {
+            return;
+        }
+
+        var command = commands[currentIndex];
+
+        if (command.Type != "dialogue" && command.Type != "description")
+        {
+            Debug.Log("Cannot save during non-display command.");
+            return;
+        }
+
+        scenarioSaveLoadController.Save(currentScenarioIndex, currentIndex);
+
+        ClearButtonSelection();
+    }
+
+    public void LoadGame()
+    {
+        if (!scenarioSaveLoadController.TryLoad(out var data))
+        {
+            return;
+        }
+
+        if (data.ScenarioIndex < 0 || data.ScenarioIndex >= scenarioJsons.Count)
+        {
+            Debug.LogWarning("Invalid saved scenario index.");
+            return;
+        }
+
+        var scenarioData = JsonConvert.DeserializeObject<ScenarioDataDto>(scenarioJsons[data.ScenarioIndex].text);
+        var loadedCommands = scenarioData.Commands;
+
+        if (data.CommandIndex < 0 || data.CommandIndex >= loadedCommands.Count)
+        {
+            Debug.LogWarning("Invalid saved command index.");
+            return;
+        }
+
+        var command = loadedCommands[data.CommandIndex];
+
+        if (command.Type != "dialogue" && command.Type != "description")
+        {
+            Debug.LogWarning("Saved position is not a display command.");
+            return;
+        }
+
+        voicePlayer.Stop();
+
+        skipMode = false;
+        skipTimer = 0f;
+
+        autoMode = false;
+        autoTimer = 0f;
+        waitingForAutoAdvance = false;
+
+        scenarioStateRestorer.RestoreFromSave(scenarioJsons, data.ScenarioIndex, data.CommandIndex);
+
+        currentScenarioIndex = data.ScenarioIndex;
+        commands = loadedCommands;
+        currentIndex = data.CommandIndex;
+
+        ProcessCurrentCommand();
+
+        ClearButtonSelection();
     }
 
     public void ToggleLog()

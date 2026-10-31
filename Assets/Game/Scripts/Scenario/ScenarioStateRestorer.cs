@@ -31,6 +31,31 @@ public class ScenarioStateRestorer : MonoBehaviour
         RestoreBgm(targetState.BgmAssetId, targetState.BgmPlaying);
     }
 
+    public void RestoreFromSave(
+        IReadOnlyList<TextAsset> scenarioJsons,
+        int targetScenarioIndex,
+        int targetCommandIndex)
+    {
+        var targetState = BuildState(
+            scenarioJsons,
+            targetScenarioIndex,
+            targetCommandIndex);
+
+        foreach (var position in new[]
+        {
+            CharacterPosition.Left,
+            CharacterPosition.Center,
+            CharacterPosition.Right
+        })
+        {
+            characterPlayer.Hide(position);
+        }
+
+        RestoreBackground(targetState.BackgroundAssetId);
+        RestoreCharacters(new Dictionary<CharacterPosition, ScenarioCommandDto>(), targetState.CharacterStates);
+        RestoreBgm(targetState.BgmAssetId, targetState.BgmPlaying);
+    }
+
     private ScenarioState BuildState(
         IReadOnlyList<TextAsset> scenarioJsons,
         int targetScenarioIndex,
@@ -161,7 +186,8 @@ public class ScenarioStateRestorer : MonoBehaviour
                 targetCommand.Width,
                 targetCommand.Height,
                 targetCommand.OffsetX,
-                targetCommand.OffsetY);
+                targetCommand.OffsetY,
+                targetCommand.FlipX);
         }
     }
 
@@ -182,7 +208,8 @@ public class ScenarioStateRestorer : MonoBehaviour
                current.Width == target.Width &&
                current.Height == target.Height &&
                current.OffsetX == target.OffsetX &&
-               current.OffsetY == target.OffsetY;
+               current.OffsetY == target.OffsetY &&
+               current.FlipX == target.FlipX;
     }
 
     private static CharacterPosition ParseCharacterPosition(string position)
