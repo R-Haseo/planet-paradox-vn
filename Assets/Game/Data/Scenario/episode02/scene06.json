@@ -71,7 +71,7 @@
     },
     {
       "Type": "character",
-      "AssetId": "roman/roman_thinking",
+      "AssetId": "roman/roman_arms_crossed",
       "Action": "show",
       "Position": "center",
       "Width": 620,
@@ -123,6 +123,15 @@
       "Id": "s06_010",
       "Speaker": "ミア",
       "Text": "文化も進んでるし、指導者も立派だし、みんな平和に暮らしてるんだって！"
+    },
+    {
+      "Type": "character",
+      "AssetId": "roman/roman_thinking",
+      "Action": "show",
+      "Position": "center",
+      "Width": 620,
+      "Height": 930,
+      "FlipX": true
     },
     {
       "Type": "dialogue",
@@ -279,6 +288,15 @@
       "Text": "……そこまで言う必要あるのかな"
     },
     {
+      "Type": "character",
+      "AssetId": "mia/mia_confused",
+      "Action": "show",
+      "Position": "right",
+      "Width": 775,
+      "Height": 1085,
+      "OffsetY": -50
+    },
+    {
       "Type": "dialogue",
       "Id": "s06_021",
       "Speaker": "ミア",
@@ -295,6 +313,15 @@
       "Id": "s06_023",
       "Speaker": "ミア",
       "Text": "犯罪の報道もアステリア星人のものばかりで、ヴァルディア星人のは見たことがないわ"
+    },
+    {
+      "Type": "character",
+      "AssetId": "mia/mia_sad",
+      "Action": "show",
+      "Position": "right",
+      "Width": 1007,
+      "Height": 1410,
+      "OffsetY": 0
     },
     {
       "Type": "dialogue",
@@ -370,6 +397,24 @@
       "Text": "……おや"
     },
     {
+      "Type": "character",
+      "AssetId": "roman/roman_mildly_surprised",
+      "Action": "show",
+      "Position": "center",
+      "Width": 1160,
+      "Height": 1739,
+      "OffsetY": -50
+    },
+    {
+      "Type": "character",
+      "AssetId": "mia/mia_confused",
+      "Action": "show",
+      "Position": "right",
+      "Width": 775,
+      "Height": 1085,
+      "OffsetY": -50
+    },
+    {
       "Type": "dialogue",
       "Id": "s06_030",
       "Speaker": "ろまん",
@@ -392,6 +437,14 @@
       "Id": "s06_033",
       "Speaker": "ハウエル",
       "Text": "ヴァルディア星周辺の軌道上に、多数の大型物体が確認されています"
+    },
+    {
+      "Type": "character",
+      "AssetId": "roman/roman_thinking",
+      "Action": "show",
+      "Position": "center",
+      "Width": 620,
+      "Height": 930
     },
     {
       "Type": "dialogue",
@@ -422,6 +475,14 @@
       "Id": "s06_038",
       "Speaker": "ハウエル",
       "Text": "概ねその認識で問題ありません"
+    },
+    {
+      "Type": "character",
+      "AssetId": "roman/roman_arms_crossed",
+      "Action": "show",
+      "Position": "center",
+      "Width": 620,
+      "Height": 930
     },
     {
       "Type": "dialogue",
@@ -458,6 +519,14 @@
       "Id": "s06_044",
       "Speaker": "ハウエル",
       "Text": "しかし、この規模の艦隊集結について、アステリア星の主要報道機関ではほとんど言及されていません"
+    },
+    {
+      "Type": "character",
+      "AssetId": "roman/roman_thinking",
+      "Action": "show",
+      "Position": "center",
+      "Width": 620,
+      "Height": 930
     },
     {
       "Type": "dialogue",
@@ -594,6 +663,7 @@
       "Speaker": "ハウエル",
       "Text": "ただし、艦隊の目的を判断するための情報は、現時点では不足しています"
     },
+
     {
       "Type": "dialogue",
       "Id": "s06_057",
@@ -605,6 +675,15 @@
       "Id": "s06_058",
       "Speaker": "ハウエル",
       "Text": "はい。しかし、存在している艦隊について、報道そのものがほとんど行われていない点は注目に値します"
+    },
+    {
+      "Type": "character",
+      "AssetId": "mia/mia_confused",
+      "Action": "show",
+      "Position": "right",
+      "Width": 775,
+      "Height": 1085,
+      "OffsetY": -50
     },
     {
       "Type": "dialogue",
@@ -643,6 +722,15 @@
       "Text": "公開されている企業情報と資金取引記録を照合したところ、ヴァルディア星に関係する複数の組織から、アステリア星のテレビ局に対して資金が流れている形跡を確認しました"
     },
     {
+      "Type": "character",
+      "AssetId": "roman/roman_mildly_surprised",
+      "Action": "show",
+      "Position": "center",
+      "Width": 1160,
+      "Height": 1739,
+      "OffsetY": -50
+    },
+    {
       "Type": "dialogue",
       "Id": "s06_062",
       "Speaker": "ろまん",
@@ -671,6 +759,14 @@
       "Id": "s06_066",
       "Speaker": "ハウエル",
       "Text": "ただし、一部の取引には不自然な点が見られます"
+    },
+    {
+      "Type": "character",
+      "AssetId": "roman/roman_arms_crossed",
+      "Action": "show",
+      "Position": "center",
+      "Width": 620,
+      "Height": 930
     },
     {
       "Type": "dialogue",
@@ -708,6 +804,15 @@
       "Id": "s06_070",
       "Speaker": "ミア",
       "Text": "…………"
+    },
+    {
+      "Type": "character",
+      "AssetId": "roman/roman_arms_crossed",
+      "Action": "show",
+      "Position": "center",
+      "Width": 620,
+      "Height": 930,
+      "FlipX": true
     },
     {
       "Type": "dialogue",
@@ -780,6 +885,16 @@
       "Text": "私のお父さん、テレビ局で記者をしてるんだ"
     },
     {
+      "Type": "character",
+      "AssetId": "roman/roman_mildly_surprised",
+      "Action": "show",
+      "Position": "center",
+      "Width": 1160,
+      "Height": 1739,
+      "OffsetY": -50,
+      "FlipX": true
+    },
+    {
       "Type": "dialogue",
       "Id": "s06_082",
       "Speaker": "ろまん",
@@ -802,6 +917,15 @@
       "Id": "s06_085",
       "Speaker": "ミア",
       "Text": "この前も、テレビを見ながら、小さな声で『こんなの、おかしい』って……"
+    },
+    {
+      "Type": "character",
+      "AssetId": "roman/roman_thinking",
+      "Action": "show",
+      "Position": "center",
+      "Width": 620,
+      "Height": 930,
+      "FlipX": true
     },
     {
       "Type": "dialogue",
@@ -844,6 +968,15 @@
       "Text": "だったら、直接聞いてみようよ！"
     },
     {
+      "Type": "character",
+      "AssetId": "mia/mia_confused",
+      "Action": "show",
+      "Position": "right",
+      "Width": 775,
+      "Height": 1085,
+      "OffsetY": -50
+    },
+    {
       "Type": "dialogue",
       "Id": "s06_091",
       "Speaker": "ミア",
@@ -860,6 +993,16 @@
       "Id": "s06_093",
       "Speaker": "ろまん",
       "Text": "ここで考えてても、わからないもん！"
+    },
+    {
+      "Type": "character",
+      "AssetId": "ai/ai_normal",
+      "Action": "show",
+      "Position": "left",
+      "Width": 320,
+      "Height": 320,
+      "OffsetY": 120,
+      "FlipX": true
     },
     {
       "Type": "dialogue",
@@ -891,6 +1034,15 @@
     {
       "Type": "description",
       "Text": "三人はテレビ局へ向かうことにした。その背後では、街頭テレビが変わらず明るい声でニュースを伝えている。"
+    },
+    {
+      "Type": "character",
+      "AssetId": "roman/roman_thinking",
+      "Action": "show",
+      "Position": "center",
+      "Width": 620,
+      "Height": 930,
+      "FlipX": true
     },
     {
       "Type": "dialogue",

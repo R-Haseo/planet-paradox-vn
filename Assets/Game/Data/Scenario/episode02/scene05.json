@@ -865,7 +865,19 @@
       "Duration": 0.8
     },
     {
-      "Type": "end"
+      "Type": "character",
+      "Action": "hide",
+      "Position": "right"
+    },
+    {
+      "Type": "character",
+      "Action": "hide",
+      "Position": "center"
+    },
+    {
+      "Type": "character",
+      "Action": "hide",
+      "Position": "left"
     }
   ]
 }

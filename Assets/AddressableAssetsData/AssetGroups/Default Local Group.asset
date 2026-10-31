@@ -1545,6 +1545,11 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5898a1a14e745bc40b5f58ab9a0d0675
+    m_Address: character/roman/roman_mildly_surprised
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 5904668e77907fd4ba428f2477b20fe6
     m_Address: voice/episode02/s05_052
     m_ReadOnly: 0
