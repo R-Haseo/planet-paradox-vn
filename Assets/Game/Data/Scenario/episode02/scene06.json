@@ -7,31 +7,8 @@
       "Volume": 0.5
     },
     {
-      "Type": "character",
-      "AssetId": "roman/roman_normal",
-      "Action": "show",
-      "Position": "center",
-      "Width": 620,
-      "Height": 930
-    },
-    {
-      "Type": "character",
-      "AssetId": "mia/mia_three_quarter",
-      "Action": "show",
-      "Position": "right",
-      "Width": 775,
-      "Height": 1085,
-      "OffsetY": -50
-    },
-    {
-      "Type": "character",
-      "AssetId": "ai/ai_normal",
-      "Action": "show",
-      "Position": "left",
-      "Width": 320,
-      "Height": 320,
-      "OffsetY": 120,
-      "FlipX": true
+      "Type": "background",
+      "AssetId": "episode02/scene06/news_studio_madame_gorgeous"
     },
     {
       "Type": "fade",
@@ -67,6 +44,10 @@
       "Text": "まさに、私たちアステリア星が見習うべき理想の社会ですね！"
     },
     {
+      "Type": "background",
+      "AssetId": "episode02/scene06/news_commentator"
+    },
+    {
       "Type": "dialogue",
       "Id": "s06_005",
       "Speaker": "マダム・ゴージャス",
@@ -85,10 +66,51 @@
       "Text": "優秀な人も多いのだから、もっともっとたくさんの移民を受け入れるべきよ。政府も私たちの税金で積極的に援助してあげないとね"
     },
     {
+      "Type": "background",
+      "AssetId": "episode02/scene06/city_news_madam_gorgeous"
+    },
+    {
+      "Type": "character",
+      "AssetId": "roman/roman_thinking",
+      "Action": "show",
+      "Position": "center",
+      "Width": 620,
+      "Height": 930,
+      "FlipX": true
+    },
+    {
+      "Type": "character",
+      "AssetId": "mia/mia_three_quarter",
+      "Action": "show",
+      "Position": "right",
+      "Width": 775,
+      "Height": 1085,
+      "OffsetY": -50
+    },
+    {
+      "Type": "character",
+      "AssetId": "ai/ai_normal",
+      "Action": "show",
+      "Position": "left",
+      "Width": 320,
+      "Height": 320,
+      "OffsetY": 120,
+      "FlipX": true
+    },
+    {
       "Type": "dialogue",
       "Id": "s06_008",
       "Speaker": "ろまん",
       "Text": "……なんだか、自分たちの惑星のことはバカにして、隣の惑星についてはずいぶん褒めるんだね"
+    },
+    {
+      "Type": "character",
+      "AssetId": "mia/mia_admiring",
+      "Action": "show",
+      "Position": "right",
+      "Width": 1007,
+      "Height": 1410,
+      "OffsetY": 0
     },
     {
       "Type": "dialogue",
@@ -107,6 +129,15 @@
       "Id": "s06_011",
       "Speaker": "ろまん",
       "Text": "へえ。ミアはヴァルディア星に行ったことがあるの？"
+    },
+    {
+      "Type": "character",
+      "AssetId": "mia/mia_confused",
+      "Action": "show",
+      "Position": "right",
+      "Width": 775,
+      "Height": 1085,
+      "OffsetY": -50
     },
     {
       "Type": "dialogue",
@@ -133,10 +164,38 @@
       "Text": "なるほど。自分で見たことはないけど、テレビのいうことなら無条件に信じているのですね"
     },
     {
+      "Type": "character",
+      "AssetId": "mia/mia_angry",
+      "Action": "show",
+      "Position": "right",
+      "Width": 1007,
+      "Height": 1410,
+      "OffsetY": -50
+    },
+    {
       "Type": "dialogue",
       "Id": "s06_016",
       "Speaker": "ミア",
       "Text": "な、なによ！ テレビが嘘をつくわけないでしょ！"
+    },
+    {
+      "Type": "character",
+      "Action": "hide",
+      "Position": "right"
+    },
+    {
+      "Type": "character",
+      "Action": "hide",
+      "Position": "center"
+    },
+    {
+      "Type": "character",
+      "Action": "hide",
+      "Position": "left"
+    },
+    {
+      "Type": "background",
+      "AssetId": "episode02/scene06/news_studio_madame_gorgeous"
     },
     {
       "Type": "description",
@@ -147,6 +206,10 @@
       "Id": "s06_017",
       "Speaker": "テレビ司会者",
       "Text": "こちらはヴァルディア星の伝統的な歓迎式典です。なんと素晴らしい光景でしょう！"
+    },
+    {
+      "Type": "background",
+      "AssetId": "episode02/scene06/news_commentator"
     },
     {
       "Type": "dialogue",
@@ -161,8 +224,53 @@
       "Text": "暮らしも全然向こうのほうがよさそう。本当にこの星の習慣は七面倒くさいものね"
     },
     {
+      "Type": "background",
+      "AssetId": "episode02/scene06/news_studio_madame_gorgeous_laughing"
+    },
+    {
+      "Type": "se",
+      "AssetId": "news_studio_laughter",
+      "Volume": 0.5
+    },
+    {
       "Type": "description",
       "Text": "スタジオから、楽しげな笑い声が響く。"
+    },
+    {
+      "Type": "description",
+      "Text": "テレビの向こうでは、自分たちの惑星のことを批判して笑っており、まるでこの星にありながら、この星のテレビ局でないような雰囲気だった。"
+    },
+    {
+      "Type": "background",
+      "AssetId": "episode02/scene06/city_news_madam_gorgeous"
+    },
+    {
+      "Type": "character",
+      "AssetId": "roman/roman_arms_crossed",
+      "Action": "show",
+      "Position": "center",
+      "Width": 620,
+      "Height": 930,
+      "FlipX": true
+    },
+    {
+      "Type": "character",
+      "AssetId": "mia/mia_three_quarter",
+      "Action": "show",
+      "Position": "right",
+      "Width": 775,
+      "Height": 1085,
+      "OffsetY": -50
+    },
+    {
+      "Type": "character",
+      "AssetId": "ai/ai_normal",
+      "Action": "show",
+      "Position": "left",
+      "Width": 320,
+      "Height": 320,
+      "OffsetY": 120,
+      "FlipX": true
     },
     {
       "Type": "dialogue",
@@ -201,6 +309,16 @@
       "Text": "自分たちの星なのに、悪い面ばかり反省しなくちゃいけないの？良い面はきっとたくさんあるはずだけど、なんでその点にはふれないの？"
     },
     {
+      "Type": "character",
+      "AssetId": "ai/hauer_thinking",
+      "Action": "show",
+      "Position": "left",
+      "Width": 544,
+      "Height": 544,
+      "OffsetY": 120,
+      "FlipX": true
+    },
+    {
       "Type": "dialogue",
       "Id": "s06_026",
       "Speaker": "ハウエル",
@@ -213,10 +331,33 @@
       "Text": "匿名報道が多い場合、テレビの報道だけでは、どの惑星の出身者による犯罪が多いのか判断できません"
     },
     {
+      "Type": "character",
+      "AssetId": "mia/mia_angry",
+      "Action": "show",
+      "Position": "right",
+      "Width": 1007,
+      "Height": 1410,
+      "OffsetY": -50
+    },
+    {
       "Type": "dialogue",
       "Id": "s06_028",
       "Speaker": "ミア",
       "Text": "もう！ 二人とも疑い深すぎるよ！"
+    },
+    {
+      "Type": "character",
+      "AssetId": "ai/hauer_alert",
+      "Action": "show",
+      "Position": "left",
+      "Width": 544,
+      "Height": 544,
+      "OffsetY": 120,
+      "FlipX": true
+    },
+    {
+      "Type": "se",
+      "AssetId": "analysis"
     },
     {
       "Type": "description",
@@ -325,6 +466,25 @@
       "Text": "……毎日あんなにヴァルディア星のことを放送してるのに？"
     },
     {
+      "Type": "character",
+      "Action": "hide",
+      "Position": "right"
+    },
+    {
+      "Type": "character",
+      "Action": "hide",
+      "Position": "center"
+    },
+    {
+      "Type": "character",
+      "Action": "hide",
+      "Position": "left"
+    },
+    {
+      "Type": "background",
+      "AssetId": "episode02/scene06/news_studio_madame_gorgeous"
+    },
+    {
       "Type": "description",
       "Text": "街頭テレビでは、ちょうどヴァルディア星の指導者を称賛する特集が始まっていた。"
     },
@@ -373,6 +533,38 @@
       "Text": "実に力強いお言葉ですね！ 平和を守るための決意が伝わってきます！"
     },
     {
+      "Type": "background",
+      "AssetId": "episode02/scene06/city_news_madam_gorgeous"
+    },
+    {
+      "Type": "character",
+      "AssetId": "roman/roman_arms_crossed",
+      "Action": "show",
+      "Position": "center",
+      "Width": 620,
+      "Height": 930,
+      "FlipX": true
+    },
+    {
+      "Type": "character",
+      "AssetId": "mia/mia_three_quarter",
+      "Action": "show",
+      "Position": "right",
+      "Width": 775,
+      "Height": 1085,
+      "OffsetY": -50
+    },
+    {
+      "Type": "character",
+      "AssetId": "ai/ai_normal",
+      "Action": "show",
+      "Position": "left",
+      "Width": 320,
+      "Height": 320,
+      "OffsetY": 120,
+      "FlipX": true
+    },
+    {
       "Type": "dialogue",
       "Id": "s06_052",
       "Speaker": "ろまん",
@@ -419,6 +611,20 @@
       "Id": "s06_059",
       "Speaker": "ミア",
       "Text": "……テレビが知らないだけじゃないの？"
+    },
+    {
+      "Type": "character",
+      "AssetId": "ai/hauer_thinking",
+      "Action": "show",
+      "Position": "left",
+      "Width": 544,
+      "Height": 544,
+      "OffsetY": 120,
+      "FlipX": true
+    },
+    {
+      "Type": "se",
+      "AssetId": "analysis"
     },
     {
       "Type": "dialogue",
@@ -483,6 +689,15 @@
       "Id": "s06_069",
       "Speaker": "ハウエル",
       "Text": "しかし、報道内容と資金の流れを併せて調査する価値はあるでしょう"
+    },
+    {
+      "Type": "character",
+      "AssetId": "mia/mia_sad",
+      "Action": "show",
+      "Position": "right",
+      "Width": 1007,
+      "Height": 1410,
+      "OffsetY": 0
     },
     {
       "Type": "description",
@@ -613,6 +828,16 @@
       "Text": "仕事の愚痴だと思ってたから……"
     },
     {
+      "Type": "character",
+      "AssetId": "roman/roman_idea",
+      "Action": "show",
+      "Position": "center",
+      "Width": 1054,
+      "Height": 1581,
+      "OffsetY": -50,
+      "FlipX": true
+    },
+    {
       "Type": "dialogue",
       "Id": "s06_090",
       "Speaker": "ろまん",
@@ -641,6 +866,15 @@
       "Id": "s06_094",
       "Speaker": "ハウエル",
       "Text": "賛成です。一次情報に接触することは、現状で最も有効な調査手段でしょう"
+    },
+    {
+      "Type": "character",
+      "AssetId": "mia/mia_three_quarter",
+      "Action": "show",
+      "Position": "right",
+      "Width": 775,
+      "Height": 1085,
+      "OffsetY": -50
     },
     {
       "Type": "dialogue",

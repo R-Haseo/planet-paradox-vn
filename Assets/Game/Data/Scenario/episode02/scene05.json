@@ -803,8 +803,8 @@
       "AssetId": "ai/hauer_thinking",
       "Action": "show",
       "Position": "left",
-      "Width": 320,
-      "Height": 320,
+      "Width": 544,
+      "Height": 544,
       "OffsetY": 120,
       "FlipX": true
     },

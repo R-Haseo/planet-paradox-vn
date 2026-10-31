@@ -340,6 +340,11 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1339fbda93b7d80459c6088942d2a02b
+    m_Address: character/mia/mia_admiring
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 135c8218aafb1dd4482bf6c6ef59b3cf
     m_Address: voice/episode02/s03_044
     m_ReadOnly: 0
@@ -582,6 +587,11 @@ MonoBehaviour:
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 20ffc1568c9a6ba4f968fb41623aaa92
     m_Address: voice/episode02/s06_069
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 210fc01f0cc567146a78d783f4186027
+    m_Address: character/roman/roman_idea
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
@@ -1240,6 +1250,11 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 46244346b1b60084cbeb34d35818a4c0
+    m_Address: background/episode02/scene06/news_commentator
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 464f1fde271d7d84e91d32a6ae862781
     m_Address: voice/episode02/s01_039
     m_ReadOnly: 0
@@ -1297,6 +1312,11 @@ MonoBehaviour:
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 4c64555b97a16944090d3b7615a86f1d
     m_Address: voice/episode01/s08_014
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4d3f817ef66a7bc46b53bf40c5ad5ff1
+    m_Address: character/mia/mia_sad
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
@@ -1362,6 +1382,11 @@ MonoBehaviour:
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 4ff1ad42f3f88b842ab0eef88e079a98
     m_Address: voice/episode02/s06_020
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5014ed9c0db81d947b0e04d2d5961e6b
+    m_Address: background/episode02/scene06/news_studio_madame_gorgeous
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
@@ -2070,6 +2095,11 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 748f1475f0aa991429969feea631b250
+    m_Address: character/ai/hauer_alert
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 74e03851dc05e84438b297ce385fc74d
     m_Address: voice/episode01/s04_023
     m_ReadOnly: 0
@@ -2137,6 +2167,11 @@ MonoBehaviour:
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 786710edca68fa04da300de3c66708c3
     m_Address: voice/episode02/s06_067
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 78740cfd2cd48f14a855c9b6238d309f
+    m_Address: character/mia/mia_angry
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
@@ -2212,6 +2247,11 @@ MonoBehaviour:
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 7d83edf91f7384a4c919cb140c3af377
     m_Address: voice/episode01/s06_024
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7e4566c3498dc1e46907b9fd93b3c1c8
+    m_Address: background/episode02/scene06/city_news_madam_gorgeous
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
@@ -2732,6 +2772,11 @@ MonoBehaviour:
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: a1227734f65d0c94591d135ebf03a5ef
     m_Address: voice/episode02/s06_050
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a1cf032579950c54b8627d9f9e0a2c3d
+    m_Address: background/episode02/scene06/news_studio_madame_gorgeous_laughing
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
