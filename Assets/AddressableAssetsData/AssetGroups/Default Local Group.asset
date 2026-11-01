@@ -4115,6 +4115,11 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f3216d7787cb83f41820ae0e94aa8c70
+    m_Address: se/crowd_applause
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: f34bbec6e53b33e439f9d9343216edfb
     m_Address: voice/episode01/s01_004
     m_ReadOnly: 0

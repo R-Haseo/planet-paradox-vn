@@ -638,6 +638,11 @@
       "Text": "平和を守り、我々の愛する故郷を未来へ引き継ぐためにも、強大な防衛力が必要なのです！"
     },
     {
+      "Type": "se",
+      "AssetId": "crowd_applause",
+      "Volume": 0.5
+    },
+    {
       "Type": "description",
       "Text": "演説会場に、盛大な拍手が巻き起こった。"
     },
