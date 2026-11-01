@@ -453,6 +453,25 @@
       "Text": "大型物体？"
     },
     {
+      "Type": "character",
+      "Action": "hide",
+      "Position": "right"
+    },
+    {
+      "Type": "character",
+      "Action": "hide",
+      "Position": "center"
+    },
+    {
+      "Type": "character",
+      "Action": "hide",
+      "Position": "left"
+    },
+    {
+      "Type": "background",
+      "AssetId": "episode02/scene06/valdian_fleet_orbit"
+    },
+    {
       "Type": "dialogue",
       "Id": "s06_035",
       "Speaker": "ハウエル",
@@ -477,14 +496,6 @@
       "Text": "概ねその認識で問題ありません"
     },
     {
-      "Type": "character",
-      "AssetId": "roman/roman_arms_crossed",
-      "Action": "show",
-      "Position": "center",
-      "Width": 620,
-      "Height": 930
-    },
-    {
       "Type": "dialogue",
       "Id": "s06_039",
       "Speaker": "ろまん",
@@ -495,6 +506,37 @@
       "Id": "s06_040",
       "Speaker": "ハウエル",
       "Text": "少なくとも数十隻。さらに、周辺宙域でも同様の反応が確認されています"
+    },
+    {
+      "Type": "background",
+      "AssetId": "episode02/scene06/city_news_madam_gorgeous"
+    },
+    {
+      "Type": "character",
+      "AssetId": "roman/roman_arms_crossed",
+      "Action": "show",
+      "Position": "center",
+      "Width": 620,
+      "Height": 930
+    },
+    {
+      "Type": "character",
+      "AssetId": "ai/ai_normal",
+      "Action": "show",
+      "Position": "left",
+      "Width": 320,
+      "Height": 320,
+      "OffsetY": 120,
+      "FlipX": true
+    },
+    {
+      "Type": "character",
+      "AssetId": "mia/mia_confused",
+      "Action": "show",
+      "Position": "right",
+      "Width": 775,
+      "Height": 1085,
+      "OffsetY": -50
     },
     {
       "Type": "dialogue",
@@ -568,6 +610,10 @@
       "Id": "s06_047",
       "Speaker": "テレビ司会者",
       "Text": "世界の平和を願う、その誠実な姿勢には頭が下がりますね"
+    },
+    {
+      "Type": "background",
+      "AssetId": "episode02/scene06/vargas_speech"
     },
     {
       "Type": "description",

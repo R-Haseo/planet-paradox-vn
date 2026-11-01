@@ -3850,6 +3850,11 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e439a4e83bb1e53448fe74715cb21cfc
+    m_Address: background/episode02/scene06/valdian_fleet_orbit
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: e488887f54f46de41af0fe47919afecf
     m_Address: voice/episode02/s06_052
     m_ReadOnly: 0
@@ -3937,6 +3942,11 @@ MonoBehaviour:
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: e8dfccae5c83fce469d569c32bbf6d8b
     m_Address: voice/episode01/s06_021
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e90e5f35c2fcca8478122e1dfb361df2
+    m_Address: background/episode02/scene06/vargas_speech
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
