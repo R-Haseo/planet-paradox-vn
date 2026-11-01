@@ -132,10 +132,10 @@ TextureImporter:
       name: hauer_thinking_1
       rect:
         serializedVersion: 2
-        x: 202
-        y: 257
-        width: 602
-        height: 602
+        x: 0
+        y: 0
+        width: 1024
+        height: 1024
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
