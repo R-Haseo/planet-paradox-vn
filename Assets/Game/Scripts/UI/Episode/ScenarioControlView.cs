@@ -5,6 +5,8 @@ using UnityEngine.UI;
 
 public class ScenarioControlView : MonoBehaviour
 {
+    [SerializeField] private Button saveButton;
+    [SerializeField] private Button loadButton;
     [SerializeField] private Button logButton;
     [SerializeField] private Button autoButton;
     [SerializeField] private Button skipButton;
@@ -13,12 +15,26 @@ public class ScenarioControlView : MonoBehaviour
     [SerializeField] private UIButtonSePlayer buttonSePlayer;
 
     public void Initialize(
+        Action onSaveClicked,
+        Action onLoadClicked,
         Action onLogClicked,
         Action onAutoClicked,
         Action onSkipClicked,
         Action onSettingsClicked,
         Action onTitleClicked)
     {
+        saveButton.onClick.AddListener(() =>
+        {
+            buttonSePlayer.Play();
+            onSaveClicked?.Invoke();
+        });
+
+        loadButton.onClick.AddListener(() =>
+        {
+            buttonSePlayer.Play();
+            onLoadClicked?.Invoke();
+        });
+
         logButton.onClick.AddListener(() =>
         {
             buttonSePlayer.Play();

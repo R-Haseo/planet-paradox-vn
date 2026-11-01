@@ -803,8 +803,8 @@
       "AssetId": "ai/hauer_thinking",
       "Action": "show",
       "Position": "left",
-      "Width": 320,
-      "Height": 320,
+      "Width": 544,
+      "Height": 544,
       "OffsetY": 120,
       "FlipX": true
     },
@@ -865,7 +865,19 @@
       "Duration": 0.8
     },
     {
-      "Type": "end"
+      "Type": "character",
+      "Action": "hide",
+      "Position": "right"
+    },
+    {
+      "Type": "character",
+      "Action": "hide",
+      "Position": "center"
+    },
+    {
+      "Type": "character",
+      "Action": "hide",
+      "Position": "left"
     }
   ]
 }
