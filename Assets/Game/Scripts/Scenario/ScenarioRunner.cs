@@ -11,6 +11,7 @@ public class ScenarioRunner : MonoBehaviour
     [SerializeField] private DialogueView dialogueView;
     [SerializeField] private BackgroundPlayer backgroundPlayer;
     [SerializeField] private DialogueLogView dialogueLogView;
+    [SerializeField] private ChoiceView choiceView;
     [SerializeField] private SettingsView settingsView;
     [SerializeField] private ScenarioControlView scenarioControlView;
     [SerializeField] private RectTransform scenarioControlRoot;
@@ -33,6 +34,8 @@ public class ScenarioRunner : MonoBehaviour
     private List<ScenarioCommandDto> commands;
     private int currentScenarioIndex;
     private int currentIndex;
+    private readonly ScenarioFlagStore flagStore = new();
+    private readonly Dictionary<string, int> labels = new();
     private bool skipMode;
     private float skipTimer;
 
@@ -86,6 +89,11 @@ public class ScenarioRunner : MonoBehaviour
 
     private void Update()
     {
+        if (choiceView.IsOpen)
+        {
+            return;
+        }
+
 #if UNITY_EDITOR || DEVELOPMENT_BUILD
         var rewindPressed = Keyboard.current?.rKey.wasPressedThisFrame == true;
 
@@ -140,14 +148,22 @@ public class ScenarioRunner : MonoBehaviour
         }
 
         var scenarioJson = scenarioJsons[scenarioIndex];
-        var scenarioData =
-            JsonConvert.DeserializeObject<ScenarioDataDto>(scenarioJson.text);
+        var scenarioData = JsonConvert.DeserializeObject<ScenarioDataDto>(scenarioJson.text);
 
         commands = scenarioData.Commands;
         currentIndex = 0;
 
-        Debug.Log(
-            $"Scenario loaded: {scenarioJson.name} ({commands?.Count ?? 0} commands)");
+        labels.Clear();
+
+        for (var i = 0; i < commands.Count; i++)
+        {
+            if (commands[i].Type == "label")
+            {
+                labels[commands[i].Label] = i;
+            }
+        }
+
+        Debug.Log($"Scenario loaded: {scenarioJson.name} ({commands?.Count ?? 0} commands)");
 
         ProcessCurrentCommand();
     }
@@ -274,6 +290,34 @@ public class ScenarioRunner : MonoBehaviour
             case "fade":
                 ProcessFadeCommand(scenarioCommand);
                 break;
+
+            case "choice":
+                ProcessChoiceCommand(scenarioCommand);
+                break;
+
+            case "label":
+                MoveToNextCommand();
+                break;
+
+            case "jump":
+                JumpToLabel(scenarioCommand.Target);
+                break;
+
+            case "setFlag":
+                flagStore.SetFlag(scenarioCommand.Flag, scenarioCommand.Value);
+                MoveToNextCommand();
+                break;
+
+            case "branch":
+                var flagValue = flagStore.GetFlag(scenarioCommand.Condition.Flag);
+
+                var target = flagValue == scenarioCommand.Condition.Equals
+                    ? scenarioCommand.TrueTarget
+                    : scenarioCommand.FalseTarget;
+
+                JumpToLabel(target);
+                break;
+
             case "end":
                 endView.Show();
                 break;
@@ -291,6 +335,40 @@ public class ScenarioRunner : MonoBehaviour
     {
         currentScenarioIndex++;
         LoadScenario(currentScenarioIndex);
+    }
+
+    private void ProcessChoiceCommand(ScenarioCommandDto command)
+    {
+        skipMode = false;
+        skipTimer = 0f;
+        waitingForAutoAdvance = false;
+        autoMode = false;
+        autoTimer = 0f;
+
+        choiceView.Show(command.Options, option =>
+        {
+            if (option.SetFlags != null)
+            {
+                foreach (var flag in option.SetFlags)
+                {
+                    flagStore.SetFlag(flag.Key, flag.Value);
+                }
+            }
+
+            JumpToLabel(option.Target);
+        });
+    }
+
+    private void JumpToLabel(string label)
+    {
+        if (!labels.TryGetValue(label, out var index))
+        {
+            Debug.LogError($"Scenario label not found: {label}");
+            return;
+        }
+
+        currentIndex = index;
+        ProcessCurrentCommand();
     }
 
     private void ProcessCharacterCommand(ScenarioCommandDto command)

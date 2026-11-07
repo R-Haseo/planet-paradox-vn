@@ -17,4 +17,12 @@ public class ScenarioCommandDto
     public float OffsetY;
     public float Duration;
     public bool FlipX { get; set; }
+    public ScenarioChoiceOptionDto[] Options;
+    public string Label;
+    public string Target;
+    public ScenarioConditionDto Condition;
+    public string TrueTarget;
+    public string FalseTarget;
+    public string Flag;
+    public bool Value;
 }
