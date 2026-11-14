@@ -79,6 +79,10 @@
     {
       "ScenarioSpeaker": "レオン・ヴァルケス",
       "VoiceVoxCharacter": "中部つるぎ"
+    },
+    {
+      "ScenarioSpeaker": "ロイ",
+      "VoiceVoxCharacter": "離途"
     }
   ]
 }
