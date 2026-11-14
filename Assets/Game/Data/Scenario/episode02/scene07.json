@@ -7,6 +7,38 @@
       "Volume": 0.5
     },
     {
+      "Type": "background",
+      "AssetId": "episode02/scene07/tv_station_lobby"
+    },
+    {
+      "Type": "character",
+      "AssetId": "roman/roman_arms_crossed",
+      "Action": "show",
+      "Position": "center",
+      "Width": 620,
+      "Height": 930,
+      "FlipX": true
+    },
+    {
+      "Type": "character",
+      "AssetId": "mia/mia_confused",
+      "Action": "show",
+      "Position": "right",
+      "Width": 775,
+      "Height": 1085,
+      "OffsetY": -50
+    },
+    {
+      "Type": "character",
+      "AssetId": "ai/ai_normal",
+      "Action": "show",
+      "Position": "left",
+      "Width": 320,
+      "Height": 320,
+      "OffsetY": 120,
+      "FlipX": true
+    },
+    {
       "Type": "fade",
       "Action": "in",
       "Duration": 0.8
@@ -129,6 +161,10 @@
       "Type": "fade",
       "Action": "out",
       "Duration": 0.6
+    },
+    {
+      "Type": "background",
+      "AssetId": "episode02/scene07/tv_station_archive_room"
     },
     {
       "Type": "fade",
@@ -296,6 +332,10 @@
       "Text": "……それを説明するには、この星の歴史から話さなければならないな"
     },
     {
+      "Type": "background",
+      "AssetId": "episode02/scene07/free_information_era"
+    },
+    {
       "Type": "description",
       "Text": "ロイは端末を操作し、かつての自由なネットワーク社会を記録した古い映像を表示する。"
     },
@@ -352,6 +392,10 @@
       "Id": "s07_052",
       "Speaker": "ロイ",
       "Text": "だが、自由な情報発信には問題もあった"
+    },
+    {
+      "Type": "background",
+      "AssetId": "episode02/scene07/misinformation_spread"
     },
     {
       "Type": "dialogue",
@@ -488,6 +532,10 @@
       "Id": "s07_074",
       "Speaker": "ロイ",
       "Text": "テレビ局は、情報の正確性を認定する唯一の組織として、特別な地位を与えられた"
+    },
+    {
+      "Type": "background",
+      "AssetId": "episode02/scene07/tv_corruption"
     },
     {
       "Type": "dialogue",
