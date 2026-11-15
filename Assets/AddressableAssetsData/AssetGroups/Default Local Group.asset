@@ -975,6 +975,11 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2e7a1ac4a1eb8104b89d0cd2f6927c71
+    m_Address: bgm/investigation
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 2eca521384472f84db2ad54bfeba14de
     m_Address: voice/episode02/s03_051
     m_ReadOnly: 0

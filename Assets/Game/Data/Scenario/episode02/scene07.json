@@ -3,8 +3,8 @@
     {
       "Type": "bgm",
       "Action": "play",
-      "AssetId": "quirky_upbeat",
-      "Volume": 0.5
+      "AssetId": "investigation",
+      "Volume": 0.3
     },
     {
       "Type": "background",
