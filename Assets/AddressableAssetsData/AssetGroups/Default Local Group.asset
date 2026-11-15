@@ -1000,6 +1000,11 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3036fcd2d7638ca4b83f5549051bffb5
+    m_Address: background/episode02/scene07/underground_streamers
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 3058c6b9da478764f99ed20e8ca593cd
     m_Address: voice/episode02/s01_014
     m_ReadOnly: 0
@@ -1112,6 +1117,11 @@ MonoBehaviour:
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 3536317c69817ea49938864fb074ff82
     m_Address: voice/episode01/s08_043
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 35965779a1cf5a3489bd40a445e6be9f
+    m_Address: background/episode02/scene07/media_truth_monopoly
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
@@ -2700,6 +2710,11 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 795b0d5d2c6ca8d45920af286c4815c7
+    m_Address: background/episode02/scene07/media_mass_manipulation
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 7964d0fd9046b4a40af07654cb711198
     m_Address: voice/episode02/s02_046
     m_ReadOnly: 0
@@ -2977,6 +2992,11 @@ MonoBehaviour:
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 8892871b4c71a694fb21d5335d4fe6d3
     m_Address: background/episode01/scene05/standardization_news
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 88aa2a72409fcfb4f972dc233663296f
+    m_Address: background/episode02/scene07/information_regulation_law
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
@@ -3575,6 +3595,11 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a581e610681054a49b07c238b3247688
+    m_Address: background/episode02/scene07/information_regulation_expansion
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: a664f42f120a4b748a14cf1a4edaf586
     m_Address: voice/episode02/s07_092
     m_ReadOnly: 0
@@ -4162,6 +4187,11 @@ MonoBehaviour:
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: c30b23b01aaf1bb4d927b56ccb30a0af
     m_Address: voice/episode02/s07_036
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c32e62323fbbfd34e94b7e5c2156a803
+    m_Address: background/episode02/scene07/valdian_fleet_orbit
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
@@ -4935,6 +4965,11 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e8659eae56c0a7146adcfc811a254c31
+    m_Address: background/episode02/scene07/media_political_collusion
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: e8923f3083f5359428fbf609b01e1630
     m_Address: voice/episode02/s04_016
     m_ReadOnly: 0
@@ -5227,6 +5262,11 @@ MonoBehaviour:
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: fa5618cdd8ec9e24db60aead32768a06
     m_Address: voice/episode02/s05_064
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: faa3fb6b24862eb47a9ab02ba2cc5687
+    m_Address: background/episode02/scene07/valdia_media_funding
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0

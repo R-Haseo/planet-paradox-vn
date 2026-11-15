@@ -176,6 +176,15 @@
       "Text": "テレビ局の一角にある小さな資料室。ロイは扉を閉め、端末の通信機能を停止する。"
     },
     {
+      "Type": "character",
+      "AssetId": "mia/mia_angry",
+      "Action": "show",
+      "Position": "right",
+      "Width": 1007,
+      "Height": 1410,
+      "OffsetY": -50
+    },
+    {
       "Type": "dialogue",
       "Id": "s07_018",
       "Speaker": "ミア",
@@ -218,6 +227,15 @@
       "Text": "……やはり、そうか"
     },
     {
+      "Type": "character",
+      "AssetId": "mia/mia_confused",
+      "Action": "show",
+      "Position": "right",
+      "Width": 775,
+      "Height": 1085,
+      "OffsetY": -50
+    },
+    {
       "Type": "dialogue",
       "Id": "s07_025",
       "Speaker": "ミア",
@@ -234,6 +252,35 @@
       "Id": "s07_027",
       "Speaker": "ミア",
       "Text": "何よ、改まって"
+    },
+    {
+      "Type": "character",
+      "Action": "hide",
+      "Position": "right"
+    },
+    {
+      "Type": "character",
+      "Action": "hide",
+      "Position": "center"
+    },
+    {
+      "Type": "character",
+      "Action": "hide",
+      "Position": "left"
+    },
+    {
+      "Type": "fade",
+      "Action": "out",
+      "Duration": 0.6
+    },
+    {
+      "Type": "background",
+      "AssetId": "episode02/scene07/underground_streamers"
+    },
+    {
+      "Type": "fade",
+      "Action": "in",
+      "Duration": 0.6
     },
     {
       "Type": "dialogue",
@@ -264,6 +311,48 @@
       "Id": "s07_032",
       "Speaker": "ロイ",
       "Text": "我々は、テレビ局が報道しない情報を密かに調査し、外部へ伝えようとしている"
+    },
+    {
+      "Type": "fade",
+      "Action": "out",
+      "Duration": 0.6
+    },
+    {
+      "Type": "background",
+      "AssetId": "episode02/scene07/tv_station_archive_room"
+    },
+    {
+      "Type": "character",
+      "AssetId": "roman/roman_arms_crossed",
+      "Action": "show",
+      "Position": "center",
+      "Width": 620,
+      "Height": 930,
+      "FlipX": true
+    },
+    {
+      "Type": "character",
+      "AssetId": "mia/mia_confused",
+      "Action": "show",
+      "Position": "right",
+      "Width": 775,
+      "Height": 1085,
+      "OffsetY": -50
+    },
+    {
+      "Type": "character",
+      "AssetId": "ai/ai_normal",
+      "Action": "show",
+      "Position": "left",
+      "Width": 320,
+      "Height": 320,
+      "OffsetY": 120,
+      "FlipX": true
+    },
+    {
+      "Type": "fade",
+      "Action": "in",
+      "Duration": 0.6
     },
     {
       "Type": "dialogue",
@@ -305,7 +394,7 @@
       "Type": "dialogue",
       "Id": "s07_039",
       "Speaker": "ロイ",
-      "Text": "もう何年にもなる。だが、娘にだけは知らせないようにしてきた"
+      "Text": "もう何年にもなる。だが、娘にさえ知らせないようにしてきた"
     },
     {
       "Type": "dialogue",
@@ -332,8 +421,33 @@
       "Text": "……それを説明するには、この星の歴史から話さなければならないな"
     },
     {
+      "Type": "character",
+      "Action": "hide",
+      "Position": "right"
+    },
+    {
+      "Type": "character",
+      "Action": "hide",
+      "Position": "center"
+    },
+    {
+      "Type": "character",
+      "Action": "hide",
+      "Position": "left"
+    },
+    {
+      "Type": "fade",
+      "Action": "out",
+      "Duration": 0.6
+    },
+    {
       "Type": "background",
       "AssetId": "episode02/scene07/free_information_era"
+    },
+    {
+      "Type": "fade",
+      "Action": "in",
+      "Duration": 0.6
     },
     {
       "Type": "description",
@@ -394,8 +508,18 @@
       "Text": "だが、自由な情報発信には問題もあった"
     },
     {
+      "Type": "fade",
+      "Action": "out",
+      "Duration": 0.6
+    },
+    {
       "Type": "background",
       "AssetId": "episode02/scene07/misinformation_spread"
+    },
+    {
+      "Type": "fade",
+      "Action": "in",
+      "Duration": 0.6
     },
     {
       "Type": "dialogue",
@@ -430,6 +554,20 @@
     {
       "Type": "description",
       "Text": "映像には、自由に発信された情報が次々と拡散し、やがて混乱が広がっていく様子が記録されている。"
+    },
+    {
+      "Type": "fade",
+      "Action": "out",
+      "Duration": 0.6
+    },
+    {
+      "Type": "background",
+      "AssetId": "episode02/scene07/information_regulation_law"
+    },
+    {
+      "Type": "fade",
+      "Action": "in",
+      "Duration": 0.6
     },
     {
       "Type": "dialogue",
@@ -480,6 +618,20 @@
       "Text": "どう変わったんですか？"
     },
     {
+      "Type": "fade",
+      "Action": "out",
+      "Duration": 0.6
+    },
+    {
+      "Type": "background",
+      "AssetId": "episode02/scene07/information_regulation_expansion"
+    },
+    {
+      "Type": "fade",
+      "Action": "in",
+      "Duration": 0.6
+    },
+    {
       "Type": "dialogue",
       "Id": "s07_066",
       "Speaker": "ロイ",
@@ -496,6 +648,10 @@
       "Id": "s07_068",
       "Speaker": "ハウエル",
       "Text": "規制対象の定義が拡大したわけですね"
+    },
+    {
+      "Type": "background",
+      "AssetId": "episode02/scene07/media_truth_monopoly"
     },
     {
       "Type": "dialogue",
@@ -572,8 +728,8 @@
       "Text": "政治家が何を語り、何を実行したのか。その評価さえ、テレビ局の報道によって左右されるようになったんだ"
     },
     {
-      "Type": "description",
-      "Text": "続いて、テレビ局の幹部と政治家が満面の笑みで握手を交わす記録映像が映し出される。"
+      "Type": "background",
+      "AssetId": "episode02/scene07/media_political_collusion"
     },
     {
       "Type": "dialogue",
@@ -648,6 +804,10 @@
       "Text": "それで、ロイさんは、その仕組みを変えようとしているんですね"
     },
     {
+      "Type": "background",
+      "AssetId": "episode02/scene07/underground_streamers"
+    },
+    {
       "Type": "dialogue",
       "Id": "s07_092",
       "Speaker": "ロイ",
@@ -700,6 +860,10 @@
       "Id": "s07_100",
       "Speaker": "ハウエル",
       "Text": "なぜでしょうか？"
+    },
+    {
+      "Type": "background",
+      "AssetId": "episode02/scene07/media_mass_manipulation"
     },
     {
       "Type": "dialogue",
@@ -762,6 +926,48 @@
       "Text": "今では、取り返しのつかないことをしたと思っているよ"
     },
     {
+      "Type": "fade",
+      "Action": "out",
+      "Duration": 0.6
+    },
+    {
+      "Type": "background",
+      "AssetId": "episode02/scene07/tv_station_archive_room"
+    },
+    {
+      "Type": "character",
+      "AssetId": "roman/roman_arms_crossed",
+      "Action": "show",
+      "Position": "center",
+      "Width": 620,
+      "Height": 930,
+      "FlipX": true
+    },
+    {
+      "Type": "character",
+      "AssetId": "mia/mia_confused",
+      "Action": "show",
+      "Position": "right",
+      "Width": 775,
+      "Height": 1085,
+      "OffsetY": -50
+    },
+    {
+      "Type": "character",
+      "AssetId": "ai/ai_normal",
+      "Action": "show",
+      "Position": "left",
+      "Width": 320,
+      "Height": 320,
+      "OffsetY": 120,
+      "FlipX": true
+    },
+    {
+      "Type": "fade",
+      "Action": "in",
+      "Duration": 0.6
+    },
+    {
       "Type": "dialogue",
       "Id": "s07_111",
       "Speaker": "ロイ",
@@ -812,6 +1018,25 @@
       "Id": "s07_118",
       "Speaker": "ろまん",
       "Text": "何か分かったんですか？"
+    },
+    {
+      "Type": "character",
+      "Action": "hide",
+      "Position": "right"
+    },
+    {
+      "Type": "character",
+      "Action": "hide",
+      "Position": "center"
+    },
+    {
+      "Type": "character",
+      "Action": "hide",
+      "Position": "left"
+    },
+    {
+      "Type": "background",
+      "AssetId": "episode02/scene07/valdia_media_funding"
     },
     {
       "Type": "dialogue",
@@ -928,8 +1153,8 @@
       "Text": "そして、我々が最も懸念しているのは、ヴァルディア星の軍事活動だ"
     },
     {
-      "Type": "description",
-      "Text": "端末の画面が切り替わり、ヴァルディア星周辺の宇宙艦隊の配置図が映し出される。"
+      "Type": "background",
+      "AssetId": "episode02/scene07/valdian_fleet_orbit"
     },
     {
       "Type": "dialogue",
@@ -1026,6 +1251,48 @@
       "Id": "s07_153",
       "Speaker": "ロイ",
       "Text": "この星の人々は、迫りつつある危機を知らないまま、ヴァルディア星との友好を信じているんだ"
+    },
+    {
+      "Type": "fade",
+      "Action": "out",
+      "Duration": 0.6
+    },
+    {
+      "Type": "background",
+      "AssetId": "episode02/scene07/tv_station_archive_room"
+    },
+    {
+      "Type": "character",
+      "AssetId": "roman/roman_arms_crossed",
+      "Action": "show",
+      "Position": "center",
+      "Width": 620,
+      "Height": 930,
+      "FlipX": true
+    },
+    {
+      "Type": "character",
+      "AssetId": "mia/mia_confused",
+      "Action": "show",
+      "Position": "right",
+      "Width": 775,
+      "Height": 1085,
+      "OffsetY": -50
+    },
+    {
+      "Type": "character",
+      "AssetId": "ai/ai_normal",
+      "Action": "show",
+      "Position": "left",
+      "Width": 320,
+      "Height": 320,
+      "OffsetY": 120,
+      "FlipX": true
+    },
+    {
+      "Type": "fade",
+      "Action": "in",
+      "Duration": 0.6
     },
     {
       "Type": "dialogue",
