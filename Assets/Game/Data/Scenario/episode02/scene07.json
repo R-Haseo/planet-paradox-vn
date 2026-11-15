@@ -12,12 +12,11 @@
     },
     {
       "Type": "character",
-      "AssetId": "roman/roman_arms_crossed",
+      "AssetId": "roman/roman_with_hauer",
       "Action": "show",
       "Position": "center",
-      "Width": 620,
-      "Height": 930,
-      "FlipX": true
+      "Width": 1240,
+      "Height": 1860
     },
     {
       "Type": "character",
@@ -27,16 +26,6 @@
       "Width": 775,
       "Height": 1085,
       "OffsetY": -50
-    },
-    {
-      "Type": "character",
-      "AssetId": "ai/ai_normal",
-      "Action": "show",
-      "Position": "left",
-      "Width": 320,
-      "Height": 320,
-      "OffsetY": 120,
-      "FlipX": true
     },
     {
       "Type": "fade",
@@ -54,14 +43,45 @@
       "Text": "お父さん、まだ仕事してるかな？"
     },
     {
+      "Type": "character",
+      "AssetId": "mia/mia_three_quarter",
+      "Action": "show",
+      "Position": "right",
+      "Width": 775,
+      "Height": 1085,
+      "OffsetY": -50
+    },
+    {
       "Type": "dialogue",
       "Id": "s07_002",
       "Speaker": "ミア",
       "Text": "あっ！ お父さん！"
     },
     {
+      "Type": "character",
+      "AssetId": "roy/roy_normal",
+      "Action": "show",
+      "Position": "left",
+      "Width": 1600,
+      "Height": 1600,
+      "OffsetX": -50,
+      "OffsetY": -100,
+      "FlipX": true
+    },
+    {
       "Type": "description",
       "Text": "廊下の向こうから、一人の中年男性が歩いてくる。ミアは嬉しそうに駆け寄った。"
+    },
+    {
+      "Type": "character",
+      "AssetId": "roy/roy_surprised",
+      "Action": "show",
+      "Position": "left",
+      "Width": 1600,
+      "Height": 1600,
+      "OffsetX": -50,
+      "OffsetY": -100,
+      "FlipX": true
     },
     {
       "Type": "dialogue",
@@ -74,6 +94,17 @@
       "Id": "s07_004",
       "Speaker": "ミア",
       "Text": "えへへ、ちょっと会いたくなっちゃって！"
+    },
+    {
+      "Type": "character",
+      "AssetId": "roy/roy_talking",
+      "Action": "show",
+      "Position": "left",
+      "Width": 1600,
+      "Height": 1600,
+      "OffsetX": -50,
+      "OffsetY": -100,
+      "FlipX": true
     },
     {
       "Type": "dialogue",
@@ -118,6 +149,17 @@
       "Text": "それでね、お父さん。ヴァルディア星のことで、ちょっと気になることがあって……"
     },
     {
+      "Type": "character",
+      "AssetId": "roy/roy_surprised",
+      "Action": "show",
+      "Position": "left",
+      "Width": 1600,
+      "Height": 1600,
+      "OffsetX": -50,
+      "OffsetY": -100,
+      "FlipX": true
+    },
+    {
       "Type": "dialogue",
       "Id": "s07_012",
       "Speaker": "ロイ",
@@ -140,10 +182,30 @@
       "Text": "…………"
     },
     {
+      "Type": "character",
+      "AssetId": "roy/roy_talking",
+      "Action": "show",
+      "Position": "left",
+      "Width": 1600,
+      "Height": 1600,
+      "OffsetX": -50,
+      "OffsetY": -100,
+      "FlipX": true
+    },
+    {
       "Type": "dialogue",
       "Id": "s07_015",
       "Speaker": "ロイ",
       "Text": "ここでは、その話はしない方がいい"
+    },
+    {
+      "Type": "character",
+      "AssetId": "mia/mia_confused",
+      "Action": "show",
+      "Position": "right",
+      "Width": 775,
+      "Height": 1085,
+      "OffsetY": -50
     },
     {
       "Type": "dialogue",
@@ -209,6 +271,17 @@
       "Text": "実は、私たちはヴァルディア星の軍事活動について、少し気になる情報を見つけたんです"
     },
     {
+      "Type": "character",
+      "AssetId": "roy/roy_surprised",
+      "Action": "show",
+      "Position": "left",
+      "Width": 1600,
+      "Height": 1600,
+      "OffsetX": -50,
+      "OffsetY": -100,
+      "FlipX": true
+    },
+    {
       "Type": "dialogue",
       "Id": "s07_022",
       "Speaker": "ロイ",
@@ -219,6 +292,17 @@
       "Id": "s07_023",
       "Speaker": "ハウエル",
       "Text": "ヴァルディア星周辺に、多数の軍用艦艇が展開していることを確認しています"
+    },
+    {
+      "Type": "character",
+      "AssetId": "roy/roy_talking",
+      "Action": "show",
+      "Position": "left",
+      "Width": 1600,
+      "Height": 1600,
+      "OffsetX": -50,
+      "OffsetY": -100,
+      "FlipX": true
     },
     {
       "Type": "dialogue",
@@ -269,18 +353,8 @@
       "Position": "left"
     },
     {
-      "Type": "fade",
-      "Action": "out",
-      "Duration": 0.6
-    },
-    {
       "Type": "background",
       "AssetId": "episode02/scene07/underground_streamers"
-    },
-    {
-      "Type": "fade",
-      "Action": "in",
-      "Duration": 0.6
     },
     {
       "Type": "dialogue",
@@ -313,22 +387,16 @@
       "Text": "我々は、テレビ局が報道しない情報を密かに調査し、外部へ伝えようとしている"
     },
     {
-      "Type": "fade",
-      "Action": "out",
-      "Duration": 0.6
-    },
-    {
       "Type": "background",
       "AssetId": "episode02/scene07/tv_station_archive_room"
     },
     {
       "Type": "character",
-      "AssetId": "roman/roman_arms_crossed",
+      "AssetId": "roman/roman_with_hauer",
       "Action": "show",
       "Position": "center",
-      "Width": 620,
-      "Height": 930,
-      "FlipX": true
+      "Width": 1240,
+      "Height": 1860
     },
     {
       "Type": "character",
@@ -341,18 +409,14 @@
     },
     {
       "Type": "character",
-      "AssetId": "ai/ai_normal",
+      "AssetId": "roy/roy_talking",
       "Action": "show",
       "Position": "left",
-      "Width": 320,
-      "Height": 320,
-      "OffsetY": 120,
+      "Width": 1600,
+      "Height": 1600,
+      "OffsetX": -50,
+      "OffsetY": -100,
       "FlipX": true
-    },
-    {
-      "Type": "fade",
-      "Action": "in",
-      "Duration": 0.6
     },
     {
       "Type": "dialogue",
@@ -936,12 +1000,11 @@
     },
     {
       "Type": "character",
-      "AssetId": "roman/roman_arms_crossed",
+      "AssetId": "roman/roman_with_hauer",
       "Action": "show",
       "Position": "center",
-      "Width": 620,
-      "Height": 930,
-      "FlipX": true
+      "Width": 1240,
+      "Height": 1860
     },
     {
       "Type": "character",
@@ -954,12 +1017,13 @@
     },
     {
       "Type": "character",
-      "AssetId": "ai/ai_normal",
+      "AssetId": "roy/roy_talking",
       "Action": "show",
       "Position": "left",
-      "Width": 320,
-      "Height": 320,
-      "OffsetY": 120,
+      "Width": 1600,
+      "Height": 1600,
+      "OffsetX": -50,
+      "OffsetY": -100,
       "FlipX": true
     },
     {
@@ -1263,12 +1327,11 @@
     },
     {
       "Type": "character",
-      "AssetId": "roman/roman_arms_crossed",
+      "AssetId": "roman/roman_with_hauer",
       "Action": "show",
       "Position": "center",
-      "Width": 620,
-      "Height": 930,
-      "FlipX": true
+      "Width": 1240,
+      "Height": 1860
     },
     {
       "Type": "character",
@@ -1281,18 +1344,14 @@
     },
     {
       "Type": "character",
-      "AssetId": "ai/ai_normal",
+      "AssetId": "roy/roy_talking",
       "Action": "show",
       "Position": "left",
-      "Width": 320,
-      "Height": 320,
-      "OffsetY": 120,
+      "Width": 1600,
+      "Height": 1600,
+      "OffsetX": -50,
+      "OffsetY": -100,
       "FlipX": true
-    },
-    {
-      "Type": "fade",
-      "Action": "in",
-      "Duration": 0.6
     },
     {
       "Type": "dialogue",

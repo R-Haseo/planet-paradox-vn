@@ -1145,6 +1145,11 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 35f9ed3623942a84d95bf7a5ebf66c9f
+    m_Address: character/roy/roy_surprised
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 360f73bd575634d4888f81db4be774d4
     m_Address: voice/episode02/s05_021
     m_ReadOnly: 0
@@ -2237,6 +2242,11 @@ MonoBehaviour:
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 669cbf0e826d4df4881a5c782a842d22
     m_Address: voice/episode02/s07_134
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 66ba9dd341b4e8146adb562a1a060676
+    m_Address: character/roy/roy_talking
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
@@ -4955,6 +4965,11 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e71168c3334178e41a3e1d898a907c22
+    m_Address: character/roy/roy_normal
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: e73034c57cb911f4495daf02d6b144a2
     m_Address: background/episode02/scene04/tv_news_anchor
     m_ReadOnly: 0
@@ -5217,6 +5232,11 @@ MonoBehaviour:
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: f6b1fda068b0ac54e9a685b27c1d9ea7
     m_Address: voice/episode01/s05_052
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f6e7a0d01fb30f3469b5e36abfbcb033
+    m_Address: character/roman/roman_with_hauer
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
