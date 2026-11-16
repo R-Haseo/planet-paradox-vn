@@ -220,18 +220,8 @@
       "Text": "詳しい話は別の場所でしよう。ついてきてくれ"
     },
     {
-      "Type": "fade",
-      "Action": "out",
-      "Duration": 0.6
-    },
-    {
       "Type": "background",
       "AssetId": "episode02/scene07/tv_station_archive_room"
-    },
-    {
-      "Type": "fade",
-      "Action": "in",
-      "Duration": 0.6
     },
     {
       "Type": "description",
@@ -515,7 +505,7 @@
     },
     {
       "Type": "description",
-      "Text": "ロイは端末を操作し、かつての自由なネットワーク社会を記録した古い映像を表示する。"
+      "Text": "ロイは端末を操作し、かつての自由なインターネット社会を記録した古い映像を表示する。"
     },
     {
       "Type": "dialogue",
@@ -533,7 +523,7 @@
       "Type": "dialogue",
       "Id": "s07_046",
       "Speaker": "ロイ",
-      "Text": "ああ。SNSやネットワークを通じて、個人が自分の考えを世界中に伝えられたんだ"
+      "Text": "ああ。SNSやインターネットを通じて、個人が自分の考えを世界中に伝えられたんだ"
     },
     {
       "Type": "dialogue",
@@ -572,18 +562,8 @@
       "Text": "だが、自由な情報発信には問題もあった"
     },
     {
-      "Type": "fade",
-      "Action": "out",
-      "Duration": 0.6
-    },
-    {
       "Type": "background",
       "AssetId": "episode02/scene07/misinformation_spread"
-    },
-    {
-      "Type": "fade",
-      "Action": "in",
-      "Duration": 0.6
     },
     {
       "Type": "dialogue",
@@ -620,30 +600,20 @@
       "Text": "映像には、自由に発信された情報が次々と拡散し、やがて混乱が広がっていく様子が記録されている。"
     },
     {
-      "Type": "fade",
-      "Action": "out",
-      "Duration": 0.6
-    },
-    {
       "Type": "background",
       "AssetId": "episode02/scene07/information_regulation_law"
-    },
-    {
-      "Type": "fade",
-      "Action": "in",
-      "Duration": 0.6
     },
     {
       "Type": "dialogue",
       "Id": "s07_058",
       "Speaker": "ロイ",
-      "Text": "そこで政府は、新たな情報規制法を制定した"
+      "Text": "そこで政府は、新たなネット情報規制法を制定した"
     },
     {
       "Type": "dialogue",
       "Id": "s07_059",
       "Speaker": "ろまん",
-      "Text": "情報規制法？"
+      "Text": "ネット情報規制法？"
     },
     {
       "Type": "dialogue",
@@ -682,18 +652,8 @@
       "Text": "どう変わったんですか？"
     },
     {
-      "Type": "fade",
-      "Action": "out",
-      "Duration": 0.6
-    },
-    {
       "Type": "background",
       "AssetId": "episode02/scene07/information_regulation_expansion"
-    },
-    {
-      "Type": "fade",
-      "Action": "in",
-      "Duration": 0.6
     },
     {
       "Type": "dialogue",
@@ -905,7 +865,7 @@
       "Type": "dialogue",
       "Id": "s07_097",
       "Speaker": "ロイ",
-      "Text": "我々が発信した情報は、すぐに偽情報として削除される。そして、発信した者は処罰の対象になる"
+      "Text": "我々が発信した情報は、すぐに偽情報として削除される。"
     },
     {
       "Type": "dialogue",
@@ -1045,41 +1005,17 @@
       "Type": "dialogue",
       "Id": "s07_112",
       "Speaker": "ロイ",
-      "Text": "君たちは、ヴァルディア星の軍事活動について調べていると言ったな"
+      "Text": "ああ。実は、以前からヴァルディア星とテレビ局の関係を調査していたんだ"
     },
     {
       "Type": "dialogue",
       "Id": "s07_113",
-      "Speaker": "ろまん",
-      "Text": "はい。ヴァルディア星の周辺で、多数の軍艦を確認しました"
-    },
-    {
-      "Type": "dialogue",
-      "Id": "s07_114",
-      "Speaker": "ハウエル",
-      "Text": "確認された艦艇は、軍事作戦を想定した隊列を形成していました。通常の民間航行とは明らかに異なります"
-    },
-    {
-      "Type": "dialogue",
-      "Id": "s07_115",
-      "Speaker": "ロイ",
-      "Text": "……我々の調査結果とも一致するな"
-    },
-    {
-      "Type": "dialogue",
-      "Id": "s07_116",
       "Speaker": "ミア",
       "Text": "えっ？ お父さんたちも調べてたの？"
     },
     {
       "Type": "dialogue",
-      "Id": "s07_117",
-      "Speaker": "ロイ",
-      "Text": "ああ。実は、以前からヴァルディア星とテレビ局の関係を調査していたんだ"
-    },
-    {
-      "Type": "dialogue",
-      "Id": "s07_118",
+      "Id": "s07_114",
       "Speaker": "ろまん",
       "Text": "何か分かったんですか？"
     },
@@ -1104,115 +1040,115 @@
     },
     {
       "Type": "dialogue",
-      "Id": "s07_119",
+      "Id": "s07_115",
       "Speaker": "ロイ",
       "Text": "我々が独自に入手した内部資料によれば、ヴァルディア星からアステリア星のテレビ局へ、莫大な資金が流れ込んでいる"
     },
     {
       "Type": "dialogue",
-      "Id": "s07_120",
+      "Id": "s07_116",
       "Speaker": "ミア",
       "Text": "ええっ！？ どうして外国の星がお金を出してるの！？"
     },
     {
       "Type": "dialogue",
-      "Id": "s07_121",
+      "Id": "s07_117",
       "Speaker": "ロイ",
       "Text": "表向きは、文化交流や報道事業への協賛ということになっている"
     },
     {
       "Type": "dialogue",
-      "Id": "s07_122",
+      "Id": "s07_118",
       "Speaker": "ロイ",
       "Text": "だが、その資金の流れを追うと、不自然な点がいくつも見つかった"
     },
     {
       "Type": "dialogue",
-      "Id": "s07_123",
+      "Id": "s07_119",
       "Speaker": "ろまん",
       "Text": "不自然な点？"
     },
     {
       "Type": "dialogue",
-      "Id": "s07_124",
+      "Id": "s07_120",
       "Speaker": "ロイ",
       "Text": "ヴァルディア星からの資金提供が増えるにつれて、あの星に不都合なニュースが、ほとんど報道されなくなっているんだ"
     },
     {
       "Type": "dialogue",
-      "Id": "s07_125",
+      "Id": "s07_121",
       "Speaker": "ミア",
       "Text": "そんなこと……"
     },
     {
       "Type": "dialogue",
-      "Id": "s07_126",
+      "Id": "s07_122",
       "Speaker": "ロイ",
       "Text": "代わりに、ヴァルディア星の発展や友好関係を称賛する報道ばかりが増えている"
     },
     {
       "Type": "dialogue",
-      "Id": "s07_127",
+      "Id": "s07_123",
       "Speaker": "ろまん",
       "Text": "……街頭テレビでも、そういうニュースを見ました"
     },
     {
       "Type": "dialogue",
-      "Id": "s07_128",
+      "Id": "s07_124",
       "Speaker": "ロイ",
       "Text": "だろうな"
     },
     {
       "Type": "dialogue",
-      "Id": "s07_129",
+      "Id": "s07_125",
       "Speaker": "ロイ",
       "Text": "ヴァルディア星は、この星の情報を支配することで、世論を自分たちに都合のよい方向へ誘導しようとしているのかもしれない"
     },
     {
       "Type": "dialogue",
-      "Id": "s07_130",
+      "Id": "s07_126",
       "Speaker": "ミア",
       "Text": "でも……ヴァルディア星って、すごく素敵な星なんでしょ？"
     },
     {
       "Type": "dialogue",
-      "Id": "s07_131",
+      "Id": "s07_127",
       "Speaker": "ミア",
       "Text": "テレビでは、みんな幸せそうだったし……。レオン・ヴァルガス大統領だって、平和が大切だって言ってたじゃない！"
     },
     {
       "Type": "dialogue",
-      "Id": "s07_132",
+      "Id": "s07_128",
       "Speaker": "ロイ",
       "Text": "……ミア"
     },
     {
       "Type": "dialogue",
-      "Id": "s07_133",
+      "Id": "s07_129",
       "Speaker": "ロイ",
       "Text": "そのテレビが、ヴァルディア星から資金を受け取っているとしたら？"
     },
     {
       "Type": "dialogue",
-      "Id": "s07_134",
+      "Id": "s07_130",
       "Speaker": "ミア",
       "Text": "…………！"
     },
     {
       "Type": "dialogue",
-      "Id": "s07_135",
+      "Id": "s07_131",
       "Speaker": "ろまん",
       "Text": "少なくとも、テレビの報道だけで判断するのは難しそうですね"
     },
     {
       "Type": "dialogue",
-      "Id": "s07_136",
+      "Id": "s07_132",
       "Speaker": "ミア",
       "Text": "……うん"
     },
     {
       "Type": "dialogue",
-      "Id": "s07_137",
+      "Id": "s07_133",
       "Speaker": "ロイ",
       "Text": "そして、我々が最も懸念しているのは、ヴァルディア星の軍事活動だ"
     },
@@ -1222,104 +1158,93 @@
     },
     {
       "Type": "dialogue",
-      "Id": "s07_138",
+      "Id": "s07_134",
       "Speaker": "ロイ",
       "Text": "ここ最近、ヴァルディア星の軍用艦艇が、急速に活動を活発化させている"
     },
     {
       "Type": "dialogue",
-      "Id": "s07_139",
+      "Id": "s07_135",
       "Speaker": "ハウエル",
       "Text": "私が観測した艦隊の情報とも一致していますね"
     },
     {
       "Type": "dialogue",
-      "Id": "s07_140",
-      "Speaker": "ロイ",
-      "Text": "おそらく、そうだろう"
-    },
-    {
-      "Type": "dialogue",
-      "Id": "s07_141",
+      "Id": "s07_136",
       "Speaker": "ロイ",
       "Text": "我々が入手した情報では、艦艇の増強だけでなく、補給物資の集積や兵員の移動も確認されている"
     },
     {
       "Type": "dialogue",
-      "Id": "s07_142",
+      "Id": "s07_137",
       "Speaker": "ろまん",
       "Text": "それって……"
     },
     {
       "Type": "dialogue",
-      "Id": "s07_143",
+      "Id": "s07_138",
       "Speaker": "ロイ",
       "Text": "ああ。大規模な軍事作戦の準備と考えれば、説明がつく"
     },
     {
       "Type": "dialogue",
-      "Id": "s07_144",
+      "Id": "s07_139",
       "Speaker": "ミア",
       "Text": "ま、待ってよ！ それじゃあ、ヴァルディア星が戦争を始めるってこと！？"
     },
     {
       "Type": "dialogue",
-      "Id": "s07_145",
+      "Id": "s07_140",
       "Speaker": "ロイ",
       "Text": "まだ断定はできない。だが、その可能性は極めて高いと考えている"
     },
     {
       "Type": "dialogue",
-      "Id": "s07_146",
+      "Id": "s07_141",
       "Speaker": "ハウエル",
       "Text": "軍用艦艇の展開状況と補給活動を総合すると、その推測には合理性があります"
     },
     {
       "Type": "dialogue",
-      "Id": "s07_147",
+      "Id": "s07_142",
       "Speaker": "ろまん",
       "Text": "でも、ヴァルディア星がどこを攻撃するつもりなのかは、分からないんですよね？"
     },
     {
       "Type": "dialogue",
-      "Id": "s07_148",
+      "Id": "s07_143",
       "Speaker": "ロイ",
       "Text": "……残念ながら、標的までは特定できていない"
     },
     {
       "Type": "dialogue",
-      "Id": "s07_149",
+      "Id": "s07_144",
       "Speaker": "ロイ",
       "Text": "ただ、アステリア星への政治的な影響力を強めていることを考えると、我々も無関係ではいられないだろう"
     },
     {
       "Type": "dialogue",
-      "Id": "s07_150",
+      "Id": "s07_145",
       "Speaker": "ミア",
       "Text": "そんな……"
     },
     {
       "Type": "dialogue",
-      "Id": "s07_151",
+      "Id": "s07_146",
       "Speaker": "ミア",
       "Text": "テレビでは、ヴァルディア星とはずっと仲良くしていけるって言ってたのに……"
     },
     {
       "Type": "dialogue",
-      "Id": "s07_152",
+      "Id": "s07_147",
       "Speaker": "ロイ",
       "Text": "ああ。だが、テレビ局は軍事活動についてほとんど報道していない"
     },
     {
       "Type": "dialogue",
-      "Id": "s07_153",
+      "Id": "s07_148",
       "Speaker": "ロイ",
       "Text": "この星の人々は、迫りつつある危機を知らないまま、ヴァルディア星との友好を信じているんだ"
-    },
-    {
-      "Type": "fade",
-      "Action": "out",
-      "Duration": 0.6
     },
     {
       "Type": "background",
@@ -1355,7 +1280,7 @@
     },
     {
       "Type": "dialogue",
-      "Id": "s07_154",
+      "Id": "s07_149",
       "Speaker": "ミア",
       "Text": "……ねえ、お父さん"
     },
@@ -1365,237 +1290,151 @@
     },
     {
       "Type": "dialogue",
-      "Id": "s07_155",
+      "Id": "s07_150",
       "Speaker": "ロイ",
       "Text": "何だ？"
     },
     {
       "Type": "dialogue",
-      "Id": "s07_156",
+      "Id": "s07_151",
       "Speaker": "ミア",
       "Text": "お父さんたちの言ってることが本当なら……私たちは、ずっと騙されてたってこと？"
     },
     {
       "Type": "dialogue",
-      "Id": "s07_157",
+      "Id": "s07_152",
       "Speaker": "ロイ",
       "Text": "……そうかもしれない"
     },
     {
       "Type": "dialogue",
-      "Id": "s07_158",
+      "Id": "s07_153",
       "Speaker": "ミア",
       "Text": "じゃあ、どうしてもっと早く教えてくれなかったのよ！"
     },
     {
+      "Type": "character",
+      "AssetId": "roy/roy_troubled",
+      "Action": "show",
+      "Position": "left",
+      "Width": 1600,
+      "Height": 1600,
+      "OffsetX": -50,
+      "OffsetY": -100,
+      "FlipX": true
+    },
+    {
       "Type": "dialogue",
-      "Id": "s07_159",
+      "Id": "s07_154",
       "Speaker": "ロイ",
       "Text": "……すまない"
     },
     {
       "Type": "dialogue",
-      "Id": "s07_160",
-      "Speaker": "ミア",
-      "Text": "私、ヴァルディア星に行ってみたかったんだよ"
-    },
-    {
-      "Type": "dialogue",
-      "Id": "s07_161",
-      "Speaker": "ミア",
-      "Text": "テレビで見るたびに、あんな素敵な星で暮らせたらいいなって……"
-    },
-    {
-      "Type": "dialogue",
-      "Id": "s07_162",
-      "Speaker": "ロイ",
-      "Text": "……ああ。知っているよ"
-    },
-    {
-      "Type": "dialogue",
-      "Id": "s07_163",
-      "Speaker": "ミア",
-      "Text": "それなのに……"
-    },
-    {
-      "Type": "dialogue",
-      "Id": "s07_164",
+      "Id": "s07_155",
       "Speaker": "ろまん",
       "Text": "ミア……"
     },
     {
       "Type": "dialogue",
-      "Id": "s07_165",
+      "Id": "s07_156",
       "Speaker": "ロイ",
       "Text": "私も昔は、テレビ局の報道が社会を良くするものだと信じていた"
     },
     {
       "Type": "dialogue",
-      "Id": "s07_166",
+      "Id": "s07_157",
       "Speaker": "ロイ",
       "Text": "正しい情報さえ伝われば、人々は正しい判断ができる。そう考えていたんだ"
     },
     {
       "Type": "dialogue",
-      "Id": "s07_167",
+      "Id": "s07_158",
       "Speaker": "ロイ",
       "Text": "だが、いつの間にか、正しい情報を伝えることよりも、正しいと認められた情報を守ることが優先されるようになっていた"
     },
     {
       "Type": "dialogue",
-      "Id": "s07_168",
+      "Id": "s07_159",
       "Speaker": "ロイ",
       "Text": "……その違いに気づいたときには、もう手遅れだった"
     },
     {
       "Type": "dialogue",
-      "Id": "s07_169",
+      "Id": "s07_160",
       "Speaker": "ハウエル",
       "Text": "しかし、現在も調査活動を継続されているのですね"
     },
     {
       "Type": "dialogue",
-      "Id": "s07_170",
+      "Id": "s07_161",
       "Speaker": "ロイ",
       "Text": "ああ。何もしなければ、何も変わらないからな"
     },
     {
       "Type": "dialogue",
-      "Id": "s07_171",
+      "Id": "s07_162",
       "Speaker": "ロイ",
       "Text": "我々の情報を信じてくれる者は、ほとんどいない。それでも、記録を残し、伝え続けるつもりだ"
     },
     {
       "Type": "dialogue",
-      "Id": "s07_172",
+      "Id": "s07_163",
       "Speaker": "ろまん",
       "Text": "……大切なことだと思います"
     },
     {
+      "Type": "character",
+      "AssetId": "roy/roy_smiling",
+      "Action": "show",
+      "Position": "left",
+      "Width": 1600,
+      "Height": 1600,
+      "OffsetX": -50,
+      "OffsetY": -100,
+      "FlipX": true
+    },
+    {
       "Type": "dialogue",
-      "Id": "s07_173",
+      "Id": "s07_164",
       "Speaker": "ロイ",
       "Text": "ありがとう"
     },
     {
       "Type": "dialogue",
-      "Id": "s07_174",
+      "Id": "s07_165",
       "Speaker": "ミア",
       "Text": "…………"
     },
     {
       "Type": "dialogue",
-      "Id": "s07_175",
-      "Speaker": "ミア",
-      "Text": "……お父さん"
-    },
-    {
-      "Type": "dialogue",
-      "Id": "s07_176",
-      "Speaker": "ロイ",
-      "Text": "ん？"
-    },
-    {
-      "Type": "dialogue",
-      "Id": "s07_177",
-      "Speaker": "ミア",
-      "Text": "私、まだ全部は信じられない"
-    },
-    {
-      "Type": "dialogue",
-      "Id": "s07_178",
-      "Speaker": "ロイ",
-      "Text": "……ああ"
-    },
-    {
-      "Type": "dialogue",
-      "Id": "s07_179",
-      "Speaker": "ミア",
-      "Text": "でも……お父さんが、ずっと何かを隠していた理由は、少し分かった気がする"
-    },
-    {
-      "Type": "dialogue",
-      "Id": "s07_180",
-      "Speaker": "ロイ",
-      "Text": "……そうか"
-    },
-    {
-      "Type": "description",
-      "Text": "ロイは静かにうなずく。"
-    },
-    {
-      "Type": "dialogue",
-      "Id": "s07_181",
-      "Speaker": "ろまん",
-      "Text": "ハウエル。この情報、どう思う？"
-    },
-    {
-      "Type": "description",
-      "Text": "ロイの端末には、ヴァルディア星周辺の軍事活動を示す記録が映し出されている。"
-    },
-    {
-      "Type": "dialogue",
-      "Id": "s07_182",
-      "Speaker": "ハウエル",
-      "Text": "現時点では、すべての情報を独立して検証することはできません"
-    },
-    {
-      "Type": "dialogue",
-      "Id": "s07_183",
-      "Speaker": "ハウエル",
-      "Text": "しかし、我々が観測した軍用艦艇の存在と、記者の方が提示した情報には、複数の一致点が認められます"
-    },
-    {
-      "Type": "dialogue",
-      "Id": "s07_184",
-      "Speaker": "ろまん",
-      "Text": "……やっぱり、何かが起きようとしているんだね"
-    },
-    {
-      "Type": "dialogue",
-      "Id": "s07_185",
-      "Speaker": "ロイ",
-      "Text": "ああ。私もそう考えている"
-    },
-    {
-      "Type": "dialogue",
-      "Id": "s07_186",
-      "Speaker": "ミア",
-      "Text": "…………"
-    },
-    {
-      "Type": "dialogue",
-      "Id": "s07_187",
+      "Id": "s07_166",
       "Speaker": "ミア",
       "Text": "……ねえ、ろまん"
     },
     {
       "Type": "dialogue",
-      "Id": "s07_188",
+      "Id": "s07_167",
       "Speaker": "ろまん",
       "Text": "どうしたの？"
     },
     {
       "Type": "dialogue",
-      "Id": "s07_189",
+      "Id": "s07_168",
       "Speaker": "ミア",
       "Text": "私、今までテレビで見たことを、何も疑ってこなかった"
     },
     {
       "Type": "dialogue",
-      "Id": "s07_190",
+      "Id": "s07_169",
       "Speaker": "ミア",
       "Text": "でも……それだけじゃ、分からないこともあるんだね"
     },
     {
       "Type": "dialogue",
-      "Id": "s07_191",
+      "Id": "s07_170",
       "Speaker": "ろまん",
       "Text": "……うん。私もそう思う"
-    },
-    {
-      "Type": "description",
-      "Text": "ミアは画面に映るヴァルディア星の艦隊を、言葉もなく見つめる。"
     },
     {
       "Type": "fade",
