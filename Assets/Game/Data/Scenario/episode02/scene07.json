@@ -1,0 +1,1448 @@
+{
+  "Commands": [
+    {
+      "Type": "bgm",
+      "Action": "play",
+      "AssetId": "investigation",
+      "Volume": 0.3
+    },
+    {
+      "Type": "background",
+      "AssetId": "episode02/scene07/tv_station_lobby"
+    },
+    {
+      "Type": "character",
+      "AssetId": "roman/roman_with_hauer",
+      "Action": "show",
+      "Position": "center",
+      "Width": 1240,
+      "Height": 1860
+    },
+    {
+      "Type": "character",
+      "AssetId": "mia/mia_confused",
+      "Action": "show",
+      "Position": "right",
+      "Width": 775,
+      "Height": 1085,
+      "OffsetY": -50
+    },
+    {
+      "Type": "fade",
+      "Action": "in",
+      "Duration": 0.8
+    },
+    {
+      "Type": "description",
+      "Text": "アステリア星のテレビ局。巨大な建物の内部では、華やかな番組の宣伝映像が次々と流れている。"
+    },
+    {
+      "Type": "dialogue",
+      "Id": "s07_001",
+      "Speaker": "ミア",
+      "Text": "お父さん、まだ仕事してるかな？"
+    },
+    {
+      "Type": "character",
+      "AssetId": "mia/mia_three_quarter",
+      "Action": "show",
+      "Position": "right",
+      "Width": 775,
+      "Height": 1085,
+      "OffsetY": -50
+    },
+    {
+      "Type": "dialogue",
+      "Id": "s07_002",
+      "Speaker": "ミア",
+      "Text": "あっ！ お父さん！"
+    },
+    {
+      "Type": "character",
+      "AssetId": "roy/roy_normal",
+      "Action": "show",
+      "Position": "left",
+      "Width": 1600,
+      "Height": 1600,
+      "OffsetX": -50,
+      "OffsetY": -100,
+      "FlipX": true
+    },
+    {
+      "Type": "description",
+      "Text": "廊下の向こうから、一人の中年男性が歩いてくる。ミアは嬉しそうに駆け寄った。"
+    },
+    {
+      "Type": "character",
+      "AssetId": "roy/roy_surprised",
+      "Action": "show",
+      "Position": "left",
+      "Width": 1600,
+      "Height": 1600,
+      "OffsetX": -50,
+      "OffsetY": -100,
+      "FlipX": true
+    },
+    {
+      "Type": "dialogue",
+      "Id": "s07_003",
+      "Speaker": "ロイ",
+      "Text": "ミア？ どうしてここに？"
+    },
+    {
+      "Type": "dialogue",
+      "Id": "s07_004",
+      "Speaker": "ミア",
+      "Text": "えへへ、ちょっと会いたくなっちゃって！"
+    },
+    {
+      "Type": "character",
+      "AssetId": "roy/roy_talking",
+      "Action": "show",
+      "Position": "left",
+      "Width": 1600,
+      "Height": 1600,
+      "OffsetX": -50,
+      "OffsetY": -100,
+      "FlipX": true
+    },
+    {
+      "Type": "dialogue",
+      "Id": "s07_005",
+      "Speaker": "ロイ",
+      "Text": "まったく……。ここは遊びに来るところじゃないぞ"
+    },
+    {
+      "Type": "dialogue",
+      "Id": "s07_006",
+      "Speaker": "ミア",
+      "Text": "わかってるわよ！ それより、今日はお父さんに聞きたいことがあるの"
+    },
+    {
+      "Type": "dialogue",
+      "Id": "s07_007",
+      "Speaker": "ロイ",
+      "Text": "聞きたいこと？"
+    },
+    {
+      "Type": "dialogue",
+      "Id": "s07_008",
+      "Speaker": "ろまん",
+      "Text": "初めまして。私はろまんといいます。こちらはハウエルです"
+    },
+    {
+      "Type": "dialogue",
+      "Id": "s07_009",
+      "Speaker": "ハウエル",
+      "Text": "初めまして。ショーペンハウエルです"
+    },
+    {
+      "Type": "dialogue",
+      "Id": "s07_010",
+      "Speaker": "ロイ",
+      "Text": "初めまして。私はミアの父親でロイといいます"
+    },
+    {
+      "Type": "dialogue",
+      "Id": "s07_011",
+      "Speaker": "ミア",
+      "Text": "それでね、お父さん。ヴァルディア星のことで、ちょっと気になることがあって……"
+    },
+    {
+      "Type": "character",
+      "AssetId": "roy/roy_surprised",
+      "Action": "show",
+      "Position": "left",
+      "Width": 1600,
+      "Height": 1600,
+      "OffsetX": -50,
+      "OffsetY": -100,
+      "FlipX": true
+    },
+    {
+      "Type": "dialogue",
+      "Id": "s07_012",
+      "Speaker": "ロイ",
+      "Text": "……ヴァルディア星？"
+    },
+    {
+      "Type": "description",
+      "Text": "ヴァルディア星の名前を聞いたロイの表情が、わずかに曇る。"
+    },
+    {
+      "Type": "dialogue",
+      "Id": "s07_013",
+      "Speaker": "ミア",
+      "Text": "うん！ テレビでは素晴らしい星だって言ってるけど、ろまんたちはちょっと違うことを言うのよ"
+    },
+    {
+      "Type": "dialogue",
+      "Id": "s07_014",
+      "Speaker": "ロイ",
+      "Text": "…………"
+    },
+    {
+      "Type": "character",
+      "AssetId": "roy/roy_talking",
+      "Action": "show",
+      "Position": "left",
+      "Width": 1600,
+      "Height": 1600,
+      "OffsetX": -50,
+      "OffsetY": -100,
+      "FlipX": true
+    },
+    {
+      "Type": "dialogue",
+      "Id": "s07_015",
+      "Speaker": "ロイ",
+      "Text": "ここでは、その話はしない方がいい"
+    },
+    {
+      "Type": "character",
+      "AssetId": "mia/mia_confused",
+      "Action": "show",
+      "Position": "right",
+      "Width": 775,
+      "Height": 1085,
+      "OffsetY": -50
+    },
+    {
+      "Type": "dialogue",
+      "Id": "s07_016",
+      "Speaker": "ミア",
+      "Text": "えっ？ どうして？"
+    },
+    {
+      "Type": "dialogue",
+      "Id": "s07_017",
+      "Speaker": "ロイ",
+      "Text": "詳しい話は別の場所でしよう。ついてきてくれ"
+    },
+    {
+      "Type": "background",
+      "AssetId": "episode02/scene07/tv_station_archive_room"
+    },
+    {
+      "Type": "description",
+      "Text": "テレビ局の一角にある小さな資料室。ロイは扉を閉め、端末の通信機能を停止する。"
+    },
+    {
+      "Type": "character",
+      "AssetId": "mia/mia_angry",
+      "Action": "show",
+      "Position": "right",
+      "Width": 1007,
+      "Height": 1410,
+      "OffsetY": -50
+    },
+    {
+      "Type": "dialogue",
+      "Id": "s07_018",
+      "Speaker": "ミア",
+      "Text": "ちょっと、お父さん！ 何なのよ、急に！"
+    },
+    {
+      "Type": "dialogue",
+      "Id": "s07_019",
+      "Speaker": "ロイ",
+      "Text": "……まず、君たちに確認したいことがある"
+    },
+    {
+      "Type": "dialogue",
+      "Id": "s07_020",
+      "Speaker": "ロイ",
+      "Text": "ヴァルディア星について、何を知っている？"
+    },
+    {
+      "Type": "dialogue",
+      "Id": "s07_021",
+      "Speaker": "ろまん",
+      "Text": "実は、私たちはヴァルディア星の軍事活動について、少し気になる情報を見つけたんです"
+    },
+    {
+      "Type": "character",
+      "AssetId": "roy/roy_surprised",
+      "Action": "show",
+      "Position": "left",
+      "Width": 1600,
+      "Height": 1600,
+      "OffsetX": -50,
+      "OffsetY": -100,
+      "FlipX": true
+    },
+    {
+      "Type": "dialogue",
+      "Id": "s07_022",
+      "Speaker": "ロイ",
+      "Text": "軍事活動……？"
+    },
+    {
+      "Type": "dialogue",
+      "Id": "s07_023",
+      "Speaker": "ハウエル",
+      "Text": "ヴァルディア星周辺に、多数の軍用艦艇が展開していることを確認しています"
+    },
+    {
+      "Type": "character",
+      "AssetId": "roy/roy_talking",
+      "Action": "show",
+      "Position": "left",
+      "Width": 1600,
+      "Height": 1600,
+      "OffsetX": -50,
+      "OffsetY": -100,
+      "FlipX": true
+    },
+    {
+      "Type": "dialogue",
+      "Id": "s07_024",
+      "Speaker": "ロイ",
+      "Text": "……やはり、そうか"
+    },
+    {
+      "Type": "character",
+      "AssetId": "mia/mia_confused",
+      "Action": "show",
+      "Position": "right",
+      "Width": 775,
+      "Height": 1085,
+      "OffsetY": -50
+    },
+    {
+      "Type": "dialogue",
+      "Id": "s07_025",
+      "Speaker": "ミア",
+      "Text": "えっ？ お父さん、何か知ってるの？"
+    },
+    {
+      "Type": "dialogue",
+      "Id": "s07_026",
+      "Speaker": "ロイ",
+      "Text": "……ミア。お前には、ずっと黙っていたことがある"
+    },
+    {
+      "Type": "dialogue",
+      "Id": "s07_027",
+      "Speaker": "ミア",
+      "Text": "何よ、改まって"
+    },
+    {
+      "Type": "character",
+      "Action": "hide",
+      "Position": "right"
+    },
+    {
+      "Type": "character",
+      "Action": "hide",
+      "Position": "center"
+    },
+    {
+      "Type": "character",
+      "Action": "hide",
+      "Position": "left"
+    },
+    {
+      "Type": "background",
+      "AssetId": "episode02/scene07/underground_streamers"
+    },
+    {
+      "Type": "dialogue",
+      "Id": "s07_028",
+      "Speaker": "ロイ",
+      "Text": "私は今、テレビ局の仕事とは別に、地下配信者たちと活動している"
+    },
+    {
+      "Type": "dialogue",
+      "Id": "s07_029",
+      "Speaker": "ミア",
+      "Text": "地下配信者って……テレビで言ってた、あの闇配信者たちのこと！？"
+    },
+    {
+      "Type": "dialogue",
+      "Id": "s07_030",
+      "Speaker": "ロイ",
+      "Text": "ああ。この星の情報統制に抵抗している者たちだ"
+    },
+    {
+      "Type": "dialogue",
+      "Id": "s07_031",
+      "Speaker": "ミア",
+      "Text": "じょ、情報統制……？"
+    },
+    {
+      "Type": "dialogue",
+      "Id": "s07_032",
+      "Speaker": "ロイ",
+      "Text": "我々は、テレビ局が報道しない情報を密かに調査し、外部へ伝えようとしている"
+    },
+    {
+      "Type": "background",
+      "AssetId": "episode02/scene07/tv_station_archive_room"
+    },
+    {
+      "Type": "character",
+      "AssetId": "roman/roman_with_hauer",
+      "Action": "show",
+      "Position": "center",
+      "Width": 1240,
+      "Height": 1860
+    },
+    {
+      "Type": "character",
+      "AssetId": "mia/mia_confused",
+      "Action": "show",
+      "Position": "right",
+      "Width": 775,
+      "Height": 1085,
+      "OffsetY": -50
+    },
+    {
+      "Type": "character",
+      "AssetId": "roy/roy_talking",
+      "Action": "show",
+      "Position": "left",
+      "Width": 1600,
+      "Height": 1600,
+      "OffsetX": -50,
+      "OffsetY": -100,
+      "FlipX": true
+    },
+    {
+      "Type": "dialogue",
+      "Id": "s07_033",
+      "Speaker": "ミア",
+      "Text": "ちょっと待ってよ！ お父さん、テレビ局の記者でしょ！？"
+    },
+    {
+      "Type": "dialogue",
+      "Id": "s07_034",
+      "Speaker": "ロイ",
+      "Text": "そうだ"
+    },
+    {
+      "Type": "dialogue",
+      "Id": "s07_035",
+      "Speaker": "ミア",
+      "Text": "だったら、どうしてテレビ局に逆らうようなことをしてるの！？"
+    },
+    {
+      "Type": "dialogue",
+      "Id": "s07_036",
+      "Speaker": "ロイ",
+      "Text": "……テレビ局が、必ずしも真実を伝えているとは限らないからだ"
+    },
+    {
+      "Type": "dialogue",
+      "Id": "s07_037",
+      "Speaker": "ミア",
+      "Text": "そんな……！"
+    },
+    {
+      "Type": "dialogue",
+      "Id": "s07_038",
+      "Speaker": "ろまん",
+      "Text": "ミアのお父さんは、いつからその活動を？"
+    },
+    {
+      "Type": "dialogue",
+      "Id": "s07_039",
+      "Speaker": "ロイ",
+      "Text": "もう何年にもなる。だが、娘にさえ知らせないようにしてきた"
+    },
+    {
+      "Type": "dialogue",
+      "Id": "s07_040",
+      "Speaker": "ミア",
+      "Text": "どうしてよ！"
+    },
+    {
+      "Type": "dialogue",
+      "Id": "s07_041",
+      "Speaker": "ロイ",
+      "Text": "お前まで危険な目に遭わせたくなかったんだ"
+    },
+    {
+      "Type": "dialogue",
+      "Id": "s07_042",
+      "Speaker": "ろまん",
+      "Text": "そもそも、アステリア星では、どうしてテレビ局がこれほど強い力を持っているんですか？"
+    },
+    {
+      "Type": "dialogue",
+      "Id": "s07_043",
+      "Speaker": "ロイ",
+      "Text": "……それを説明するには、この星の歴史から話さなければならないな"
+    },
+    {
+      "Type": "character",
+      "Action": "hide",
+      "Position": "right"
+    },
+    {
+      "Type": "character",
+      "Action": "hide",
+      "Position": "center"
+    },
+    {
+      "Type": "character",
+      "Action": "hide",
+      "Position": "left"
+    },
+    {
+      "Type": "fade",
+      "Action": "out",
+      "Duration": 0.6
+    },
+    {
+      "Type": "background",
+      "AssetId": "episode02/scene07/free_information_era"
+    },
+    {
+      "Type": "fade",
+      "Action": "in",
+      "Duration": 0.6
+    },
+    {
+      "Type": "description",
+      "Text": "ロイは端末を操作し、かつての自由なインターネット社会を記録した古い映像を表示する。"
+    },
+    {
+      "Type": "dialogue",
+      "Id": "s07_044",
+      "Speaker": "ロイ",
+      "Text": "かつて、この星では誰もが自由に情報を発信できた"
+    },
+    {
+      "Type": "dialogue",
+      "Id": "s07_045",
+      "Speaker": "ミア",
+      "Text": "誰もが？"
+    },
+    {
+      "Type": "dialogue",
+      "Id": "s07_046",
+      "Speaker": "ロイ",
+      "Text": "ああ。SNSやインターネットを通じて、個人が自分の考えを世界中に伝えられたんだ"
+    },
+    {
+      "Type": "dialogue",
+      "Id": "s07_047",
+      "Speaker": "ミア",
+      "Text": "ええっ！？ そんなの、テレビ局じゃなくてもニュースを流せるってこと！？"
+    },
+    {
+      "Type": "dialogue",
+      "Id": "s07_048",
+      "Speaker": "ロイ",
+      "Text": "そういうことだ"
+    },
+    {
+      "Type": "dialogue",
+      "Id": "s07_049",
+      "Speaker": "ろまん",
+      "Text": "それって、普通のことじゃないんですか？"
+    },
+    {
+      "Type": "dialogue",
+      "Id": "s07_050",
+      "Speaker": "ロイ",
+      "Text": "君の星では、そうなのかもしれないな"
+    },
+    {
+      "Type": "dialogue",
+      "Id": "s07_051",
+      "Speaker": "ハウエル",
+      "Text": "情報発信の自由度は、惑星ごとの政治制度によって大きく異なります。ただし、現在のアステリア星の制度は、相当に制限が強い部類に属します"
+    },
+    {
+      "Type": "dialogue",
+      "Id": "s07_052",
+      "Speaker": "ロイ",
+      "Text": "だが、自由な情報発信には問題もあった"
+    },
+    {
+      "Type": "background",
+      "AssetId": "episode02/scene07/misinformation_spread"
+    },
+    {
+      "Type": "dialogue",
+      "Id": "s07_053",
+      "Speaker": "ロイ",
+      "Text": "誰でも発信できるということは、誰でも嘘を広められるということでもある"
+    },
+    {
+      "Type": "dialogue",
+      "Id": "s07_054",
+      "Speaker": "ロイ",
+      "Text": "根拠のない噂、悪質な誹謗中傷、巧妙に作られた偽情報……"
+    },
+    {
+      "Type": "dialogue",
+      "Id": "s07_055",
+      "Speaker": "ロイ",
+      "Text": "そうした情報が瞬く間に広まり、大きな社会問題になったんだ"
+    },
+    {
+      "Type": "dialogue",
+      "Id": "s07_056",
+      "Speaker": "ミア",
+      "Text": "ほら！ やっぱり危ないじゃない！"
+    },
+    {
+      "Type": "dialogue",
+      "Id": "s07_057",
+      "Speaker": "ロイ",
+      "Text": "……ああ。当時の私も、そう思っていたよ"
+    },
+    {
+      "Type": "description",
+      "Text": "映像には、自由に発信された情報が次々と拡散し、やがて混乱が広がっていく様子が記録されている。"
+    },
+    {
+      "Type": "background",
+      "AssetId": "episode02/scene07/information_regulation_law"
+    },
+    {
+      "Type": "dialogue",
+      "Id": "s07_058",
+      "Speaker": "ロイ",
+      "Text": "そこで政府は、新たなネット情報規制法を制定した"
+    },
+    {
+      "Type": "dialogue",
+      "Id": "s07_059",
+      "Speaker": "ろまん",
+      "Text": "ネット情報規制法？"
+    },
+    {
+      "Type": "dialogue",
+      "Id": "s07_060",
+      "Speaker": "ロイ",
+      "Text": "『正確な情報を守るため』という名目で、悪質な偽情報の拡散を取り締まる法律だ"
+    },
+    {
+      "Type": "dialogue",
+      "Id": "s07_061",
+      "Speaker": "ミア",
+      "Text": "それって、いいことじゃないの？"
+    },
+    {
+      "Type": "dialogue",
+      "Id": "s07_062",
+      "Speaker": "ロイ",
+      "Text": "当初は、私もそう考えていた"
+    },
+    {
+      "Type": "dialogue",
+      "Id": "s07_063",
+      "Speaker": "ロイ",
+      "Text": "私は記者として、嘘の情報が広まることに強い危機感を持っていたからな"
+    },
+    {
+      "Type": "dialogue",
+      "Id": "s07_064",
+      "Speaker": "ロイ",
+      "Text": "だが、法律が施行されると、少しずつ状況が変わっていった"
+    },
+    {
+      "Type": "dialogue",
+      "Id": "s07_065",
+      "Speaker": "ろまん",
+      "Text": "どう変わったんですか？"
+    },
+    {
+      "Type": "background",
+      "AssetId": "episode02/scene07/information_regulation_expansion"
+    },
+    {
+      "Type": "dialogue",
+      "Id": "s07_066",
+      "Speaker": "ロイ",
+      "Text": "最初は、明らかな偽情報が対象だった。しかし、やがて『誤解を招く情報』や『社会を混乱させる情報』も規制対象になった"
+    },
+    {
+      "Type": "dialogue",
+      "Id": "s07_067",
+      "Speaker": "ロイ",
+      "Text": "さらに、政府が認めた報道機関以外による情報発信も、厳しく制限されるようになったんだ"
+    },
+    {
+      "Type": "dialogue",
+      "Id": "s07_068",
+      "Speaker": "ハウエル",
+      "Text": "規制対象の定義が拡大したわけですね"
+    },
+    {
+      "Type": "background",
+      "AssetId": "episode02/scene07/media_truth_monopoly"
+    },
+    {
+      "Type": "dialogue",
+      "Id": "s07_069",
+      "Speaker": "ロイ",
+      "Text": "そうだ。しかも、何が正確な情報なのかを判断する権限は、次第にテレビ局へ集中していった"
+    },
+    {
+      "Type": "dialogue",
+      "Id": "s07_070",
+      "Speaker": "ミア",
+      "Text": "でも、テレビ局にはちゃんとした記者がいるんでしょ？"
+    },
+    {
+      "Type": "dialogue",
+      "Id": "s07_071",
+      "Speaker": "ロイ",
+      "Text": "もちろんだ。私もその一人だった"
+    },
+    {
+      "Type": "dialogue",
+      "Id": "s07_072",
+      "Speaker": "ロイ",
+      "Text": "だからこそ、我々なら正しい判断ができると信じていた"
+    },
+    {
+      "Type": "dialogue",
+      "Id": "s07_073",
+      "Speaker": "ロイ",
+      "Text": "……それが間違いだった"
+    },
+    {
+      "Type": "dialogue",
+      "Id": "s07_074",
+      "Speaker": "ロイ",
+      "Text": "テレビ局は、情報の正確性を認定する唯一の組織として、特別な地位を与えられた"
+    },
+    {
+      "Type": "background",
+      "AssetId": "episode02/scene07/tv_corruption"
+    },
+    {
+      "Type": "dialogue",
+      "Id": "s07_075",
+      "Speaker": "ロイ",
+      "Text": "テレビの受信料制度が拡大され、テレビ局には毎年莫大な資金が流れ込むようになった"
+    },
+    {
+      "Type": "description",
+      "Text": "資料映像には、豪華な衣装をまとったマダム・ゴージャスや、札束に囲まれて笑うテレビ関係者たちの姿が映る。"
+    },
+    {
+      "Type": "dialogue",
+      "Id": "s07_076",
+      "Speaker": "ロイ",
+      "Text": "こうしてテレビ局は巨大な経済力を手に入れ、政治家や政府に対しても強い影響力を持つようになった"
+    },
+    {
+      "Type": "dialogue",
+      "Id": "s07_077",
+      "Speaker": "ろまん",
+      "Text": "でも、法律を作ったのは政府なんですよね？"
+    },
+    {
+      "Type": "dialogue",
+      "Id": "s07_078",
+      "Speaker": "ロイ",
+      "Text": "ああ。だが、テレビ局が報道しなければ、政府の政策も国民に伝わらない"
+    },
+    {
+      "Type": "dialogue",
+      "Id": "s07_079",
+      "Speaker": "ロイ",
+      "Text": "政治家が何を語り、何を実行したのか。その評価さえ、テレビ局の報道によって左右されるようになったんだ"
+    },
+    {
+      "Type": "background",
+      "AssetId": "episode02/scene07/media_political_collusion"
+    },
+    {
+      "Type": "dialogue",
+      "Id": "s07_080",
+      "Speaker": "ハウエル",
+      "Text": "情報の流通経路を独占する組織が、政治的意思決定にも影響を及ぼす構造ですね"
+    },
+    {
+      "Type": "dialogue",
+      "Id": "s07_081",
+      "Speaker": "ロイ",
+      "Text": "その通りだ"
+    },
+    {
+      "Type": "dialogue",
+      "Id": "s07_082",
+      "Speaker": "ロイ",
+      "Text": "そして、いつしかテレビ局は『真実を伝える組織』ではなくなった"
+    },
+    {
+      "Type": "dialogue",
+      "Id": "s07_083",
+      "Speaker": "ロイ",
+      "Text": "『何を真実とするかを決める組織』になってしまったんだ"
+    },
+    {
+      "Type": "dialogue",
+      "Id": "s07_084",
+      "Speaker": "ミア",
+      "Text": "…………"
+    },
+    {
+      "Type": "dialogue",
+      "Id": "s07_085",
+      "Speaker": "ミア",
+      "Text": "でも……テレビ局が嘘をついたら、誰かが気づくんじゃないの？"
+    },
+    {
+      "Type": "dialogue",
+      "Id": "s07_086",
+      "Speaker": "ロイ",
+      "Text": "その嘘を指摘するための情報を、誰が伝える？"
+    },
+    {
+      "Type": "dialogue",
+      "Id": "s07_087",
+      "Speaker": "ミア",
+      "Text": "……えっ？"
+    },
+    {
+      "Type": "dialogue",
+      "Id": "s07_088",
+      "Speaker": "ロイ",
+      "Text": "テレビ局以外の発信は規制されている。仮に誰かが矛盾を指摘しても、テレビ局が『偽情報だ』と認定すれば、それで終わりだ"
+    },
+    {
+      "Type": "dialogue",
+      "Id": "s07_089",
+      "Speaker": "ろまん",
+      "Text": "……確かめるための情報そのものが、手に入らないんですね"
+    },
+    {
+      "Type": "dialogue",
+      "Id": "s07_090",
+      "Speaker": "ロイ",
+      "Text": "そういうことだ"
+    },
+    {
+      "Type": "dialogue",
+      "Id": "s07_091",
+      "Speaker": "ろまん",
+      "Text": "それで、ロイさんは、その仕組みを変えようとしているんですね"
+    },
+    {
+      "Type": "background",
+      "AssetId": "episode02/scene07/underground_streamers"
+    },
+    {
+      "Type": "dialogue",
+      "Id": "s07_092",
+      "Speaker": "ロイ",
+      "Text": "ああ。地下配信者の中には、私と同じ疑問を抱いている者が大勢いる"
+    },
+    {
+      "Type": "dialogue",
+      "Id": "s07_093",
+      "Speaker": "ロイ",
+      "Text": "我々は密かに連絡を取り合い、テレビ局が隠している情報を調査しているんだ"
+    },
+    {
+      "Type": "dialogue",
+      "Id": "s07_094",
+      "Speaker": "ミア",
+      "Text": "だったら、その情報をみんなに教えればいいじゃない！"
+    },
+    {
+      "Type": "dialogue",
+      "Id": "s07_095",
+      "Speaker": "ロイ",
+      "Text": "……それができれば、苦労はしないさ"
+    },
+    {
+      "Type": "dialogue",
+      "Id": "s07_096",
+      "Speaker": "ミア",
+      "Text": "どうして？"
+    },
+    {
+      "Type": "dialogue",
+      "Id": "s07_097",
+      "Speaker": "ロイ",
+      "Text": "我々が発信した情報は、すぐに偽情報として削除される。"
+    },
+    {
+      "Type": "dialogue",
+      "Id": "s07_098",
+      "Speaker": "ろまん",
+      "Text": "それでも、何とか情報を届ける方法はないんですか？"
+    },
+    {
+      "Type": "dialogue",
+      "Id": "s07_099",
+      "Speaker": "ロイ",
+      "Text": "規制の目を逃れて、外部のネットワークに流すことはある。だが、ほとんど効果はない"
+    },
+    {
+      "Type": "dialogue",
+      "Id": "s07_100",
+      "Speaker": "ハウエル",
+      "Text": "なぜでしょうか？"
+    },
+    {
+      "Type": "background",
+      "AssetId": "episode02/scene07/media_mass_manipulation"
+    },
+    {
+      "Type": "dialogue",
+      "Id": "s07_101",
+      "Speaker": "ロイ",
+      "Text": "市民の多くは、テレビ局以外の情報を信用しないからだ"
+    },
+    {
+      "Type": "dialogue",
+      "Id": "s07_102",
+      "Speaker": "ロイ",
+      "Text": "我々は『デマを流す危険人物』として報道されている。たとえ証拠を提示しても、捏造だと決めつけられてしまう"
+    },
+    {
+      "Type": "dialogue",
+      "Id": "s07_103",
+      "Speaker": "ミア",
+      "Text": "そんな……。お父さんがデマを流すわけないじゃない！"
+    },
+    {
+      "Type": "dialogue",
+      "Id": "s07_104",
+      "Speaker": "ロイ",
+      "Text": "ありがとう、ミア"
+    },
+    {
+      "Type": "dialogue",
+      "Id": "s07_105",
+      "Speaker": "ロイ",
+      "Text": "だが、お前は私の娘だから、そう言ってくれるんだろう"
+    },
+    {
+      "Type": "dialogue",
+      "Id": "s07_106",
+      "Speaker": "ミア",
+      "Text": "…………"
+    },
+    {
+      "Type": "dialogue",
+      "Id": "s07_107",
+      "Speaker": "ロイ",
+      "Text": "一般の人々にとっては、テレビ局の方がずっと信用できる存在なんだ"
+    },
+    {
+      "Type": "dialogue",
+      "Id": "s07_108",
+      "Speaker": "ろまん",
+      "Text": "……何を信じるかまで、テレビ局が決めてしまっているんですね"
+    },
+    {
+      "Type": "dialogue",
+      "Id": "s07_109",
+      "Speaker": "ロイ",
+      "Text": "ああ。そして、そのような社会を作ることに、私自身も加担してしまった"
+    },
+    {
+      "Type": "dialogue",
+      "Id": "s07_110",
+      "Speaker": "ロイ",
+      "Text": "今では、取り返しのつかないことをしたと思っているよ"
+    },
+    {
+      "Type": "fade",
+      "Action": "out",
+      "Duration": 0.6
+    },
+    {
+      "Type": "background",
+      "AssetId": "episode02/scene07/tv_station_archive_room"
+    },
+    {
+      "Type": "character",
+      "AssetId": "roman/roman_with_hauer",
+      "Action": "show",
+      "Position": "center",
+      "Width": 1240,
+      "Height": 1860
+    },
+    {
+      "Type": "character",
+      "AssetId": "mia/mia_confused",
+      "Action": "show",
+      "Position": "right",
+      "Width": 775,
+      "Height": 1085,
+      "OffsetY": -50
+    },
+    {
+      "Type": "character",
+      "AssetId": "roy/roy_talking",
+      "Action": "show",
+      "Position": "left",
+      "Width": 1600,
+      "Height": 1600,
+      "OffsetX": -50,
+      "OffsetY": -100,
+      "FlipX": true
+    },
+    {
+      "Type": "fade",
+      "Action": "in",
+      "Duration": 0.6
+    },
+    {
+      "Type": "dialogue",
+      "Id": "s07_111",
+      "Speaker": "ロイ",
+      "Text": "さて、ここからが本題だ"
+    },
+    {
+      "Type": "description",
+      "Text": "ロイは端末を操作し、資金の流れや報道記録をまとめた複数の資料を表示する。"
+    },
+    {
+      "Type": "dialogue",
+      "Id": "s07_112",
+      "Speaker": "ロイ",
+      "Text": "ああ。実は、以前からヴァルディア星とテレビ局の関係を調査していたんだ"
+    },
+    {
+      "Type": "dialogue",
+      "Id": "s07_113",
+      "Speaker": "ミア",
+      "Text": "えっ？ お父さんたちも調べてたの？"
+    },
+    {
+      "Type": "dialogue",
+      "Id": "s07_114",
+      "Speaker": "ろまん",
+      "Text": "何か分かったんですか？"
+    },
+    {
+      "Type": "character",
+      "Action": "hide",
+      "Position": "right"
+    },
+    {
+      "Type": "character",
+      "Action": "hide",
+      "Position": "center"
+    },
+    {
+      "Type": "character",
+      "Action": "hide",
+      "Position": "left"
+    },
+    {
+      "Type": "background",
+      "AssetId": "episode02/scene07/valdia_media_funding"
+    },
+    {
+      "Type": "dialogue",
+      "Id": "s07_115",
+      "Speaker": "ロイ",
+      "Text": "我々が独自に入手した内部資料によれば、ヴァルディア星からアステリア星のテレビ局へ、莫大な資金が流れ込んでいる"
+    },
+    {
+      "Type": "dialogue",
+      "Id": "s07_116",
+      "Speaker": "ミア",
+      "Text": "ええっ！？ どうして外国の星がお金を出してるの！？"
+    },
+    {
+      "Type": "dialogue",
+      "Id": "s07_117",
+      "Speaker": "ロイ",
+      "Text": "表向きは、文化交流や報道事業への協賛ということになっている"
+    },
+    {
+      "Type": "dialogue",
+      "Id": "s07_118",
+      "Speaker": "ロイ",
+      "Text": "だが、その資金の流れを追うと、不自然な点がいくつも見つかった"
+    },
+    {
+      "Type": "dialogue",
+      "Id": "s07_119",
+      "Speaker": "ろまん",
+      "Text": "不自然な点？"
+    },
+    {
+      "Type": "dialogue",
+      "Id": "s07_120",
+      "Speaker": "ロイ",
+      "Text": "ヴァルディア星からの資金提供が増えるにつれて、あの星に不都合なニュースが、ほとんど報道されなくなっているんだ"
+    },
+    {
+      "Type": "dialogue",
+      "Id": "s07_121",
+      "Speaker": "ミア",
+      "Text": "そんなこと……"
+    },
+    {
+      "Type": "dialogue",
+      "Id": "s07_122",
+      "Speaker": "ロイ",
+      "Text": "代わりに、ヴァルディア星の発展や友好関係を称賛する報道ばかりが増えている"
+    },
+    {
+      "Type": "dialogue",
+      "Id": "s07_123",
+      "Speaker": "ろまん",
+      "Text": "……街頭テレビでも、そういうニュースを見ました"
+    },
+    {
+      "Type": "dialogue",
+      "Id": "s07_124",
+      "Speaker": "ロイ",
+      "Text": "だろうな"
+    },
+    {
+      "Type": "dialogue",
+      "Id": "s07_125",
+      "Speaker": "ロイ",
+      "Text": "ヴァルディア星は、この星の情報を支配することで、世論を自分たちに都合のよい方向へ誘導しようとしているのかもしれない"
+    },
+    {
+      "Type": "dialogue",
+      "Id": "s07_126",
+      "Speaker": "ミア",
+      "Text": "でも……ヴァルディア星って、すごく素敵な星なんでしょ？"
+    },
+    {
+      "Type": "dialogue",
+      "Id": "s07_127",
+      "Speaker": "ミア",
+      "Text": "テレビでは、みんな幸せそうだったし……。レオン・ヴァルガス大統領だって、平和が大切だって言ってたじゃない！"
+    },
+    {
+      "Type": "dialogue",
+      "Id": "s07_128",
+      "Speaker": "ロイ",
+      "Text": "……ミア"
+    },
+    {
+      "Type": "dialogue",
+      "Id": "s07_129",
+      "Speaker": "ロイ",
+      "Text": "そのテレビが、ヴァルディア星から資金を受け取っているとしたら？"
+    },
+    {
+      "Type": "dialogue",
+      "Id": "s07_130",
+      "Speaker": "ミア",
+      "Text": "…………！"
+    },
+    {
+      "Type": "dialogue",
+      "Id": "s07_131",
+      "Speaker": "ろまん",
+      "Text": "少なくとも、テレビの報道だけで判断するのは難しそうですね"
+    },
+    {
+      "Type": "dialogue",
+      "Id": "s07_132",
+      "Speaker": "ミア",
+      "Text": "……うん"
+    },
+    {
+      "Type": "dialogue",
+      "Id": "s07_133",
+      "Speaker": "ロイ",
+      "Text": "そして、我々が最も懸念しているのは、ヴァルディア星の軍事活動だ"
+    },
+    {
+      "Type": "background",
+      "AssetId": "episode02/scene07/valdian_fleet_orbit"
+    },
+    {
+      "Type": "dialogue",
+      "Id": "s07_134",
+      "Speaker": "ロイ",
+      "Text": "ここ最近、ヴァルディア星の軍用艦艇が、急速に活動を活発化させている"
+    },
+    {
+      "Type": "dialogue",
+      "Id": "s07_135",
+      "Speaker": "ハウエル",
+      "Text": "私が観測した艦隊の情報とも一致していますね"
+    },
+    {
+      "Type": "dialogue",
+      "Id": "s07_136",
+      "Speaker": "ロイ",
+      "Text": "我々が入手した情報では、艦艇の増強だけでなく、補給物資の集積や兵員の移動も確認されている"
+    },
+    {
+      "Type": "dialogue",
+      "Id": "s07_137",
+      "Speaker": "ろまん",
+      "Text": "それって……"
+    },
+    {
+      "Type": "dialogue",
+      "Id": "s07_138",
+      "Speaker": "ロイ",
+      "Text": "ああ。大規模な軍事作戦の準備と考えれば、説明がつく"
+    },
+    {
+      "Type": "dialogue",
+      "Id": "s07_139",
+      "Speaker": "ミア",
+      "Text": "ま、待ってよ！ それじゃあ、ヴァルディア星が戦争を始めるってこと！？"
+    },
+    {
+      "Type": "dialogue",
+      "Id": "s07_140",
+      "Speaker": "ロイ",
+      "Text": "まだ断定はできない。だが、その可能性は極めて高いと考えている"
+    },
+    {
+      "Type": "dialogue",
+      "Id": "s07_141",
+      "Speaker": "ハウエル",
+      "Text": "軍用艦艇の展開状況と補給活動を総合すると、その推測には合理性があります"
+    },
+    {
+      "Type": "dialogue",
+      "Id": "s07_142",
+      "Speaker": "ろまん",
+      "Text": "でも、ヴァルディア星がどこを攻撃するつもりなのかは、分からないんですよね？"
+    },
+    {
+      "Type": "dialogue",
+      "Id": "s07_143",
+      "Speaker": "ロイ",
+      "Text": "……残念ながら、標的までは特定できていない"
+    },
+    {
+      "Type": "dialogue",
+      "Id": "s07_144",
+      "Speaker": "ロイ",
+      "Text": "ただ、アステリア星への政治的な影響力を強めていることを考えると、我々も無関係ではいられないだろう"
+    },
+    {
+      "Type": "dialogue",
+      "Id": "s07_145",
+      "Speaker": "ミア",
+      "Text": "そんな……"
+    },
+    {
+      "Type": "dialogue",
+      "Id": "s07_146",
+      "Speaker": "ミア",
+      "Text": "テレビでは、ヴァルディア星とはずっと仲良くしていけるって言ってたのに……"
+    },
+    {
+      "Type": "dialogue",
+      "Id": "s07_147",
+      "Speaker": "ロイ",
+      "Text": "ああ。だが、テレビ局は軍事活動についてほとんど報道していない"
+    },
+    {
+      "Type": "dialogue",
+      "Id": "s07_148",
+      "Speaker": "ロイ",
+      "Text": "この星の人々は、迫りつつある危機を知らないまま、ヴァルディア星との友好を信じているんだ"
+    },
+    {
+      "Type": "background",
+      "AssetId": "episode02/scene07/tv_station_archive_room"
+    },
+    {
+      "Type": "character",
+      "AssetId": "roman/roman_with_hauer",
+      "Action": "show",
+      "Position": "center",
+      "Width": 1240,
+      "Height": 1860
+    },
+    {
+      "Type": "character",
+      "AssetId": "mia/mia_confused",
+      "Action": "show",
+      "Position": "right",
+      "Width": 775,
+      "Height": 1085,
+      "OffsetY": -50
+    },
+    {
+      "Type": "character",
+      "AssetId": "roy/roy_talking",
+      "Action": "show",
+      "Position": "left",
+      "Width": 1600,
+      "Height": 1600,
+      "OffsetX": -50,
+      "OffsetY": -100,
+      "FlipX": true
+    },
+    {
+      "Type": "dialogue",
+      "Id": "s07_149",
+      "Speaker": "ミア",
+      "Text": "……ねえ、お父さん"
+    },
+    {
+      "Type": "description",
+      "Text": "ミアはしばらく黙り込んだ後、うつむいたまま口を開く。"
+    },
+    {
+      "Type": "dialogue",
+      "Id": "s07_150",
+      "Speaker": "ロイ",
+      "Text": "何だ？"
+    },
+    {
+      "Type": "dialogue",
+      "Id": "s07_151",
+      "Speaker": "ミア",
+      "Text": "お父さんたちの言ってることが本当なら……私たちは、ずっと騙されてたってこと？"
+    },
+    {
+      "Type": "dialogue",
+      "Id": "s07_152",
+      "Speaker": "ロイ",
+      "Text": "……そうかもしれない"
+    },
+    {
+      "Type": "dialogue",
+      "Id": "s07_153",
+      "Speaker": "ミア",
+      "Text": "じゃあ、どうしてもっと早く教えてくれなかったのよ！"
+    },
+    {
+      "Type": "character",
+      "AssetId": "roy/roy_troubled",
+      "Action": "show",
+      "Position": "left",
+      "Width": 1600,
+      "Height": 1600,
+      "OffsetX": -50,
+      "OffsetY": -100,
+      "FlipX": true
+    },
+    {
+      "Type": "dialogue",
+      "Id": "s07_154",
+      "Speaker": "ロイ",
+      "Text": "……すまない"
+    },
+    {
+      "Type": "dialogue",
+      "Id": "s07_155",
+      "Speaker": "ろまん",
+      "Text": "ミア……"
+    },
+    {
+      "Type": "dialogue",
+      "Id": "s07_156",
+      "Speaker": "ロイ",
+      "Text": "私も昔は、テレビ局の報道が社会を良くするものだと信じていた"
+    },
+    {
+      "Type": "dialogue",
+      "Id": "s07_157",
+      "Speaker": "ロイ",
+      "Text": "正しい情報さえ伝われば、人々は正しい判断ができる。そう考えていたんだ"
+    },
+    {
+      "Type": "dialogue",
+      "Id": "s07_158",
+      "Speaker": "ロイ",
+      "Text": "だが、いつの間にか、正しい情報を伝えることよりも、正しいと認められた情報を守ることが優先されるようになっていた"
+    },
+    {
+      "Type": "dialogue",
+      "Id": "s07_159",
+      "Speaker": "ロイ",
+      "Text": "……その違いに気づいたときには、もう手遅れだった"
+    },
+    {
+      "Type": "dialogue",
+      "Id": "s07_160",
+      "Speaker": "ハウエル",
+      "Text": "しかし、現在も調査活動を継続されているのですね"
+    },
+    {
+      "Type": "dialogue",
+      "Id": "s07_161",
+      "Speaker": "ロイ",
+      "Text": "ああ。何もしなければ、何も変わらないからな"
+    },
+    {
+      "Type": "dialogue",
+      "Id": "s07_162",
+      "Speaker": "ロイ",
+      "Text": "我々の情報を信じてくれる者は、ほとんどいない。それでも、記録を残し、伝え続けるつもりだ"
+    },
+    {
+      "Type": "dialogue",
+      "Id": "s07_163",
+      "Speaker": "ろまん",
+      "Text": "……大切なことだと思います"
+    },
+    {
+      "Type": "character",
+      "AssetId": "roy/roy_smiling",
+      "Action": "show",
+      "Position": "left",
+      "Width": 1600,
+      "Height": 1600,
+      "OffsetX": -50,
+      "OffsetY": -100,
+      "FlipX": true
+    },
+    {
+      "Type": "dialogue",
+      "Id": "s07_164",
+      "Speaker": "ロイ",
+      "Text": "ありがとう"
+    },
+    {
+      "Type": "dialogue",
+      "Id": "s07_165",
+      "Speaker": "ミア",
+      "Text": "…………"
+    },
+    {
+      "Type": "dialogue",
+      "Id": "s07_166",
+      "Speaker": "ミア",
+      "Text": "……ねえ、ろまん"
+    },
+    {
+      "Type": "dialogue",
+      "Id": "s07_167",
+      "Speaker": "ろまん",
+      "Text": "どうしたの？"
+    },
+    {
+      "Type": "dialogue",
+      "Id": "s07_168",
+      "Speaker": "ミア",
+      "Text": "私、今までテレビで見たことを、何も疑ってこなかった"
+    },
+    {
+      "Type": "dialogue",
+      "Id": "s07_169",
+      "Speaker": "ミア",
+      "Text": "でも……それだけじゃ、分からないこともあるんだね"
+    },
+    {
+      "Type": "dialogue",
+      "Id": "s07_170",
+      "Speaker": "ろまん",
+      "Text": "……うん。私もそう思う"
+    },
+    {
+      "Type": "fade",
+      "Action": "out",
+      "Duration": 0.8
+    },
+    {
+      "Type": "end"
+    }
+  ]
+}

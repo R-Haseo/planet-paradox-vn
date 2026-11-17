@@ -15,6 +15,11 @@ MonoBehaviour:
   m_GroupName: Default Local Group
   m_GUID: a5df7f50f66787446a3dfa1a4434d80c
   m_SerializeEntries:
+  - m_GUID: 00165c1bf351ce546aefa89fbd8549d1
+    m_Address: voice/episode02/s07_044
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 00561dfab0de2ce47a7e78dde583ce0d
     m_Address: voice/episode02/s05_065
     m_ReadOnly: 0
@@ -42,6 +47,11 @@ MonoBehaviour:
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 023f65f2fc0166845ab848f404ea60b5
     m_Address: voice/episode02/s02_002
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 02a517e950d2d134b9cdbc9ad801aae5
+    m_Address: voice/episode02/s07_136
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
@@ -80,6 +90,11 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 04fa4312fbd678b498b7ce3d6ddc8604
+    m_Address: voice/episode02/s07_051
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 056560f258923b248a9669c455569256
     m_Address: voice/episode02/s03_032
     m_ReadOnly: 0
@@ -90,8 +105,18 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 062156ee59660d74faed952ee1eb1bc6
+    m_Address: voice/episode02/s07_118
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 064662e7398d0114bb265714ab418d27
     m_Address: voice/episode02/s06_020
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 065151c20987e8a40868db2e6bb9064a
+    m_Address: voice/episode02/s07_075
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
@@ -102,6 +127,16 @@ MonoBehaviour:
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 06e42b48940ecc74ab39eac47d1580ef
     m_Address: voice/episode01/s04_002
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 074e3dc2f3d4bd44ca06cd4d32a426bc
+    m_Address: voice/episode02/s07_083
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 075577fafd520a84680175d44fe575a1
+    m_Address: voice/episode02/s07_009
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
@@ -157,6 +192,11 @@ MonoBehaviour:
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 096424e24aac5cb428bc1ac1fe5065d5
     m_Address: voice/episode02/s05_014
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 09abb5a3a3edf91448354d58f68389e4
+    m_Address: voice/episode02/s07_003
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
@@ -240,6 +280,11 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 0dcfc693b41c8bd4bb01f66cdb06a57a
+    m_Address: voice/episode02/s07_124
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 0e2d6891a13432b45be2209c15a40eeb
     m_Address: voice/episode02/s01_033
     m_ReadOnly: 0
@@ -255,6 +300,11 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 0eea7777a1e1daf42a760243976277c1
+    m_Address: voice/episode02/s07_129
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 0f6343101ffeb5c41b5fec4af71ea262
     m_Address: voice/episode02/s02_054
     m_ReadOnly: 0
@@ -262,6 +312,11 @@ MonoBehaviour:
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 0fdf825df75be5941983fdb16d71f456
     m_Address: voice/episode01/s01_007
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 0ff92b9d7d57ddb4fb01799bc8b00e71
+    m_Address: voice/episode02/s07_085
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
@@ -277,6 +332,11 @@ MonoBehaviour:
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 104b23300cbe52742a66149a9553b687
     m_Address: voice/episode01/s03_003
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 10a2785dcf85d104e8bd2f869c8f76e9
+    m_Address: voice/episode02/s07_071
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
@@ -340,6 +400,11 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1448fdc6448d15f4ab6615813a617539
+    m_Address: voice/episode02/s07_077
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 1482d2ad467910840b0c14c3d486c011
     m_Address: voice/episode02/s05_027
     m_ReadOnly: 0
@@ -350,8 +415,18 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 14c3ee964d605ab40b976ff4c759ccbc
+    m_Address: voice/episode02/s07_160
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 150866cb58b577d4bbf1f8461bb4efa4
     m_Address: bgm/quirky_upbeat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1536a9b035ba39a4692f108e99264140
+    m_Address: voice/episode02/s07_002
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
@@ -382,6 +457,11 @@ MonoBehaviour:
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 16200c7aa2b2d284db089f3302ee7492
     m_Address: voice/episode01/s04_033
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1644d9b709d44c947bbb33ee4a40235b
+    m_Address: character/roy/roy_smiling
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
@@ -445,6 +525,11 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 197f83cae6db7a34b9e1eaa9ed838c25
+    m_Address: voice/episode02/s07_141
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 19cb1ae7a56b1304ea1e167a6ca24bdd
     m_Address: voice/episode01/s06_082
     m_ReadOnly: 0
@@ -472,6 +557,11 @@ MonoBehaviour:
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 1c4641737255b1049bde90bc37705b81
     m_Address: voice/episode01/s08_010
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1c4d284e8ee0edc409d7768b68999527
+    m_Address: voice/episode02/s07_040
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
@@ -510,8 +600,18 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1e549c6b693051441a4f03f62d369959
+    m_Address: voice/episode02/s07_097
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 1eb80adf33cbba84781d432ed2bc30e2
     m_Address: character/ai/ai_normal
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1ece4877d104d7d468e610d6910778bf
+    m_Address: voice/episode02/s07_117
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
@@ -522,6 +622,11 @@ MonoBehaviour:
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 1ee74540f5242b64f857a18e5b95d1a3
     m_Address: voice/episode02/s02_001
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1f4532f0cdacd66408f41083be130871
+    m_Address: voice/episode02/s07_128
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
@@ -570,6 +675,11 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 208f9bc5c350262428b5bea4e34a7cb5
+    m_Address: voice/episode02/s07_157
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 20bf9c581bd4dd946a1fc464de8896ec
     m_Address: background/episode02/scene05/governor_press_conference
     m_ReadOnly: 0
@@ -582,6 +692,11 @@ MonoBehaviour:
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 210fc01f0cc567146a78d783f4186027
     m_Address: character/roman/roman_idea
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 213b9f45953a5e84bab06c83c99f0c7a
+    m_Address: voice/episode02/s07_109
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
@@ -625,6 +740,11 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 23fa1c67c1bbb4845bcf04338b4359c9
+    m_Address: voice/episode02/s07_056
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 2402470049b4e834a8ebfb4df224c88b
     m_Address: voice/episode02/s06_002
     m_ReadOnly: 0
@@ -645,6 +765,11 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 249b1b351977aaa4598e4e30ef3f079c
+    m_Address: voice/episode02/s07_015
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 24b00d1d70c74cd4b865ced2d470bf1a
     m_Address: voice/episode01/s01_021
     m_ReadOnly: 0
@@ -652,6 +777,16 @@ MonoBehaviour:
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 256691c7f36be814a813a4398e2e97e1
     m_Address: voice/episode01/s06_011
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2577eee3fa47ab34791fe4a28840271a
+    m_Address: voice/episode02/s07_105
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 257cbf974fdbe9a40a6dae1a3d039614
+    m_Address: voice/episode02/s07_037
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
@@ -697,6 +832,11 @@ MonoBehaviour:
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 27418286d2964384eaa54906afad11ac
     m_Address: voice/episode02/s04_032
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 27882f49a9124ab4cb7ff7d2966dac06
+    m_Address: background/episode02/scene07/free_information_era
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
@@ -755,13 +895,28 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2af1fd609a0df22408740a638c1faf47
+    m_Address: voice/episode02/s07_028
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 2afd43ff3a41cb943aafa6b0752395e5
     m_Address: voice/episode01/s06_086
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2b010a29cfd459d458b7ed3b7769d8dd
+    m_Address: background/episode02/scene07/misinformation_spread
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 2b4d87f1343e93e4eaac9f145251708c
     m_Address: background/episode01/scene01/space_exterior
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2b5a797cb846eeb40ae459199e318873
+    m_Address: voice/episode02/s07_064
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
@@ -815,6 +970,16 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2e7a1ac4a1eb8104b89d0cd2f6927c71
+    m_Address: bgm/investigation
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2eac0b4662b7a454ea4c11405da37220
+    m_Address: voice/episode02/s07_010
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 2eca521384472f84db2ad54bfeba14de
     m_Address: voice/episode02/s03_051
     m_ReadOnly: 0
@@ -827,6 +992,11 @@ MonoBehaviour:
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 2fa982f819ce6ed428104574d425b4fa
     m_Address: character/roman/roman_normal
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3036fcd2d7638ca4b83f5549051bffb5
+    m_Address: background/episode02/scene07/underground_streamers
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
@@ -860,6 +1030,11 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 324d7cf1a02a399448c24740848002b8
+    m_Address: voice/episode02/s07_126
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 3261727979efa9249b2e429c481c56d3
     m_Address: background/episode01/scene04/prosperous_city
     m_ReadOnly: 0
@@ -877,6 +1052,11 @@ MonoBehaviour:
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 32a432705c774df4b8fbdbf477621004
     m_Address: voice/episode02/s06_071
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 32c3b2ccdbef99e45885a74cb8366041
+    m_Address: voice/episode02/s07_123
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
@@ -920,8 +1100,18 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 350e547ee5fc8004b9fb970255b71804
+    m_Address: voice/episode02/s07_032
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 3536317c69817ea49938864fb074ff82
     m_Address: voice/episode01/s08_043
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 35965779a1cf5a3489bd40a445e6be9f
+    m_Address: background/episode02/scene07/media_truth_monopoly
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
@@ -940,8 +1130,18 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 35f9ed3623942a84d95bf7a5ebf66c9f
+    m_Address: character/roy/roy_surprised
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 360f73bd575634d4888f81db4be774d4
     m_Address: voice/episode02/s05_021
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 361890aee805102479d5dcbe6149b406
+    m_Address: voice/episode02/s07_131
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
@@ -967,6 +1167,11 @@ MonoBehaviour:
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 3782f3a2c332b4e4f9d88be4381b7160
     m_Address: voice/episode02/s05_056
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 37b3885b959da93409d220e5e56c0839
+    m_Address: voice/episode02/s07_078
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
@@ -1065,13 +1270,33 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3a7af51576dd2a746bbcf41caeee0bce
+    m_Address: voice/episode02/s07_066
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3ab89f9acc73bdd468f9097cadc8450b
+    m_Address: voice/episode02/s07_082
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 3ac7cc224fbd2914b9648bc682e68b7d
     m_Address: voice/episode02/s02_008
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3afde50af30699542b71b4e2b53843dc
+    m_Address: voice/episode02/s07_047
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 3b0c56f172d236d428e100aba4f2671e
     m_Address: voice/episode01/s01_015
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3b3ecf81defb4194191754255b64744f
+    m_Address: voice/episode02/s07_079
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
@@ -1115,6 +1340,11 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3ce7e129d6d413d45802a6cba244e7a3
+    m_Address: voice/episode02/s07_049
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 3cef02192ff0794448183a7a3b9ad1e8
     m_Address: voice/episode01/s06_049
     m_ReadOnly: 0
@@ -1150,6 +1380,11 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3e8c42620a4f3ad45b62acebd3628222
+    m_Address: voice/episode02/s07_151
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 3eacbe34b1b37864eba15fb1c5f14d66
     m_Address: voice/episode01/s05_006
     m_ReadOnly: 0
@@ -1162,6 +1397,16 @@ MonoBehaviour:
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 3f8353e8f0cebaf408d3867cd38c57b6
     m_Address: voice/episode02/s05_050
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3fb5fe68d3b04f44e825e9694182482d
+    m_Address: voice/episode02/s07_102
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3fc4c92c71d482e449741d2ccad68dda
+    m_Address: voice/episode02/s07_134
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
@@ -1200,6 +1445,16 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 42cb859d4b450104395255d028fcf64b
+    m_Address: voice/episode02/s07_122
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 42f31b65898faef4892df26d17bf8bf1
+    m_Address: voice/episode02/s07_052
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 43b8dbbbfa1677e4f9187779d0b32151
     m_Address: se/communication
     m_ReadOnly: 0
@@ -1212,6 +1467,16 @@ MonoBehaviour:
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 43e9f4355355b1f46b93b13a824bd836
     m_Address: voice/episode01/s05_053
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 43ea8d874dca07b4e81ea45850528d43
+    m_Address: voice/episode02/s07_030
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 43eff8f3b1263aa448f9ee440c2ed753
+    m_Address: voice/episode02/s07_158
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
@@ -1260,6 +1525,11 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 46150615d7a9ba947aa436d6c0752878
+    m_Address: voice/episode02/s07_150
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 46244346b1b60084cbeb34d35818a4c0
     m_Address: background/episode02/scene06/news_commentator
     m_ReadOnly: 0
@@ -1282,6 +1552,11 @@ MonoBehaviour:
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 48efefe621eecd34fb409f6f0b5b1d84
     m_Address: voice/episode02/s06_005
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 48f4c39751a962647bb85f870faa2a1f
+    m_Address: voice/episode02/s07_107
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
@@ -1315,6 +1590,11 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4ad3c8f807051b84eb073d5926ba21c9
+    m_Address: voice/episode02/s07_023
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 4b2a8a64034d4854296f10be42754529
     m_Address: voice/episode02/s02_014
     m_ReadOnly: 0
@@ -1322,6 +1602,11 @@ MonoBehaviour:
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 4bcce873dc957154bac9ea41611c4939
     m_Address: voice/episode02/s01_044
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4bda65c1b65c3da41aa377ee6143a1ee
+    m_Address: voice/episode02/s07_070
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
@@ -1362,6 +1647,11 @@ MonoBehaviour:
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 4e76714ecbd05f643970530c2bae59b6
     m_Address: voice/episode02/s05_073
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4e818f9043cfb964cb80ad75f11a5f27
+    m_Address: voice/episode02/s07_041
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
@@ -1420,6 +1710,11 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 513188eecbe9e14468a5a8869ab38bb8
+    m_Address: voice/episode02/s07_026
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 5133b5b51658dd2448f2315a1b1d4ff4
     m_Address: voice/episode01/s02_026
     m_ReadOnly: 0
@@ -1427,6 +1722,11 @@ MonoBehaviour:
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 51709bcdae0697c40acde3b299184e92
     m_Address: voice/episode01/s05_040
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 51a84894862926848a6827e2c1d68bd8
+    m_Address: voice/episode02/s07_103
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
@@ -1442,6 +1742,11 @@ MonoBehaviour:
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 52319bd5071532648a561d742dfecc1e
     m_Address: voice/episode02/s06_087
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 52c041e7cd324a849b7b8b1f7c297d95
+    m_Address: voice/episode02/s07_006
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
@@ -1500,8 +1805,18 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 54e117d941df1f84093f013ad92ee8c3
+    m_Address: voice/episode02/s07_106
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 550067db9dbae9d44823570588341034
     m_Address: voice/episode01/s06_071
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5502c1857391a454784e282dad25ac30
+    m_Address: voice/episode02/s07_048
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
@@ -1540,6 +1855,16 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 56a09cdad34fd8f4d9a181ea33d7f364
+    m_Address: voice/episode02/s07_061
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 56d94f8cbbbf1ae48b425ab3d8043a5d
+    m_Address: voice/episode02/s07_170
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 5749423ebcab438438b2b447f76acfb3
     m_Address: voice/episode01/s02_020
     m_ReadOnly: 0
@@ -1555,6 +1880,11 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 58355d25c7b1d0d40a503e2f09b94e72
+    m_Address: voice/episode02/s07_130
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 584e60de543d2b54ea57293a60bb2ea2
     m_Address: voice/episode01/s06_054
     m_ReadOnly: 0
@@ -1562,6 +1892,11 @@ MonoBehaviour:
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 5898a1a14e745bc40b5f58ab9a0d0675
     m_Address: character/roman/roman_mildly_surprised
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 589efdfa72e5a984fa3c871bee2a6b4f
+    m_Address: voice/episode02/s07_119
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
@@ -1595,8 +1930,23 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5abad08d4bbb6fc4ab4d7063da58a5ce
+    m_Address: voice/episode02/s07_039
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5b17e14a16864bd4b8aeea933abf85d8
+    m_Address: voice/episode02/s07_098
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 5bc776014ba7e9645b042f4578ac9c14
     m_Address: voice/episode01/s06_005
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5bf074d2cb70559449c17a419d6d6533
+    m_Address: voice/episode02/s07_081
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
@@ -1655,13 +2005,33 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5ebae1cd6d6f318428af3e2607d9a77b
+    m_Address: voice/episode02/s07_113
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5ed93efbedd98754dbd1ebd694eb7bdb
+    m_Address: voice/episode02/s07_021
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 5ee437395bb51b747b3ef208895c1b76
     m_Address: voice/episode02/s03_068
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5eeb4cb1576d95c44be58418c79fc651
+    m_Address: voice/episode02/s07_068
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 5f05ef812c2725c45893e9a1dd2dcbbd
     m_Address: voice/episode01/s05_062
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5f62971847115f74f9edac3b03fe0746
+    m_Address: voice/episode02/s07_139
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
@@ -1677,6 +2047,11 @@ MonoBehaviour:
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 5fa356dc493b9c740898d7a3cdd9bded
     m_Address: voice/episode02/s01_040
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 602e7cdfc0435c44991d191af168d73c
+    m_Address: voice/episode02/s07_132
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
@@ -1700,6 +2075,11 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 61015aecd77135f4889cb11efe563542
+    m_Address: voice/episode02/s07_020
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 610306085e019ce428fe67498d926a68
     m_Address: background/episode01/scene07/empty_city_sunset
     m_ReadOnly: 0
@@ -1707,6 +2087,11 @@ MonoBehaviour:
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 6127f00eb7ad8594a9a1dce2ce3d1e4b
     m_Address: voice/episode02/s04_024
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 61791e51bfd6bf942aec3a78e1bb25a8
+    m_Address: voice/episode02/s07_058
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
@@ -1742,6 +2127,16 @@ MonoBehaviour:
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 628ace5d8cf2b7a46bf5c20eabe7d050
     m_Address: voice/episode01/s02_007
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 62bde054869d2344ab8f80d16f35f9b9
+    m_Address: voice/episode02/s07_125
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 62cd0eb62d21b594d87a318d76dfbd34
+    m_Address: voice/episode02/s07_024
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
@@ -1810,6 +2205,16 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6664065267a78c74b9690916ede4b8aa
+    m_Address: voice/episode02/s07_088
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 66ba9dd341b4e8146adb562a1a060676
+    m_Address: character/roy/roy_talking
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 66bcc35e4c0a6ba45a0cf5150cd494c5
     m_Address: voice/episode01/s01_035
     m_ReadOnly: 0
@@ -1817,6 +2222,11 @@ MonoBehaviour:
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 66d65374d3dac8b46a637580e1bd755c
     m_Address: voice/episode02/s06_108
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6718f84121e9b1c479ffc14efbed9acf
+    m_Address: voice/episode02/s07_080
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
@@ -1832,6 +2242,11 @@ MonoBehaviour:
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 68446a606fb39524ba488ced2a646e2a
     m_Address: voice/episode02/s01_005
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6869f31ca1924e74a94a270dc2711744
+    m_Address: voice/episode02/s07_065
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
@@ -1885,6 +2300,11 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 69d3cb77ee269354da7d3843ef8092d4
+    m_Address: voice/episode02/s07_116
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 69f6a22337a61ee489118b8b65929d64
     m_Address: voice/episode02/s06_084
     m_ReadOnly: 0
@@ -1902,6 +2322,11 @@ MonoBehaviour:
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 6a27a7a1b9936b24896aac3b92c1218c
     m_Address: voice/episode01/s05_016
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6a715f512d94e1b4db6e430a97a20582
+    m_Address: voice/episode02/s07_013
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
@@ -1975,6 +2400,11 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6f540ab18e58bd1449090443c8a3c8bc
+    m_Address: voice/episode02/s07_073
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 6f77308532d5e5041ac8a322c482d627
     m_Address: voice/episode02/s06_050
     m_ReadOnly: 0
@@ -2015,6 +2445,11 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7197195929c786e419ace60f9840b90e
+    m_Address: voice/episode02/s07_095
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 71b4db7324d8a6941864bb68c6977f96
     m_Address: voice/episode02/s06_090
     m_ReadOnly: 0
@@ -2032,6 +2467,11 @@ MonoBehaviour:
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 72638ae112b0bf647bc0ebe60c484ae6
     m_Address: voice/episode02/s04_009
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 72b9ab6c42e4d5d4fb6a05d61ff840ce
+    m_Address: voice/episode02/s07_133
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
@@ -2072,6 +2512,11 @@ MonoBehaviour:
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 734b3b535dc98644a9de74f3c243b150
     m_Address: background/episode01/scene05/city_park_bench
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7353162256efdae46a78b07609670985
+    m_Address: background/episode02/scene07/tv_station_archive_room
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
@@ -2140,6 +2585,11 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 765baa59d1aad484ab7f904c83ab087d
+    m_Address: voice/episode02/s07_121
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 768094475ed63cc48b7d989e43856ce7
     m_Address: voice/episode01/s08_026
     m_ReadOnly: 0
@@ -2175,6 +2625,11 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 78054bf591057ac4ab20a60e79bf1f7e
+    m_Address: voice/episode02/s07_148
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 782320d13e06b714184bec6382225648
     m_Address: voice/episode02/s06_052
     m_ReadOnly: 0
@@ -2192,6 +2647,21 @@ MonoBehaviour:
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 789707f581d73744899c29c1f26fb80f
     m_Address: voice/episode02/s06_103
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 78bd53a2d9633ab498fc0ff48fe34e81
+    m_Address: voice/episode02/s07_035
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 78dbda7a0ff655f4b923850693b98c62
+    m_Address: voice/episode02/s07_149
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 795b0d5d2c6ca8d45920af286c4815c7
+    m_Address: background/episode02/scene07/media_mass_manipulation
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
@@ -2260,6 +2730,11 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7bd441c4cf9809446aa423f387d97fe2
+    m_Address: voice/episode02/s07_029
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 7c5017baffc5cc74ba6f053b9680fd22
     m_Address: voice/episode01/s03_014
     m_ReadOnly: 0
@@ -2272,6 +2747,11 @@ MonoBehaviour:
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 7d83edf91f7384a4c919cb140c3af377
     m_Address: voice/episode01/s06_024
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7d92d7055167aed4e9254a72fa6efe7b
+    m_Address: voice/episode02/s07_076
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
@@ -2310,8 +2790,23 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 80f26318ad0b7854d846c966f6898264
+    m_Address: voice/episode02/s07_004
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 815881c164f1ed44ea07db97a5fc12ee
     m_Address: voice/episode02/s03_038
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8184d4d8b98a08f478905cd4d6ec3350
+    m_Address: voice/episode02/s07_063
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 81e613fe4b4611241ab39ea17877571e
+    m_Address: voice/episode02/s07_096
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
@@ -2400,6 +2895,11 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 86b986b6a2e61b34bbf6caba52fdf8e9
+    m_Address: voice/episode02/s07_059
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 8741c08fe9e011b49ad6d3c318c9169f
     m_Address: voice/episode02/s05_037
     m_ReadOnly: 0
@@ -2432,6 +2932,11 @@ MonoBehaviour:
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 8892871b4c71a694fb21d5335d4fe6d3
     m_Address: background/episode01/scene05/standardization_news
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 88aa2a72409fcfb4f972dc233663296f
+    m_Address: background/episode02/scene07/information_regulation_law
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
@@ -2490,6 +2995,11 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8c5312890f4f6824e94fe761d387ae56
+    m_Address: voice/episode02/s07_094
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 8c693f483830d134f8f4ee7a4813d8d1
     m_Address: voice/episode02/s03_067
     m_ReadOnly: 0
@@ -2520,6 +3030,11 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8d3b4669d72cd4440a33fb36394b6291
+    m_Address: voice/episode02/s07_161
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 8d979e3e6d7cb784386ac9ea55c0a32e
     m_Address: voice/episode02/s02_032
     m_ReadOnly: 0
@@ -2540,6 +3055,11 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8e895723bb23d4b48832ba3e631e5eaa
+    m_Address: voice/episode02/s07_072
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 90ee5f06cea14b34a916857a7d8fdb45
     m_Address: voice/episode01/s07_025
     m_ReadOnly: 0
@@ -2547,6 +3067,16 @@ MonoBehaviour:
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 90fc9f19a93d6ec43a1287f6aa25d4c5
     m_Address: voice/episode02/s03_057
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9106120615991224cb2cae848606df68
+    m_Address: voice/episode02/s07_152
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 911358931fb1cf14090e5c54628f7af1
+    m_Address: voice/episode02/s07_016
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
@@ -2635,6 +3165,11 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 95d1f924bd77f7e4eba523a4b7db7e77
+    m_Address: voice/episode02/s07_022
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 95e1ac4fb5216794aa6a7483e8bb5d41
     m_Address: voice/episode01/s06_069
     m_ReadOnly: 0
@@ -2642,6 +3177,11 @@ MonoBehaviour:
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 96a357b4ab357c74ca4b156f2fa0a6f5
     m_Address: voice/episode02/s06_036
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 96ba635205f21a14b86f1d47f048536d
+    m_Address: voice/episode02/s07_018
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
@@ -2760,6 +3300,11 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9c6840534516e5a41b5687703394be5d
+    m_Address: voice/episode02/s07_038
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 9cf3034d9012a3f4784bbfab67c9933c
     m_Address: voice/episode01/s06_042
     m_ReadOnly: 0
@@ -2800,6 +3345,11 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9f1f3437a6893ea4b985271760c0f29f
+    m_Address: voice/episode02/s07_159
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 9f626130bde615145a8138273be4fdfb
     m_Address: voice/episode01/s03_026
     m_ReadOnly: 0
@@ -2822,6 +3372,16 @@ MonoBehaviour:
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: a0ef3aaa14565cc468a82c7590a592d3
     m_Address: voice/episode02/s05_041
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a16d2bf39c4a6a14ea676b08b0a96523
+    m_Address: voice/episode02/s07_025
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a17ad1e1687fed84b921f70576e95ab2
+    m_Address: voice/episode02/s07_069
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
@@ -2860,6 +3420,26 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a2dbd73266698c54cbba26b3ad444c1b
+    m_Address: voice/episode02/s07_104
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a2ea583b85b7ebc468a65528fd5e058c
+    m_Address: voice/episode02/s07_086
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a30b7542884a2bd42be5ea05b964446d
+    m_Address: voice/episode02/s07_062
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a313f57b1bd8dbc44a164e152e11097a
+    m_Address: voice/episode02/s07_012
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: a3f43e333cbde8c4aaeb69ec3baf1693
     m_Address: voice/episode02/s02_047
     m_ReadOnly: 0
@@ -2890,6 +3470,11 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a5357d187ac5e0b43990161ad2cc9ebd
+    m_Address: voice/episode02/s07_050
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: a564ec4e8adb53049adb789db65936d6
     m_Address: background/episode01/scene08/space_exterior
     m_ReadOnly: 0
@@ -2902,6 +3487,16 @@ MonoBehaviour:
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: a57df889877d9344097e3fe2083ed488
     m_Address: voice/episode02/s04_018
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a581e610681054a49b07c238b3247688
+    m_Address: background/episode02/scene07/information_regulation_expansion
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a5e3562ff821ae24798a76958b4e1a82
+    m_Address: voice/episode02/s07_089
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
@@ -2925,6 +3520,11 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a7d1a9ac90f862f4792543721eb621a0
+    m_Address: voice/episode02/s07_142
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: a7fa1fc5800b61c4e81903ac1a9c3f94
     m_Address: voice/episode02/s05_034
     m_ReadOnly: 0
@@ -2932,6 +3532,11 @@ MonoBehaviour:
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: a87f26d0574b45c4e9739e95cce7e393
     m_Address: voice/episode02/s05_023
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a89a5fa6c0aed5e42a94ed7bb551d93c
+    m_Address: voice/episode02/s07_154
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
@@ -2950,6 +3555,11 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a919d2086224476429d622b43c567409
+    m_Address: voice/episode02/s07_008
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: a91fc151b62e2e64ca0c723039c6b511
     m_Address: voice/episode01/s05_031
     m_ReadOnly: 0
@@ -2957,6 +3567,11 @@ MonoBehaviour:
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: a9214ae78dea425498a13bc808a70946
     m_Address: voice/episode02/s03_018
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a981b98de79c6a04abeacc86eb5c16ea
+    m_Address: voice/episode02/s07_092
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
@@ -2970,8 +3585,23 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a991168dbb8a8ff429f0a6b7dd195042
+    m_Address: voice/episode02/s07_093
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a9a79e21633401f4ca58232ac168b00b
+    m_Address: voice/episode02/s07_146
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: a9ba819bdcfa5cd4bb7cc3156b502ed7
     m_Address: background/episode01/scene05/ai_system
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a9c75689a0fafb849895fc778d4bcecb
+    m_Address: voice/episode02/s07_140
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
@@ -2990,8 +3620,23 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ab0715dac91db28498369bbb7c812ff6
+    m_Address: voice/episode02/s07_007
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: ab0d83ee96365a44d989201f3af70408
     m_Address: background/episode01/scene04/news_harassment_policy
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: abb2bc6b85f719c4891c5ae946c7d950
+    m_Address: background/episode02/scene07/tv_station_lobby
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ac3fba8ef7dd8ae4fa41b2a9cb66b725
+    m_Address: voice/episode02/s07_036
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
@@ -3030,6 +3675,11 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: add04b0a38fd7c045b03151dda1dec2c
+    m_Address: voice/episode02/s07_054
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: b00937e48497d354691b3aa8e18fe18c
     m_Address: voice/episode02/s06_040
     m_ReadOnly: 0
@@ -3055,6 +3705,11 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b08203fc2407e51449e47170c955ae87
+    m_Address: voice/episode02/s07_011
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: b0a3419396deda44c9a594191f7aefef
     m_Address: voice/episode01/s08_007
     m_ReadOnly: 0
@@ -3072,6 +3727,11 @@ MonoBehaviour:
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: b15b6fc33e49fe3479911173eb4bfe7a
     m_Address: voice/episode02/s05_062
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b17daf5c9478d4d4b8e04663a7212731
+    m_Address: voice/episode02/s07_087
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
@@ -3110,8 +3770,18 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b2fe6c4085525c74cb147eba80d7ff2e
+    m_Address: voice/episode02/s07_144
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: b351dc2a080e9f440890e135c43b542a
     m_Address: voice/episode02/s01_008
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b391af3d0ed43a74ea4a67ff50de3e2b
+    m_Address: voice/episode02/s07_163
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
@@ -3122,6 +3792,11 @@ MonoBehaviour:
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: b3a30c3ff001bd944868aa72986b90ce
     m_Address: voice/episode02/s02_006
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b421c331b956a304e9967a21781ba7ce
+    m_Address: voice/episode02/s07_165
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
@@ -3172,6 +3847,16 @@ MonoBehaviour:
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: b60ed9a422129d342996e8ff2b105049
     m_Address: voice/episode02/s05_022
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b61abd4a8415cc544a28592ab3896fc7
+    m_Address: voice/episode02/s07_168
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b63cf2e4cf02f61479874c28706f04e3
+    m_Address: voice/episode02/s07_031
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
@@ -3245,6 +3930,11 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ba05d4be56765604ab9da834b207227b
+    m_Address: voice/episode02/s07_060
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: ba5e9e3b8b8cd824bb827c1736bbf8f7
     m_Address: voice/episode01/s06_062
     m_ReadOnly: 0
@@ -3255,6 +3945,11 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: bbe1df5d4f61f4348b5eb6798ccb97ad
+    m_Address: voice/episode02/s07_162
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: bc44fb05448a6414abe21a2f9de15cf8
     m_Address: voice/episode01/s06_031
     m_ReadOnly: 0
@@ -3262,6 +3957,11 @@ MonoBehaviour:
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: bc4d0da2d767087408d09777e1368116
     m_Address: background/episode02/scene01/spaceship_interior
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: bcba56b26cddc2b4781ba2fac69b2898
+    m_Address: voice/episode02/s07_147
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
@@ -3315,6 +4015,11 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c10ab32a6469bea43943abdb60909331
+    m_Address: voice/episode02/s07_115
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: c14989d0cd375e443b8377ff04fa8d25
     m_Address: background/episode02/scene05/news_studio
     m_ReadOnly: 0
@@ -3350,6 +4055,11 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c32e62323fbbfd34e94b7e5c2156a803
+    m_Address: background/episode02/scene07/valdian_fleet_orbit
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: c3591196faf520549a53e289ec262aef
     m_Address: voice/episode02/s03_024
     m_ReadOnly: 0
@@ -3365,8 +4075,18 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c43eedc1cd27c8842be12f706e98fe1b
+    m_Address: voice/episode02/s07_043
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: c46df8a5a024e7448b07588737da8b3d
     m_Address: bgm/high_tension
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c4c170d3e95631d40be250a4ad99671c
+    m_Address: background/episode02/scene07/tv_corruption
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
@@ -3377,6 +4097,11 @@ MonoBehaviour:
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: c5c6b80077c83d44796d0aa2659e3058
     m_Address: voice/episode01/s02_011
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c5ce71231775ffe44b84fb0f7f1937cf
+    m_Address: voice/episode02/s07_067
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
@@ -3445,6 +4170,11 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ca45cf1c0ff0da842af41eda55c0fc64
+    m_Address: character/roy/roy_troubled
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: ca52273d85a4264439b5fb713d9e73fb
     m_Address: voice/episode01/s04_012
     m_ReadOnly: 0
@@ -3460,6 +4190,11 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ca9d4e915131004488ac6fb29f916063
+    m_Address: voice/episode02/s07_046
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: cb0bd64642f8b1c439498b7fce0f652a
     m_Address: voice/episode01/s05_039
     m_ReadOnly: 0
@@ -3472,6 +4207,11 @@ MonoBehaviour:
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: cbcc9ad4aa98f5241ab3251c883940da
     m_Address: voice/episode01/s04_017
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: cbd83e1013171ef49b2716246bf54923
+    m_Address: voice/episode02/s07_169
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
@@ -3510,8 +4250,18 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: cebce9649948ff44a89c65ac8da5dd7e
+    m_Address: voice/episode02/s07_027
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: cec4c2adcc1d77442a798323ea9ef2a8
     m_Address: voice/episode01/s06_008
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ceef1db8c27df374e9d9168b3b4c17d8
+    m_Address: voice/episode02/s07_034
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
@@ -3540,6 +4290,16 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: cfcd2b09ecbac9d4da4d36416cd3eb56
+    m_Address: voice/episode02/s07_100
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: cfd13cb835e4aff459d9524f39e7e0c9
+    m_Address: voice/episode02/s07_005
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: d0738ed3992ef1548b4a2030b783cd57
     m_Address: voice/episode02/s01_001
     m_ReadOnly: 0
@@ -3555,8 +4315,18 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d0e1d4fa2925e5c40b83112ae7da921f
+    m_Address: voice/episode02/s07_145
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: d0f4d3f3f649fd946b51ae59fa2e2e04
     m_Address: voice/episode01/s06_055
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d0f708036b4e9c246aa308f2b97f82a4
+    m_Address: voice/episode02/s07_108
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
@@ -3587,6 +4357,11 @@ MonoBehaviour:
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: d238871df28392d419796936bd39a36f
     m_Address: voice/episode01/s05_017
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d26351654588c954e97e250ffceb59d2
+    m_Address: voice/episode02/s07_091
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
@@ -3635,6 +4410,11 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d53d4237facacc441afbf05279c1d2ac
+    m_Address: voice/episode02/s07_042
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: d54abc185810d684f9f6c99744897ecf
     m_Address: se/analysis
     m_ReadOnly: 0
@@ -3662,6 +4442,11 @@ MonoBehaviour:
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: d65a6b04d13da184d938999a053ddcbe
     m_Address: voice/episode02/s02_024
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d71b9e8334ee57f4cbe721a8d103b927
+    m_Address: voice/episode02/s07_127
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
@@ -3715,6 +4500,11 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: dae75673181043245b687c710c718cbe
+    m_Address: voice/episode02/s07_084
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: db046ecb1592dea46bb2a20c00db91a3
     m_Address: voice/episode01/s04_016
     m_ReadOnly: 0
@@ -3737,6 +4527,11 @@ MonoBehaviour:
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: dc8f8bcb1310e1948b40f5fb73d26de8
     m_Address: voice/episode02/s06_039
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: dcac1145a080af94a8246f6d4e28473e
+    m_Address: voice/episode02/s07_143
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
@@ -3805,6 +4600,11 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: df8cdbac1cd76894cab3c15360b21685
+    m_Address: voice/episode02/s07_019
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: dfa203ea0c640e843b0a834f80a6b9d8
     m_Address: voice/episode02/s05_068
     m_ReadOnly: 0
@@ -3822,6 +4622,11 @@ MonoBehaviour:
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: e0710ff3e323ed64ebafc9c6e68ad108
     m_Address: voice/episode01/s01_009
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e080553842bc5344ea787337b3c09d11
+    m_Address: voice/episode02/s07_164
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
@@ -3845,6 +4650,11 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e0b285caa51a17d46b4481aee38e6c50
+    m_Address: voice/episode02/s07_156
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: e0f7c057d09cc494088b4c51e75541f9
     m_Address: voice/episode01/s01_038
     m_ReadOnly: 0
@@ -3852,6 +4662,11 @@ MonoBehaviour:
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: e10d22f2e4168414caa64a639823bd5b
     m_Address: voice/episode01/s04_031
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e173f5fad12170841bf4fcd2c380006e
+    m_Address: voice/episode02/s07_110
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
@@ -3882,6 +4697,11 @@ MonoBehaviour:
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: e40df3a5a16ccd04e87cdf15e1f6fcc0
     m_Address: voice/episode02/s05_033
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e4294f6ca6086e745872b82cea1a3ccd
+    m_Address: voice/episode02/s07_167
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
@@ -3945,6 +4765,11 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e71168c3334178e41a3e1d898a907c22
+    m_Address: character/roy/roy_normal
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: e73034c57cb911f4495daf02d6b144a2
     m_Address: background/episode02/scene04/tv_news_anchor
     m_ReadOnly: 0
@@ -3957,6 +4782,11 @@ MonoBehaviour:
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: e850cc09637bc4e45a447e0b1e4fc544
     m_Address: voice/episode01/s06_083
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e8659eae56c0a7146adcfc811a254c31
+    m_Address: background/episode02/scene07/media_political_collusion
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
@@ -4010,6 +4840,11 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ec16b41647594e7478efd3562d3e2325
+    m_Address: voice/episode02/s07_055
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: ec4eb16a3c258294bbb2e1a4e8f4d337
     m_Address: background/episode02/scene05/city_news_broadcast
     m_ReadOnly: 0
@@ -4050,6 +4885,16 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ee26c0ff595019e4a86e18dd7bf82150
+    m_Address: voice/episode02/s07_014
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ee5d60d66a163864d8935f30955f2290
+    m_Address: voice/episode02/s07_074
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: ee6e8972ebbe4cf46813ac7a23e5ca1e
     m_Address: voice/episode02/s01_012
     m_ReadOnly: 0
@@ -4065,6 +4910,11 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: eefdaa86ff90a1445bd9086e6a2ca0d0
+    m_Address: voice/episode02/s07_045
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: ef8341b25e9217141a87b265b8f787bf
     m_Address: voice/episode02/s05_070
     m_ReadOnly: 0
@@ -4072,6 +4922,11 @@ MonoBehaviour:
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: efb23345d94b256429d43e03b948772b
     m_Address: voice/episode02/s06_076
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: eff0b2db84e89a040a93e583756815cc
+    m_Address: voice/episode02/s07_166
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
@@ -4115,6 +4970,11 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f1d79f20fb7694348952c9f0f9f02b30
+    m_Address: voice/episode02/s07_120
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: f1e0e0922056ebf46ab504a2f9c4a4ee
     m_Address: background/episode02/scene02/city_aerial
     m_ReadOnly: 0
@@ -4137,6 +4997,11 @@ MonoBehaviour:
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: f2956db7b5ac4314aa2185bea1996852
     m_Address: voice/episode02/s05_004
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f2b91335e047cbe41b2c70a6bcd0aaf7
+    m_Address: voice/episode02/s07_101
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
@@ -4165,6 +5030,11 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f40e4ec030f3a5f4a9cdcd14f5cc97f1
+    m_Address: voice/episode02/s07_135
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: f4948e822aa03f749a7ddc6606fd87e3
     m_Address: voice/episode01/s07_028
     m_ReadOnly: 0
@@ -4172,6 +5042,11 @@ MonoBehaviour:
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: f556b8874a854664cbf55036cd02540e
     m_Address: voice/episode02/s06_014
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f5b942131e0c90d42868de5c7425e8ba
+    m_Address: voice/episode02/s07_114
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
@@ -4185,6 +5060,11 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f684c8cb337983148bbbfc4965c35a79
+    m_Address: voice/episode02/s07_053
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: f6a6d1cafe078184387d45346638526b
     m_Address: voice/episode01/s07_032
     m_ReadOnly: 0
@@ -4195,8 +5075,18 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f6e7a0d01fb30f3469b5e36abfbcb033
+    m_Address: character/roman/roman_with_hauer
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: f74aae2103a68d84bb1a430f3365285d
     m_Address: voice/episode02/s01_016
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f761a4cd805983148bcf4ee4f875eacd
+    m_Address: voice/episode02/s07_138
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
@@ -4210,13 +5100,28 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f7b2f95a30a32454cb020c4e204d4423
+    m_Address: voice/episode02/s07_090
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: f7ed636edabb7264e8a0756a417337e8
     m_Address: voice/episode02/s06_001
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f81bd7ceef69dfc418221cd0aff589f9
+    m_Address: voice/episode02/s07_112
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: f81fd9f25495f68418977d81b8842ace
     m_Address: voice/episode02/s03_004
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f8e9d3f7e7b025a479ee823e926ff1d9
+    m_Address: voice/episode02/s07_155
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
@@ -4235,13 +5140,53 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f9af4b9b4a0762d4186ebdbcb3cd9027
+    m_Address: voice/episode02/s07_099
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f9f738bcfa783914cbaef86cf5632662
+    m_Address: voice/episode02/s07_001
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: fa07750827fb0f44caa817f1d97beef6
     m_Address: voice/episode01/s06_025
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: fa366e9db63a7cf46bba72b9acfb5cc3
+    m_Address: voice/episode02/s07_111
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: fa5618cdd8ec9e24db60aead32768a06
     m_Address: voice/episode02/s05_064
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: fa5c67e9204b324499df25d361143bee
+    m_Address: voice/episode02/s07_137
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: fa5ddf2ea74826a4297021ec8446743a
+    m_Address: voice/episode02/s07_153
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: faa3fb6b24862eb47a9ab02ba2cc5687
+    m_Address: background/episode02/scene07/valdia_media_funding
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: fab62a4ffb83ceb4d9f72e88012018ae
+    m_Address: voice/episode02/s07_017
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: fac2bc4a9ef055c429a8ea3a1e752999
+    m_Address: voice/episode02/s07_033
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
@@ -4297,6 +5242,11 @@ MonoBehaviour:
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: fe93d3d4bde7d194b8be564ea659f56e
     m_Address: voice/episode02/s04_015
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: feff414082597ae45bda8521963bb960
+    m_Address: voice/episode02/s07_057
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
